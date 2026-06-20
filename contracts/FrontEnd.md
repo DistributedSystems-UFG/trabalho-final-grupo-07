@@ -1,6 +1,6 @@
 # Contrato de Integração — SPA Web Client (Consolidado)
 
-> **Versão:** 2.0"
+> **Versão:** 1.3
 > **Responsável pelo componente:** A definir
 > **Stack:** React + Vite
 
@@ -61,6 +61,15 @@ const playerId = "anon:" + crypto.randomUUID();
 - Armazenar em memória (`useState`)
 - Não enviar header `Authorization`
 - O ID é descartado ao fechar a aba
+
+### 2.3 Consistência entre `player_id` e identidade do JWT
+
+O API Gateway valida essa correspondência contra o JWT; uma divergência resulta em:
+
+- **REST:** `403 PERMISSION_DENIED`
+- **WebSocket:** fechamento da conexão com frame `error` (`code: PLAYER_ID_MISMATCH`) antes de o CONNECT ser concluído
+
+Jogadores anônimos não estão sujeitos a essa verificação, por não enviarem JWT.
 
 ---
 
@@ -196,7 +205,7 @@ Authorization: Bearer {jwt}
 | Status | Código | Situação |
 |---|---|---|
 | 400 | `INVALID_ARGUMENT` | Valores fora dos limites ou tema inválido |
-| 503 | `FAILED_PRECONDITION` | Shard do tema indisponível |
+| 503 | `UNAVAILABLE` | Shard do tema indisponível |
 
 ---
 
@@ -221,7 +230,9 @@ Authorization: Bearer {jwt}
   ],
   "status": "WAITING",
   "theme": "science",
-  "max_players": 4
+  "max_players": 4,
+  "creator_id": "string",
+  "num_questions": 10
 }
 ```
 
@@ -250,7 +261,8 @@ Usado tanto na entrada manual de código quanto na recuperação de estado após
   "num_questions": 10,
   "players": [
     { "player_id": "string", "player_name": "string", "is_anonymous": false, "score": 0 }
-  ]
+  ],
+  "creator_id": "string"
 }
 ```
 
@@ -316,7 +328,7 @@ Usado tanto na entrada manual de código quanto na recuperação de estado após
 |---|---|---|
 | 403 | `PERMISSION_DENIED` | Solicitante não é o criador da sala |
 | 409 | `FAILED_PRECONDITION` | Sala não está em `FINISHED` |
-| 503 | `FAILED_PRECONDITION` | Shard do novo tema indisponível |
+| 503 | `UNAVAILABLE` | Shard do novo tema indisponível |
 
 ---
 
@@ -510,6 +522,8 @@ A conexão WebSocket pode cair por queda de instância do Game Service ou da red
 - Detectar queda via evento `onclose` do WebSocket
 - Tentar reconectar com intervalos crescentes: 1s, 2s, 4s, 8s (máximo 4 tentativas)
 - Após reconectar, chamar `GET /rooms/{code}` (seção 4.5) para recuperar o estado atual da sala
+  - Se o estado retornado for `FINISHED`, aguardar o evento `game_over` via WebSocket — o servidor o reenvia automaticamente ao cliente reconectado
+  - Se o estado for `WAITING` ou `IN_PROGRESS`, aguardar os eventos normais do fluxo de jogo
 - Se todas as tentativas falharem, exibir mensagem de erro com opção de reconexão manual
 
 A biblioteca `@stomp/stompjs` possui suporte nativo a reconexão via `reconnectDelay`.

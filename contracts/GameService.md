@@ -1,6 +1,6 @@
 # Contrato de Integração — Game Service
 
-> **Versão:** 1.0  
+> **Versão:** 1.2 
 > **Responsável pelo serviço:** Hugo 
 > **Linguagem:** Java 21 + Spring Boot 3.x  
 
@@ -104,6 +104,8 @@ message JoinRoomResponse {
   RoomStatus      status      = 2;
   string          theme       = 3;
   int32           max_players = 4;
+  string          creator_id  = 5; 
+  int32 num_questions = 6;
 }
  
 message StartGameRequest {
@@ -132,6 +134,7 @@ message GetRoomResponse {
   int32           max_players   = 4;
   int32           num_questions = 5;
   repeated Player players       = 6;
+  string          creator_id    = 7;
 }
  
 message Player {
@@ -157,11 +160,20 @@ enum RoomStatus {
 | `CreateRoom` | `max_players` entre 2 e 10; `num_questions` entre 5 e 20; `theme` deve ser um dos valores válidos | `INVALID_ARGUMENT` |
 | `JoinRoom` | Sala deve existir e estar em `WAITING`; não atingiu `max_players` | `NOT_FOUND` / `FAILED_PRECONDITION` |
 | `StartGame` | `requester_id` deve ser o `creator_id` da sala; sala em `WAITING`; mínimo 2 jogadores | `PERMISSION_DENIED` / `FAILED_PRECONDITION` |
-| `RestartGame` | `requester_id` deve ser o `creator_id`; sala em `FINISHED` | `PERMISSION_DENIED` / `FAILED_PRECONDITION` |
+| `RestartGame` | `requester_id` deve ser o `creator_id`; sala em `FINISHED`; shard do `new_theme` deve estar disponível | `PERMISSION_DENIED` / `FAILED_PRECONDITION` |
 | `GetRoom` | Sala deve existir no Redis | `NOT_FOUND` |
  
-> **Nota sobre `GetRoom`:** este RPC existe para que o API Gateway possa servir o endpoint REST `GET /rooms/{roomCode}` sem acessar o Redis diretamente. O Game Service é o único componente que lê e escreve no Redis,  o Gateway não deve conhecer o schema interno das chaves. A implementação do `GetRoom` no Game Service lê `room:{code}:state` e `room:{code}:players` e mapeia para `GetRoomResponse`, sem lógica de negócio adicional.
+> **Nota sobre `GetRoom`:** este RPC existe para que o API Gateway possa servir o endpoint REST `GET /rooms/{roomCode}` sem acessar o Redis diretamente. O Game Service é o único componente que lê e escreve no Redis,  o Gateway não deve conhecer o schema interno das chaves. A implementação do `GetRoom` no Game Service lê `room:{code}:state` e `room:{code}:players` e mapeia para `GetRoomResponse`, sem lógica de negócio adicional. 
+> **Nota sobre `RestartGameGetRoomResponse`** Exige um passo de sanitização atômica sobre room:{code}:players, zerando todos os valores antes de liberar a abertura de uma nova partida.
  
+### 2.3 Garantia de integridade de identidade do jogador
+
+Os campos `player_id`, `creator_id` e `requester_id` recebidos pelo Game Service, via gRPC ou no header `player-id` do CONNECT WebSocket — já chegam verificados pelo API Gateway:
+
+- **Requisição autenticada (JWT válido):** o Gateway extrai o `user_id` das claims do token e o usa como identidade autoritativa, rejeitando qualquer valor divergente enviado pelo cliente no corpo da requisição ou no header `player-id`.
+- **Requisição anônima (sem JWT):** o Gateway não tem claim contra o qual validar, então repassa o `player_id` informado pelo cliente sem alteração (formato esperado: `anon:{uuid}`).
+
+O Game Service **não deve revalidar essa identidade**, ele confia integralmente no valor recebido do Gateway, da mesma forma que já não valida JWT (seção 10).
 
 ---
 
@@ -178,10 +190,11 @@ O Game Service expõe um servidor WebSocket com STOMP. O API Gateway faz proxy d
 ```
 player-id:     {player_id}          ← obrigatório
 room-code:     {room_code}          ← obrigatório
-authorization: Bearer {jwt}         ← opcional; ausente para jogadores anônimos
+authenticated=true|false            ← (injetado pelo API Gateway após validação do JWT)
 ```
 
 O Game Service deve registrar o mapeamento `player_id → sessão WebSocket` em memória local ao receber o CONNECT.
+Se o estado da sala for `FINISHED` no momento do CONNECT, o servidor envia imediatamente um `game_over` com o ranking final ao cliente reconectado.
 
 ### 3.2 Tópico de recebimento — Servidor → Cliente
 
@@ -250,8 +263,9 @@ O cliente envia respostas para:
   "question_id": "uuid",
   "correct_option": "b",
   "credits": [
-    { "player_id": "string", "earned": 5, "position": 1 },
-    { "player_id": "string", "earned": 3, "position": 2 }
+    { "player_id": "string", "earned": 6, "position": 1 },
+    { "player_id": "string", "earned": 3, "position": 2 },
+    { "player_id": "string", "earned": 1, "position": 3 }
   ],
   "scores": [
     { "player_id": "string", "player_name": "string", "total_score": 47 }
@@ -288,7 +302,9 @@ O cliente envia respostas para:
   "option": "b"
 }
 ```
-
+>**Nota 1:** Ao receber o CONNECT de um jogador, o servidor envia um evento `player_joined` para todos os inscritos no tópico da sala, incluindo o próprio jogador que acabou de conectar
+> **Nota 2:**: `game_started` é enviado como broadcast para todos os jogadores inscritos no tópico, incluindo o criador, imediatamente após a transição de estado para `IN_PROGRESS` no Redis
+> **Nota 3:** O `player_id` do respondente (mensagem answer) é obtido do mapeamento em memória `player_id → sessão WebSocket` registrado no CONNECT, não do corpo da mensagem.
 ---
 
 ## 4. Interface Kafka — Game Service → Kafka (Produtor)
@@ -307,9 +323,10 @@ O Game Service publica um único tipo de evento ao término de cada partida.
 
 ```json
 {
-  "room_id": "ABC123",
+  "room_code": "ABC123",
   "finished_at": "2026-06-18T14:32:00Z",
   "theme": "science",
+  "num_questions": 10,
   "results": [
     {
       "player_id": "uuid-cadastrado",
@@ -475,7 +492,7 @@ LIMIT ?
  
 ### 6.4 Comportamento em caso de falha de shard
  
-Se um shard ficar indisponível, o Game Service deve retornar erro `FAILED_PRECONDITION` na chamada gRPC `CreateRoom` para temas pertencentes àquele shard. Partidas com temas do shard disponível continuam funcionando normalmente. A falha é isolada por partição e não se propaga para o acervo completo.
+Se um shard ficar indisponível, o Game Service deve retornar erro `UNAVAILABLE` nas chamadas gRPC `CreateRoom` (campo `theme`) e `RestartGame` (campo `new_theme`) para temas pertencentes àquele shard. Partidas com temas do shard disponível continuam funcionando normalmente. A falha é isolada por partição e não se propaga para o acervo completo.
  
 ---
 
@@ -533,13 +550,13 @@ Créditos residuais após o `floor` (diferença entre 10 e a soma calculada) sã
 
 ### 7.3 Requisitos de thread safety
 
-As respostas chegam concorrentemente via WebSocket. A implementação deve utilizar:
+O registro de respostas corretas é centralizado no Redis via `HSETNX`, que é atômico por natureza. Múltiplas threads podem chamar `HSETNX` concorrentemente para a mesma chave sem risco de duplicidade,  o Redis garante que apenas o primeiro write por `player_id` por rodada seja aceito. Não são necessários locks adicionais para esse fluxo.
 
-- `ConcurrentHashMap<String, Instant>` para registrar `(player_id → timestamp da resposta correta)`
-- `AtomicInteger` para controlar a contagem de acertos
-
-A ordenação dos acertos e o cálculo dos créditos só devem ocorrer **após o timeout da rodada**.
-
+O que requer estruturas thread-safe locais é o gerenciamento das sessões WebSocket dentro de cada instância:
+-  `ConcurrentHashMap<String, WebSocketSession>` para o mapeamento `player_id → sessão WebSocket`. Conexões e desconexões ocorrem concorrentemente e precisam de acesso thread-safe a esse mapa.
+  
+O  `AtomicInteger` para contagem de acertos não é mais necessárioa fonte de verdade é o Redis. A instância condutora executa  `HGETALL room:{code}:round:{idx}:answers` ao encerrar a rodada e obtém o conjunto completo de respostas de todas as instâncias.
+ 
 ### 7.4 Timeout por rodada
 
 Cada pergunta possui tempo limite configurável via variável de ambiente. Ao expirar, o Game Service processa as respostas recebidas até aquele momento e avança para o resultado da rodada, mesmo que nem todos os jogadores tenham respondido.
@@ -614,4 +631,3 @@ O Game Service **não deve**:
 - Chamar o User Service diretamente — a comunicação com o serviço de usuários é exclusivamente via Kafka
 - Persistir estatísticas de usuários — responsabilidade do User Service ao consumir o evento Kafka
 - Inserir ou alterar perguntas no banco de dados
-- Acessar o datasource `questions-metadata` em runtime
