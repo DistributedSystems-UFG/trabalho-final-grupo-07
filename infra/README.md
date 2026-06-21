@@ -1,5 +1,10 @@
-# Infraestrutura Local — Game Service
-
+# Infraestrutura Local — Desenvolvimento - Game Service
+> **Versão:** 1.2
+> 
+> **Responsável pelo componente:** kelvin
+> 
+> **Obs:** Essa versão de infra atende apenas ao desenvolvimento do componente Game Service!!
+> 
 ## Pré-requisitos
 - Docker
 - Docker Compose

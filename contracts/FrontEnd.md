@@ -1,23 +1,55 @@
 # Contrato de Integração — SPA Web Client (Consolidado)
 
 > **Versão:** 1.3
-> **Responsável pelo componente:** A definir
+> 
+> **Responsável pelo componente:** Felipe
+> 
 > **Stack:** React + Vite
 
 ---
 
-
 ## Sumário
 
-1. [Visão Geral e Responsabilidades](#1-visão-geral-e-responsabilidades)
-2. [Autenticação e Identidade](#2-autenticação-e-identidade)
-3. [Convenções da API REST](#3-convenções-da-api-rest)
-4. [Endpoints REST](#4-endpoints-rest)
-5. [Interface WebSocket](#5-interface-websocket)
-6. [Fluxos da Aplicação](#6-fluxos-da-aplicação)
-7. [Tratamento de Erros](#7-tratamento-de-erros)
-8. [Stack Tecnológica e Dependências](#8-stack-tecnológica-e-dependências)
-9. [Restrições](#9-restrições)
+- [Contrato de Integração — SPA Web Client (Consolidado)](#contrato-de-integração--spa-web-client-consolidado)
+  - [Sumário](#sumário)
+  - [1. Visão Geral e Responsabilidades](#1-visão-geral-e-responsabilidades)
+  - [2. Autenticação e Identidade](#2-autenticação-e-identidade)
+    - [2.1 Usuário cadastrado — JWT](#21-usuário-cadastrado--jwt)
+    - [2.2 Jogador anônimo — ID temporário](#22-jogador-anônimo--id-temporário)
+    - [2.3 Consistência entre `player_id` e identidade do JWT](#23-consistência-entre-player_id-e-identidade-do-jwt)
+  - [3. Convenções da API REST](#3-convenções-da-api-rest)
+  - [4. Endpoints REST](#4-endpoints-rest)
+    - [4.1 `POST /auth/register` — Cadastro](#41-post-authregister--cadastro)
+    - [4.2 `POST /auth/login` — Login](#42-post-authlogin--login)
+    - [4.3 `POST /rooms` — Criar sala](#43-post-rooms--criar-sala)
+    - [4.4 `POST /rooms/{code}/join` — Entrar em sala](#44-post-roomscodejoin--entrar-em-sala)
+    - [4.5 `GET /rooms/{code}` — Consultar estado da sala](#45-get-roomscode--consultar-estado-da-sala)
+    - [4.6 `POST /rooms/{code}/start` — Iniciar partida](#46-post-roomscodestart--iniciar-partida)
+    - [4.7 `POST /rooms/{code}/restart` — Reiniciar partida](#47-post-roomscoderestart--reiniciar-partida)
+    - [4.8 `PUT /users/me` — Atualizar perfil](#48-put-usersme--atualizar-perfil)
+    - [4.9 `GET /users/me/stats` — Estatísticas históricas](#49-get-usersmestats--estatísticas-históricas)
+  - [5. Interface WebSocket](#5-interface-websocket)
+    - [5.1 Headers no CONNECT](#51-headers-no-connect)
+    - [5.2 Subscribe — eventos recebidos do servidor](#52-subscribe--eventos-recebidos-do-servidor)
+    - [5.3 Send — envio de resposta ao servidor](#53-send--envio-de-resposta-ao-servidor)
+    - [5.4 Mensagens recebidas — Servidor → Cliente](#54-mensagens-recebidas--servidor--cliente)
+    - [5.5 Mensagem enviada — Cliente → Servidor](#55-mensagem-enviada--cliente--servidor)
+    - [5.6 Reconexão](#56-reconexão)
+  - [6. Fluxos da Aplicação](#6-fluxos-da-aplicação)
+    - [6.1 Cadastro e login](#61-cadastro-e-login)
+    - [6.2 Entrada anônima](#62-entrada-anônima)
+    - [6.3 Criar sala](#63-criar-sala)
+    - [6.4 Entrar em sala](#64-entrar-em-sala)
+    - [6.5 Tela de espera (lobby da sala)](#65-tela-de-espera-lobby-da-sala)
+    - [6.6 Partida](#66-partida)
+    - [6.7 Reiniciar partida](#67-reiniciar-partida)
+    - [6.8 Consulta de perfil (usuário cadastrado)](#68-consulta-de-perfil-usuário-cadastrado)
+  - [7. Tratamento de Erros](#7-tratamento-de-erros)
+    - [7.1 Erros HTTP](#71-erros-http)
+    - [7.2 Erros WebSocket](#72-erros-websocket)
+    - [7.3 Falha de conexão WebSocket](#73-falha-de-conexão-websocket)
+  - [8. Stack Tecnológica e Dependências](#8-stack-tecnológica-e-dependências)
+  - [9. Restrições](#9-restrições)
 
 ---
 

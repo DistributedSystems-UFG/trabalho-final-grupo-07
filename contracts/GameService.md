@@ -1,23 +1,55 @@
 # Contrato de Integração — Game Service
 
 > **Versão:** 1.2 
+> 
 > **Responsável pelo serviço:** Hugo 
+> 
 > **Linguagem:** Java 21 + Spring Boot 3.x  
 
 ---
 
 ## Sumário
 
-1. [Visão Geral e Responsabilidades](#1-visão-geral-e-responsabilidades)
-2. [Interface gRPC — API Gateway → Game Service](#2-interface-grpc--api-gateway--game-service)
-3. [Interface WebSocket — Game Service ↔ Clientes](#3-interface-websocket--game-service--clientes)
-4. [Interface Kafka — Game Service → Kafka](#4-interface-kafka--game-service--kafka-produtor)
-5. [Interface Redis — Game Service ↔ Redis](#5-interface-redis--game-service--redis)
-6. [Interface Question Database](#6-interface-question-database--game-service--postgresql)
-7. [Regras de Negócio Internas](#7-regras-de-negócio-internas)
-8. [Stack Tecnológica](#8-stack-tecnológica)
-9. [Variáveis de Configuração](#9-variáveis-de-configuração)
-10. [Restrições](#10-restrições)
+- [Contrato de Integração — Game Service](#contrato-de-integração--game-service)
+  - [Sumário](#sumário)
+  - [1. Visão Geral e Responsabilidades](#1-visão-geral-e-responsabilidades)
+    - [Temas disponíveis](#temas-disponíveis)
+  - [2. Interface gRPC — API Gateway → Game Service](#2-interface-grpc--api-gateway--game-service)
+    - [2.1 Arquivo .proto](#21-arquivo-proto)
+    - [2.2 Validações e códigos de erro gRPC](#22-validações-e-códigos-de-erro-grpc)
+    - [2.3 Garantia de integridade de identidade do jogador](#23-garantia-de-integridade-de-identidade-do-jogador)
+  - [3. Interface WebSocket — Game Service ↔ Clientes](#3-interface-websocket--game-service--clientes)
+    - [3.1 Headers STOMP no CONNECT](#31-headers-stomp-no-connect)
+    - [3.2 Tópico de recebimento — Servidor → Cliente](#32-tópico-de-recebimento--servidor--cliente)
+    - [3.3 Destino de envio — Cliente → Servidor](#33-destino-de-envio--cliente--servidor)
+    - [3.4 Schemas das mensagens](#34-schemas-das-mensagens)
+      - [Servidor → Cliente](#servidor--cliente)
+      - [Cliente → Servidor](#cliente--servidor)
+  - [4. Interface Kafka — Game Service → Kafka (Produtor)](#4-interface-kafka--game-service--kafka-produtor)
+    - [Schema da mensagem](#schema-da-mensagem)
+  - [5. Interface Redis — Game Service ↔ Redis](#5-interface-redis--game-service--redis)
+    - [5.1 Estrutura de chaves](#51-estrutura-de-chaves)
+    - [5.2 Hash `room:{code}:state`](#52-hash-roomcodestate)
+    - [5.3 Hash `room:{code}:players`](#53-hash-roomcodeplayers)
+    - [5.4 Pub/Sub `room:{code}:broadcast`](#54-pubsub-roomcodebroadcast)
+  - [5.5 Hash `room:{code}:round:{idx}:answers`](#55-hash-roomcoderoundidxanswers)
+    - [Por que essa chave existe](#por-que-essa-chave-existe)
+    - [Operação de registro de resposta correta](#operação-de-registro-de-resposta-correta)
+    - [Operação de leitura ao encerrar a rodada](#operação-de-leitura-ao-encerrar-a-rodada)
+    - [Limpeza](#limpeza)
+  - [6. Interface Question Database — Game Service → PostgreSQL](#6-interface-question-database--game-service--postgresql)
+    - [6.1 Schema esperado em cada shard](#61-schema-esperado-em-cada-shard)
+    - [6.2 Tabela de mapeamento estático — tema → shard](#62-tabela-de-mapeamento-estático--tema--shard)
+    - [6.3 Query executada no início de cada partida](#63-query-executada-no-início-de-cada-partida)
+    - [6.4 Comportamento em caso de falha de shard](#64-comportamento-em-caso-de-falha-de-shard)
+  - [7. Regras de Negócio Internas](#7-regras-de-negócio-internas)
+    - [7.1 Máquina de estados da sala](#71-máquina-de-estados-da-sala)
+    - [7.2 Algoritmo de distribuição de créditos](#72-algoritmo-de-distribuição-de-créditos)
+    - [7.3 Requisitos de thread safety](#73-requisitos-de-thread-safety)
+    - [7.4 Timeout por rodada](#74-timeout-por-rodada)
+  - [8. Stack Tecnológica](#8-stack-tecnológica)
+  - [9. Variáveis de Configuração](#9-variáveis-de-configuração)
+  - [10. Restrições](#10-restrições)
 
 ---
 
