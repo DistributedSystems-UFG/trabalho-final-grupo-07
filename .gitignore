@@ -1,0 +1,48 @@
+# ─── Perguntas geradas (não commitar) ────────────────────────────────────────
+questions/
+
+# ─── Variáveis de ambiente ────────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ─── Java ─────────────────────────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+out/
+
+# ─── Node / React ─────────────────────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.next/
+*.local
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
