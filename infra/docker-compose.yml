@@ -77,6 +77,55 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+      
+
+  # ─── User DB — Primário (escrita) ────────────────────────────────────────
+  # Tabelas: users, user_stats, processed_games
+  db-user-primary:
+    image: postgres:15-alpine
+    container_name: trivia-db-user-primary
+    environment:
+      POSTGRES_DB: ${DB_USERDB_NAME}
+      POSTGRES_USER: ${DB_USERDB_USER}
+      POSTGRES_PASSWORD: ${DB_USERDB_PASS}
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./init/userdb:/docker-entrypoint-initdb.d
+      - db-user-primary-data:/var/lib/postgresql/data
+    networks:
+      - trivia-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERDB_USER} -d ${DB_USERDB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+ 
+  # ─── User DB — Réplica (leitura) ─────────────────────────────────────────
+  # Em desenvolvimento local: instância independente com o mesmo schema.
+  # Streaming replication real é configurada no deploy EC2.
+  db-user-replica:
+    image: postgres:15-alpine
+    container_name: trivia-db-user-replica
+    environment:
+      POSTGRES_DB: ${DB_USERDB_NAME}
+      POSTGRES_USER: ${DB_USERDB_USER}
+      POSTGRES_PASSWORD: ${DB_USERDB_PASS}
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./init/userdb:/docker-entrypoint-initdb.d
+      - db-user-replica-data:/var/lib/postgresql/data
+    networks:
+      - trivia-net
+    depends_on:
+      db-user-primary:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERDB_USER} -d ${DB_USERDB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 
   # ─── Zookeeper ───────────────────────────────────────────
@@ -142,3 +191,5 @@ networks:
 volumes:
   db-shard-a-data:
   db-shard-b-data:
+  db-user-primary-data:
+  db-user-replica-data:
