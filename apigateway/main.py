@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
+from app.middleware.error_handler import register_exception_handlers
 from app.core.config import settings
 from app.core.logging import setup_logging
 
@@ -32,6 +33,7 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+register_exception_handlers(app)
 
 @app.get("/health", tags=["infra"])
 async def health_check() -> dict:
