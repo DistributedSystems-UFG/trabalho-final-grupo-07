@@ -17,6 +17,15 @@ async def _gateway_error_handler(
     return JSONResponse(status_code=exc.status_code, content=body.model_dump())
 
 
+async def _internal_error_handler(
+    request: Request, exc: Exception
+) -> JSONResponse:
+    """Fallback para exceções não tratadas — garante resposta JSON consistente."""
+    body = ErrorResponse(status=500, error="INTERNAL_SERVER_ERROR", message="internal server error")
+    return JSONResponse(status_code=500, content=body.model_dump())
+
+
+
 async def _validation_error_handler(
     request: Request, exc: RequestValidationError
 ) -> JSONResponse:
@@ -29,3 +38,4 @@ async def _validation_error_handler(
 def register_exception_handlers(app: FastAPI) -> None:
     app.add_exception_handler(GatewayError, _gateway_error_handler)
     app.add_exception_handler(RequestValidationError, _validation_error_handler)
+    app.add_exception_handler(Exception, _internal_error_handler)
