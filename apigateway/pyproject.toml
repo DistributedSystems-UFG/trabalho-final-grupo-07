@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api-gateway"
+version = "0.1.0"
+description = "API Gateway — Trivia Arena"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "grpcio>=1.68.0",
+    "grpcio-tools>=1.68.0",
+    "PyJWT>=2.10.0",
+    "pydantic-settings>=2.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.25.0",
+    "httpx2>=0.28.0",   # exigido pelo TestClient do FastAPI
+    "black>=24.12.0",
+    "ruff>=0.8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*", "scripts*"]
+
+# ---------- Black ----------
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+# ---------- Ruff ----------
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+# E/F: pycodestyle + pyflakes  |  I: isort  |  UP: pyupgrade
+select = ["E", "F", "I", "UP"]
+ignore = [
+    "E501",  # line too long — controlado pelo Black
+]
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "core", "schemas", "generated", "exceptions",
+    "mappers", "middleware", "dependencies", "clients",
+    "services", "api",
+]
+
+# ---------- Pytest ----------
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
