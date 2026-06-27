@@ -5,8 +5,8 @@ Regras aplicadas por ensure_identity():
 
 JWT presente (autenticado):
     jwt_user_id é a identidade autoritativa. Se divergir do
-    client_provided_id, rejeita com PermissionDeniedError (403).
-    O WebSocket handler  captura PermissionDeniedError e
+    client_provided_id, rejeita com PlayerIdMismatchError (403).
+    O WebSocket handler  captura PlayerIdMismatchError e
     envia o frame error com code: PLAYER_ID_MISMATCH 
 
 Sem JWT (anônimo):
@@ -17,7 +17,7 @@ Sem JWT (anônimo):
 
 import re
 
-from app.exceptions import InvalidArgumentError, PermissionDeniedError
+from app.exceptions import InvalidArgumentError, PlayerIdMismatchError
 
 
 _ANON_PATTERN = re.compile(
@@ -40,13 +40,13 @@ def ensure_identity(jwt_user_id: str | None, client_provided_id: str) -> str:
         client_provided_id validado - pronto para repassar ao serviço interno.
 
     Raises:
-        PermissionDeniedError: JWT presente e diverge do client_provided_id
+        PlayerIdMismatchError: JWT presente e diverge do client_provided_id
         InvalidArgumentError:  Anônimo com formato inválido 
     """
     if jwt_user_id is not None:
         #autenticado
         if jwt_user_id != client_provided_id:
-            raise PermissionDeniedError(
+            raise PlayerIdMismatchError(
                 f"identidade diverge do JWT: esperado '{jwt_user_id}'"
             )
         return client_provided_id
