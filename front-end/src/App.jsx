@@ -3,12 +3,12 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { GameProvider } from './contexts/GameContext';
 
-const Home = () => <div>Tela: Home / Entrada</div>;
-const Login = () => <div>Tela: Login</div>;
-const Register = () => <div>Tela: Cadastro</div>;
-const Profile = () => <div>Tela: Perfil e Estatísticas</div>;
-const CreateRoom = () => <div>Tela: Criar Sala</div>;
-const Room = () => <div>Tela: Lobby / Partida em Andamento</div>;
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Profile from './pages/Profile';
+import CreateRoom from './pages/CreateRoom';
+import Room from './pages/Room';
 
 const ProtectedRoute = ({ children }) => {
   const { user } = useAuth();

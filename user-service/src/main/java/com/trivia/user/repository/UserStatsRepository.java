@@ -10,4 +10,10 @@ public interface UserStatsRepository {
     Optional<UserStats> findByUserId(UUID userId);
 
     void insertEmptyStats(UUID userId);
+
+    void applyGameResult(UUID userId, int position, int points, boolean won);
+
+    boolean isGameProcessed(String roomId);
+
+    void markGameProcessed(String roomId);
 }
