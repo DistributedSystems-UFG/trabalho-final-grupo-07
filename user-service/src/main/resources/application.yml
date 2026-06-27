@@ -4,16 +4,16 @@ grpc:
 spring:
   datasource:
     primary:
-      url: jdbc:postgresql://${DB_USER_PRIMARY_HOST:localhost}:${DB_USER_PRIMARY_PORT:5432}/${DB_USER_NAME:postgres}
-      username: ${DB_USER_PRIMARY_USER:postgres}
-      password: ${DB_USER_PRIMARY_PASS:123}
+      url: jdbc:postgresql://localhost:5434/trivia_users
+      username: trivia_users
+      password: trivia_pass
     replica:
-      url: jdbc:postgresql://${DB_USER_REPLICA_HOST:localhost}:${DB_USER_REPLICA_PORT:5432}/${DB_USER_NAME:postgres}
-      username: ${DB_USER_REPLICA_USER:postgres}
-      password: ${DB_USER_REPLICA_PASS:123}
+      url: jdbc:postgresql://localhost:5435/trivia_users
+      username: trivia_users
+      password: trivia_pass
 
   kafka:
-    bootstrap-servers: ${KAFKA_BROKERS:localhost:9092}
+    bootstrap-servers: localhost:9092
     consumer:
       group-id: user-service-group
 
