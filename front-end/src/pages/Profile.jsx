@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
+import { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { getUserStats, updateUser } from '../api/users';
+import { useAuth } from '../contexts/useAuth';
+import { getApiErrorMessage } from '../utils/errors';
+
+const formatDecimal = (value) => Number(value ?? 0).toFixed(1);
 
 const Profile = () => {
   const { user, updateName, logout } = useAuth();
@@ -28,7 +31,7 @@ const Profile = () => {
         }
       } catch (err) {
         if (isMounted) {
-          setStatsError(err.response?.data?.message || 'Não foi possível carregar as estatísticas.');
+          setStatsError(getApiErrorMessage(err, 'Não foi possível carregar as estatísticas.'));
         }
       } finally {
         if (isMounted) {
@@ -43,8 +46,8 @@ const Profile = () => {
     };
   }, []);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
     setFormError(null);
     setFormSuccess(false);
 
@@ -69,7 +72,7 @@ const Profile = () => {
       setName('');
       setPassword('');
     } catch (err) {
-      setFormError(err.response?.data?.message || 'Não foi possível atualizar o perfil.');
+      setFormError(getApiErrorMessage(err, 'Não foi possível atualizar o perfil.'));
     } finally {
       setFormLoading(false);
     }
@@ -81,56 +84,87 @@ const Profile = () => {
   };
 
   return (
-    <div className="profile-container">
-      <h1>Meu Perfil</h1>
-      <p>Olá, {user.name}!</p>
-      <button type="button" onClick={handleLogout}>
-        Sair
-      </button>
+    <main className="app-shell profile-shell">
+      <section className="page-header">
+        <div>
+          <p className="eyebrow">Perfil</p>
+          <h1>{user.name}</h1>
+        </div>
+        <div className="button-row compact">
+          <Link className="button secondary" to="/">
+            Arena
+          </Link>
+          <button className="button ghost" type="button" onClick={handleLogout}>
+            Sair
+          </button>
+        </div>
+      </section>
 
-      <section className="profile-stats">
-        <h2>Estatísticas</h2>
-
-        {statsLoading && <p>Carregando estatísticas...</p>}
+      <section className="stats-grid">
+        {statsLoading && <p className="status-banner">Carregando estatísticas...</p>}
         {statsError && <p className="form-error">{statsError}</p>}
 
         {stats && (
-          <ul>
-            <li>Partidas disputadas: {stats.games_played}</li>
-            <li>Posição média: {stats.avg_position.toFixed(1)}</li>
-            <li>Pontos médios por partida: {stats.avg_points.toFixed(1)}</li>
-            <li>Maior pontuação: {stats.highest_score}</li>
-            <li>Vitórias: {stats.games_won}</li>
-          </ul>
+          <>
+            <article className="metric-card">
+              <span>Partidas</span>
+              <strong>{stats.games_played}</strong>
+            </article>
+            <article className="metric-card">
+              <span>Vitórias</span>
+              <strong>{stats.games_won}</strong>
+            </article>
+            <article className="metric-card">
+              <span>Posição média</span>
+              <strong>{formatDecimal(stats.avg_position)}</strong>
+            </article>
+            <article className="metric-card">
+              <span>Pontos médios</span>
+              <strong>{formatDecimal(stats.avg_points)}</strong>
+            </article>
+            <article className="metric-card">
+              <span>Maior pontuação</span>
+              <strong>{stats.highest_score}</strong>
+            </article>
+          </>
         )}
       </section>
 
-      <section className="profile-edit">
-        <h2>Atualizar dados</h2>
+      <section className="form-card">
+        <div>
+          <p className="eyebrow">Dados</p>
+          <h2>Atualizar perfil</h2>
+        </div>
 
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            placeholder="Novo nome de usuário"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-          <input
-            type="password"
-            placeholder="Nova senha"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+        <form className="stack-form" onSubmit={handleSubmit}>
+          <label className="field">
+            <span>Novo nome</span>
+            <input
+              type="text"
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+              maxLength={28}
+            />
+          </label>
+
+          <label className="field">
+            <span>Nova senha</span>
+            <input
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+            />
+          </label>
 
           {formError && <p className="form-error">{formError}</p>}
           {formSuccess && <p className="form-success">Perfil atualizado com sucesso.</p>}
 
-          <button type="submit" disabled={formLoading}>
+          <button className="button primary" type="submit" disabled={formLoading}>
             {formLoading ? 'Salvando...' : 'Salvar alterações'}
           </button>
         </form>
       </section>
-    </div>
+    </main>
   );
 };
 

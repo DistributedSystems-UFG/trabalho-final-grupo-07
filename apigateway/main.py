@@ -12,6 +12,7 @@ from app.core.logging import setup_logging
 from app.api.rest import auth
 from app.api.rest import rooms
 from app.api.rest import users
+from app.api.websocket import ws_proxy
 
 
 setup_logging()
@@ -22,9 +23,10 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     logger.info(
-        "API Gateway iniciando | porta=%s | game_grpc=%s | user_grpc=%s",
+        "API Gateway iniciando | porta=%s | game_grpc=%s | game_ws=%s | user_grpc=%s",
         settings.port,
         settings.game_grpc_address,
+        settings.game_ws_url,
         settings.user_grpc_address,
     )
     await open_channels()
@@ -53,6 +55,8 @@ register_exception_handlers(app)
 app.include_router(auth.router)
 app.include_router(rooms.router)
 app.include_router(users.router)
+app.include_router(ws_proxy.router)
+
 
 @app.get("/health", tags=["infra"])
 async def health_check() -> dict:

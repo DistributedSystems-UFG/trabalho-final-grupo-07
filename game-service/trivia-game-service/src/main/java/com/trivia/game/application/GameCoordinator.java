@@ -104,7 +104,15 @@ public class GameCoordinator {
             case NOT_WAITING -> throw GameException.precondition("Sala não está aguardando jogadores");
             case ROOM_FULL -> throw GameException.precondition("Sala atingiu o limite de jogadores");
             case JOINED, ALREADY_JOINED -> {
-                return rooms.getRoom(roomCode);
+                RoomSnapshot room = rooms.getRoom(roomCode);
+                room.players().stream()
+                        .filter(candidate -> candidate.playerId().equals(playerId))
+                        .findFirst()
+                        .ifPresent(player -> events.broadcast(
+                                roomCode,
+                                playerJoinedEvent(player.playerId(), player.playerName(), room.players())
+                        ));
+                return room;
             }
         }
         throw new IllegalStateException("Resultado de entrada inesperado");

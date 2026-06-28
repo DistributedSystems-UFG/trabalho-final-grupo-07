@@ -12,6 +12,7 @@ import asyncio
 import json
 
 from fastapi import APIRouter, WebSocket
+from starlette.websockets import WebSocketState
 
 from app.api.websocket.frame_relay import (
     open_upstream,
@@ -67,3 +68,8 @@ async def ws_proxy(websocket: WebSocket, code: str) -> None:
         await asyncio.gather(task_c2u, task_u2c, return_exceptions=True)
     finally:
         await upstream.close()
+        if websocket.client_state != WebSocketState.DISCONNECTED:
+            try:
+                await websocket.close()
+            except RuntimeError:
+                pass
