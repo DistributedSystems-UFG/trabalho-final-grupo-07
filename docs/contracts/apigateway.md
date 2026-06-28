@@ -153,7 +153,7 @@ A única transformação de fato realizada pelo Gateway nesse sentido é a verif
 
 ## 5. Interface gRPC — API Gateway → User Service
 
-- **Porta:** `9090` (mesma porta gRPC padrão usada pelo Game Service, em host distinto)
+- **Porta:** `9091` (mesma porta gRPC padrão usada pelo Game Service, em host distinto)
 - **Protocolo:** gRPC / Protocol Buffers
 
 ### 5.1 Arquivo `.proto` proposto

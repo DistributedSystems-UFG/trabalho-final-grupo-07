@@ -53,7 +53,7 @@ O User Service **não participa do fluxo de jogo em tempo real** — toda comuni
 
 O API Gateway chama o User Service via gRPC para todas as operações de identidade e estatísticas.
 
-- **Porta:** `9090`
+- **Porta:** `9091`
 - **Protocolo:** gRPC / Protocol Buffers
 
 ### 2.1 Arquivo `.proto`
@@ -150,7 +150,7 @@ Publicado pelo Game Service. O User Service deve estar preparado para receber:
 
 ```json
 {
-  "room_id": "ABC123",
+  "room_code": "ABC123",
   "finished_at": "2026-06-18T14:32:00Z",
   "theme": "science",
   "results": [

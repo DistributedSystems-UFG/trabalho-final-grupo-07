@@ -1,0 +1,202 @@
+[
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "What is the name of the place on aircraft carriers where the planes take off and land?",
+    "option_a": "The flight deck",
+    "option_b": "The hangar",
+    "option_c": "The landing strip",
+    "option_d": "The bridge",
+    "correct_option": "a"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Which of these Latin phrases means 'Through fire, nature is reborn whole'?",
+    "option_a": "Suum cuique",
+    "option_b": "Igne natura renovatur integra",
+    "option_c": "Nil volentibus arduum",
+    "option_d": "Praesis ut prosis ne ut imperes",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "In French, what is the word for for 'four'?",
+    "option_a": "Quattro",
+    "option_b": "Vier",
+    "option_c": "Quatre",
+    "option_d": "Sept",
+    "correct_option": "c"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Which zodiac sign is characterized by a 2-sided personality and frequent mood changes?",
+    "option_a": "Virgo",
+    "option_b": "Gemini",
+    "option_c": "Sagittarius",
+    "option_d": "Cancer",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "What is the name of the right side of a sailing ship?",
+    "option_a": "Stern",
+    "option_b": "Starboard",
+    "option_c": "Port",
+    "option_d": "Bow",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "What animal is the symbol of the zodiac sign of Cancer?",
+    "option_a": "A crab",
+    "option_b": "A lobster",
+    "option_c": "A shrimp",
+    "option_d": "A clam",
+    "correct_option": "a"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "What is the origin of The X In 'Xmas'?",
+    "option_a": "To avoid saying the name of Christ",
+    "option_b": "X resembles the first letter of Christ in Greek",
+    "option_c": "To allow for the possibility that Christ didn't exist",
+    "option_d": "To make the name more fun",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "What type of coat originates from the Inuit people of the Arctic?",
+    "option_a": "Puffer Jacket",
+    "option_b": "Peacoat",
+    "option_c": "Parka",
+    "option_d": "Trenchcoat",
+    "correct_option": "c"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "The language 'Cebuano' belongs to which language family?",
+    "option_a": "Niger–Congo",
+    "option_b": "Uralic",
+    "option_c": "Indo-European",
+    "option_d": "Austronesian",
+    "correct_option": "d"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "What company produces a topical ointment called VapoRub to help with coughs?",
+    "option_a": "Pfizer",
+    "option_b": "Vicks",
+    "option_c": "Johnson & Johnson",
+    "option_d": "Bayer",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Who killed Goliath?",
+    "option_a": "Daniel",
+    "option_b": "John",
+    "option_c": "David",
+    "option_d": "Michael",
+    "correct_option": "c"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "In Greek mythology, which god did Marsyas challenges to a music contest?",
+    "option_a": "Poseidon",
+    "option_b": "Ares",
+    "option_c": "Apollo",
+    "option_d": "Zeus",
+    "correct_option": "c"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "In Greek mythology, what kind of monster is an offspring of a woman and a bull?",
+    "option_a": "The minotaur",
+    "option_b": "The gorgon",
+    "option_c": "The centaur",
+    "option_d": "The chimera",
+    "correct_option": "a"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Which Ancient Greek mythological creature was a winged horse?",
+    "option_a": "Griffin",
+    "option_b": "Pegasus",
+    "option_c": "Centaur",
+    "option_d": "Gorgon",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "What slang term refers to a very sensitive person who is easily offended?",
+    "option_a": "Cupcake",
+    "option_b": "Snowflake",
+    "option_c": "Pumpkin",
+    "option_d": "Buttercup",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "The white elephant is the sacred animal of __________",
+    "option_a": "Thailand",
+    "option_b": "Myanmar",
+    "option_c": "Vietnam",
+    "option_d": "India",
+    "correct_option": "a"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Which philosopher famously said 'He who thinks great thoughts, often makes great errors'?",
+    "option_a": "Jean-Jacques Rousseau",
+    "option_b": "Ludwig Wittgenstein",
+    "option_c": "Denis Diderot",
+    "option_d": "Martin Heidegger",
+    "correct_option": "d"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Which of the following fashion brands is famous for their use of paisley patterns?",
+    "option_a": "Dolce & Gabbana",
+    "option_b": "Miu Miu",
+    "option_c": "Alexander McQueen",
+    "option_d": "Etro",
+    "correct_option": "d"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Which of the following describes Isaac Newton?",
+    "option_a": "Surgeon who pioneered the use of sterilisation and antiseptic.",
+    "option_b": "Mathematician and scientist.",
+    "option_c": "The first sailor to circumnavigate the earth.",
+    "option_d": "Victorian novelist.",
+    "correct_option": "b"
+  },
+  {
+    "theme": "society_and_culture",
+    "language": "en",
+    "text": "Which philosopher famously said 'Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it'?",
+    "option_a": "Epictetus",
+    "option_b": "Martin Heidegger",
+    "option_c": "Friedrich Nietzsche",
+    "option_d": "Karl Marx",
+    "correct_option": "d"
+  }
+]

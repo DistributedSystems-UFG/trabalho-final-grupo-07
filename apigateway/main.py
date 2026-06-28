@@ -10,6 +10,7 @@ from app.core.config import settings
 from app.core.logging import setup_logging
 from app.api.rest import auth
 from app.api.rest import rooms
+from app.api.rest import users
 
 
 setup_logging()
@@ -41,6 +42,7 @@ register_exception_handlers(app)
 
 app.include_router(auth.router)
 app.include_router(rooms.router)
+app.include_router(users.router)
 
 @app.get("/health", tags=["infra"])
 async def health_check() -> dict:

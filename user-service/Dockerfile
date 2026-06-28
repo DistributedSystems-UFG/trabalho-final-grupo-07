@@ -6,6 +6,6 @@ RUN mvn --batch-mode -DskipTests package
 
 FROM eclipse-temurin:21-jre
 WORKDIR /app
-COPY --from=build /workspace/target/trivia-user-service-*.jar app.jar
-EXPOSE 9090
+COPY --from=build /workspace/target/user-service-*.jar app.jar
+EXPOSE 9091
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]

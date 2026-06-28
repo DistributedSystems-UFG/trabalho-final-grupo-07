@@ -1,15 +1,15 @@
 grpc:
-  port: 9090
+  port: 9091
 
 spring:
   datasource:
     primary:
       url: jdbc:postgresql://localhost:5434/trivia_users
-      username: trivia_users
+      username: trivia
       password: trivia_pass
     replica:
       url: jdbc:postgresql://localhost:5435/trivia_users
-      username: trivia_users
+      username: trivia
       password: trivia_pass
 
   kafka:
