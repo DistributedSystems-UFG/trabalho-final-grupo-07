@@ -2,6 +2,8 @@ package com.trivia.game.infra.questions;
 
 import com.trivia.game.domain.Question;
 import com.trivia.game.domain.Theme;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -14,6 +16,7 @@ import java.util.UUID;
 
 @Repository
 public class QuestionRepository {
+    private static final Logger logger = LoggerFactory.getLogger(QuestionRepository.class);
     private static final String AVAILABILITY_QUERY = "SELECT 1";
     private static final String RANDOM_QUESTIONS_QUERY = """
             SELECT id, text, option_a, option_b, option_c, option_d, correct_option
@@ -39,6 +42,7 @@ public class QuestionRepository {
             jdbcFor(theme).queryForObject(AVAILABILITY_QUERY, Integer.class);
             return true;
         } catch (DataAccessException exception) {
+            logger.warn("Question shard unavailable for theme {}: {}", theme.value(), exception.getMessage());
             return false;
         }
     }

@@ -19,6 +19,8 @@ from app.core.security import decode_jwt
 from app.exceptions import InvalidArgumentError, PermissionDeniedError, UnauthenticatedError
 from app.services.identity_guard import ensure_identity
 
+SUPPORTED_STOMP_SUBPROTOCOLS = ("v12.stomp", "v11.stomp", "v10.stomp")
+
 
 @dataclass(frozen=True)
 class HandshakeResult:
@@ -55,6 +57,24 @@ def _build_stomp_connect(headers: dict[str, str]) -> str:
     return frame
 
 
+def _select_stomp_subprotocol(websocket: WebSocket) -> str | None:
+    """Escolhe um subprotocolo STOMP oferecido pelo cliente WebSocket."""
+    try:
+        requested = websocket.headers.get("sec-websocket-protocol", "")
+    except AttributeError:
+        return None
+
+    if not isinstance(requested, str):
+        return None
+
+    offered = {protocol.strip() for protocol in requested.split(",") if protocol.strip()}
+    for protocol in SUPPORTED_STOMP_SUBPROTOCOLS:
+        if protocol in offered:
+            return protocol
+
+    return None
+
+
 def _error_frame(code: str, message: str) -> str:
     """
     Frame de erro enviado como mensagem de texto WebSocket antes de fechar a conexão.
@@ -69,10 +89,11 @@ async def perform_handshake(websocket: WebSocket) -> HandshakeResult | None:
     Retorna None se a conexão foi rejeitada — frame de erro já enviado
     e conexão já fechada antes de retornar.
     """
-    await websocket.accept()
+    await websocket.accept(subprotocol=_select_stomp_subprotocol(websocket))
 
     # lê o frame STOMP CONNECT enviado pelo cliente
     raw = await websocket.receive_text()
+
     headers = _parse_stomp_headers(raw)
 
     player_id    = headers.get('player-id', '')
@@ -114,12 +135,17 @@ async def perform_handshake(websocket: WebSocket) -> HandshakeResult | None:
         await websocket.close()
         return None
 
-    # monta frame CONNECT traduzido: substitui authorization por authenticated
+    # monta frame CONNECT traduzido: remove authorization, preserva os headers
+    # STOMP de protocolo e acrescenta a identidade validada para o Game Service.
     upstream_headers = {
+        'accept-version': headers.get('accept-version', '1.2'),
+        'heart-beat':    headers.get('heart-beat', '0,0'),
         'player-id':     player_id,
         'room-code':     room_code,
         'authenticated': str(authenticated).lower(),  # "true" ou "false"
     }
+    if host := headers.get('host'):
+        upstream_headers['host'] = host
 
     return HandshakeResult(
         player_id=player_id,

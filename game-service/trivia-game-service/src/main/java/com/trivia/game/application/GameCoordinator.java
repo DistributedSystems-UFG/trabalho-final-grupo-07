@@ -104,7 +104,15 @@ public class GameCoordinator {
             case NOT_WAITING -> throw GameException.precondition("Sala não está aguardando jogadores");
             case ROOM_FULL -> throw GameException.precondition("Sala atingiu o limite de jogadores");
             case JOINED, ALREADY_JOINED -> {
-                return rooms.getRoom(roomCode);
+                RoomSnapshot room = rooms.getRoom(roomCode);
+                room.players().stream()
+                        .filter(candidate -> candidate.playerId().equals(playerId))
+                        .findFirst()
+                        .ifPresent(player -> events.broadcast(
+                                roomCode,
+                                playerJoinedEvent(player.playerId(), player.playerName(), room.players())
+                        ));
+                return room;
             }
         }
         throw new IllegalStateException("Resultado de entrada inesperado");
@@ -186,10 +194,17 @@ public class GameCoordinator {
                 || !question.id().equals(answer.questionId()) || !question.isValidOption(answer.option())) {
             return;
         }
-        if (!question.isCorrect(answer.option())) {
+        boolean firstAttempt = rooms.recordAnswerAttempt(roomCode, room.currentQuestionIdx(), playerId, receivedAt, properties.roomTtlSeconds());
+        if (!firstAttempt) {
             return;
         }
-        rooms.recordCorrectAnswer(roomCode, room.currentQuestionIdx(), playerId, receivedAt, properties.roomTtlSeconds());
+        if (question.isCorrect(answer.option())) {
+            rooms.recordCorrectAnswer(roomCode, room.currentQuestionIdx(), playerId, receivedAt, properties.roomTtlSeconds());
+        }
+        if (rooms.answerAttemptCount(roomCode, room.currentQuestionIdx()) >= room.players().size()) {
+            activateLeadership(room, false);
+            finishRound(roomCode, room.runId(), room.currentQuestionIdx(), true);
+        }
     }
 
     @Scheduled(fixedDelayString = "${game.recovery-scan-ms:1000}")
@@ -249,7 +264,7 @@ public class GameCoordinator {
         }
         LeaseTasks active = leadership.get(room.roomCode());
         if (active != null && active.runId.equals(room.runId()) && rooms.ownsLeader(room.roomCode(), active.owner)) {
-            scheduleDeadline(active, room.roundDeadline());
+            scheduleDeadline(active, room.roundDeadline(), room.currentQuestionIdx());
             return;
         }
         String owner = instanceId + ":" + room.runId();
@@ -262,7 +277,7 @@ public class GameCoordinator {
         leadership.put(room.roomCode(), claimed);
         long renewalMs = Math.max(250, properties.leaderLeaseMs() / 3);
         claimed.renewalTask = scheduler.scheduleAtFixedRate(() -> renewLeadership(claimed), renewalMs);
-        scheduleDeadline(claimed, room.roundDeadline());
+        scheduleDeadline(claimed, room.roundDeadline(), room.currentQuestionIdx());
         if (rebroadcastOnClaim) {
             Question question = questionFor(room);
             if (question != null) {
@@ -278,22 +293,23 @@ public class GameCoordinator {
         }
     }
 
-    private void scheduleDeadline(LeaseTasks tasks, Instant deadline) {
+    private void scheduleDeadline(LeaseTasks tasks, Instant deadline, int questionIdx) {
         if (tasks.deadlineTask != null && !tasks.deadlineTask.isDone()) {
             tasks.deadlineTask.cancel(false);
         }
-        tasks.deadlineTask = scheduler.schedule(() -> finishRound(tasks.roomCode, tasks.runId), java.util.Date.from(deadline));
+        tasks.deadlineTask = scheduler.schedule(() -> finishRound(tasks.roomCode, tasks.runId, questionIdx, false), java.util.Date.from(deadline));
     }
 
-    private void finishRound(String roomCode, UUID scheduledRunId) {
+    private void finishRound(String roomCode, UUID scheduledRunId, int expectedQuestionIdx, boolean allowBeforeDeadline) {
         RoomSnapshot before = rooms.findRoom(roomCode).orElse(null);
-        if (before == null || before.status() != RoomStatus.IN_PROGRESS || !scheduledRunId.equals(before.runId()) || before.roundDeadline() == null) {
+        if (before == null || before.status() != RoomStatus.IN_PROGRESS || !scheduledRunId.equals(before.runId())
+                || before.currentQuestionIdx() != expectedQuestionIdx || before.roundDeadline() == null) {
             return;
         }
-        if (Instant.now(clock).isBefore(before.roundDeadline())) {
+        if (!allowBeforeDeadline && Instant.now(clock).isBefore(before.roundDeadline())) {
             LeaseTasks tasks = leadership.get(roomCode);
             if (tasks != null) {
-                scheduleDeadline(tasks, before.roundDeadline());
+                scheduleDeadline(tasks, before.roundDeadline(), before.currentQuestionIdx());
             }
             return;
         }
@@ -324,7 +340,7 @@ public class GameCoordinator {
         }
         LeaseTasks leader = leadership.get(roomCode);
         if (leader != null) {
-            scheduleDeadline(leader, after.roundDeadline());
+            scheduleDeadline(leader, after.roundDeadline(), after.currentQuestionIdx());
         }
     }
 

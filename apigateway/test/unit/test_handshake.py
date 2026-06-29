@@ -17,6 +17,7 @@ from app.api.websocket.handshake import (
     HandshakeResult,
     _build_stomp_connect,
     _parse_stomp_headers,
+    _select_stomp_subprotocol,
     perform_handshake,
 )
 
@@ -39,6 +40,7 @@ def make_stomp_connect(**headers) -> str:
 def make_websocket(connect_frame: str) -> AsyncMock:
     """Mock de WebSocket que retorna connect_frame como primeira mensagem."""
     ws = AsyncMock()
+    ws.headers = {}
     ws.receive_text = AsyncMock(return_value=connect_frame)
     return ws
 
@@ -106,6 +108,25 @@ class TestBuildStompConnect:
         assert frame.endswith("\n\x00")
 
 
+# ── _select_stomp_subprotocol ────────────────────────────────────────────────
+
+class TestSelectStompSubprotocol:
+
+    def test_escolhe_v12_quando_cliente_oferece_stomp(self):
+        ws = MagicMock()
+        ws.headers = {
+            "sec-websocket-protocol": "v12.stomp, v11.stomp, v10.stomp",
+        }
+
+        assert _select_stomp_subprotocol(ws) == "v12.stomp"
+
+    def test_retorna_none_quando_cliente_nao_oferece_subprotocolo(self):
+        ws = MagicMock()
+        ws.headers = {}
+
+        assert _select_stomp_subprotocol(ws) is None
+
+
 # ── perform_handshake ─────────────────────────────────────────────────────────
 
 class TestPerformHandshake:
@@ -121,6 +142,21 @@ class TestPerformHandshake:
         assert result.player_id == VALID_ANON_ID
         assert result.room_code == FAKE_ROOM_CODE
         assert result.authenticated is False
+
+    @pytest.mark.asyncio
+    async def test_accept_responde_subprotocolo_stomp_do_cliente(self):
+        ws = make_websocket(make_stomp_connect(**{
+            "player-id": VALID_ANON_ID,
+            "room-code": FAKE_ROOM_CODE,
+        }))
+        ws.headers = {
+            "sec-websocket-protocol": "v12.stomp, v11.stomp, v10.stomp",
+        }
+
+        result = await perform_handshake(ws)
+
+        assert isinstance(result, HandshakeResult)
+        ws.accept.assert_awaited_once_with(subprotocol="v12.stomp")
 
     @pytest.mark.asyncio
     async def test_autenticado_coincidente_retorna_result(self):
@@ -182,11 +218,25 @@ class TestPerformHandshake:
     @pytest.mark.asyncio
     async def test_frame_upstream_contem_authenticated_false_para_anonimo(self):
         ws = make_websocket(make_stomp_connect(**{
+            "accept-version": "1.2",
+            "heart-beat": "10000,10000",
             "player-id": VALID_ANON_ID,
             "room-code": FAKE_ROOM_CODE,
         }))
         result = await perform_handshake(ws)
+        assert "accept-version:1.2" in result.upstream_connect_frame
+        assert "heart-beat:10000,10000" in result.upstream_connect_frame
         assert "authenticated:false" in result.upstream_connect_frame
+
+    @pytest.mark.asyncio
+    async def test_frame_upstream_defaulta_headers_stomp_quando_cliente_omite(self):
+        ws = make_websocket(make_stomp_connect(**{
+            "player-id": VALID_ANON_ID,
+            "room-code": FAKE_ROOM_CODE,
+        }))
+        result = await perform_handshake(ws)
+        assert "accept-version:1.2" in result.upstream_connect_frame
+        assert "heart-beat:0,0" in result.upstream_connect_frame
 
     @pytest.mark.asyncio
     async def test_frame_upstream_contem_authenticated_true_para_jwt(self):

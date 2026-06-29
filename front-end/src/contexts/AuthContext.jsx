@@ -1,7 +1,13 @@
-import React, { createContext, useState, useContext, useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { setAuthToken, setOnSessionExpired } from '../api/client';
+import { AuthContext } from './auth-context';
 
-const AuthContext = createContext(null);
+const DEFAULT_GUEST_NAME = 'Visitante';
+
+const normalizePlayerName = (name, fallback = DEFAULT_GUEST_NAME) => {
+  const trimmed = name?.trim();
+  return trimmed || fallback;
+};
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
@@ -12,53 +18,61 @@ export const AuthProvider = ({ children }) => {
     setSessionExpired(false);
     setUser({
       playerId: user_id,
-      name: name,
-      jwt: jwt,
+      name: normalizePlayerName(name, 'Jogador'),
+      jwt,
       isAnonymous: false,
     });
   }, []);
 
   const logout = useCallback(() => {
     setAuthToken(null);
+    setSessionExpired(false);
     setUser(null);
   }, []);
 
-  const joinAsAnonymous = useCallback(() => {
-    const anonId = `anon:${crypto.randomUUID()}`;
-    
-    setUser({
+  const joinAsAnonymous = useCallback((name) => {
+    const anonId = user?.isAnonymous && user.playerId
+      ? user.playerId
+      : `anon:${crypto.randomUUID()}`;
+    const anonymousUser = {
       playerId: anonId,
-      name: 'Jogador Anônimo', 
-      jwt: null, 
+      name: normalizePlayerName(name, user?.isAnonymous ? user.name : DEFAULT_GUEST_NAME),
+      jwt: null,
       isAnonymous: true,
-    });
+    };
 
-    return anonId;
-  }, []);
+    setAuthToken(null);
+    setSessionExpired(false);
+    setUser(anonymousUser);
+
+    return anonymousUser;
+  }, [user]);
 
   const updateName = useCallback((newName) => {
-    setUser((prev) => (prev ? { ...prev, name: newName } : prev));
+    setUser((prev) => (prev ? { ...prev, name: normalizePlayerName(newName, prev.name) } : prev));
   }, []);
 
   useEffect(() => {
     setOnSessionExpired(() => {
       setSessionExpired(true);
+      setAuthToken(null);
       setUser(null);
     });
     return () => setOnSessionExpired(null);
   }, []);
 
+  const value = useMemo(() => ({
+    user,
+    login,
+    logout,
+    joinAsAnonymous,
+    sessionExpired,
+    updateName,
+  }), [user, login, logout, joinAsAnonymous, sessionExpired, updateName]);
+
   return (
-    <AuthContext.Provider value={{ user, login, logout, joinAsAnonymous, sessionExpired, updateName }}>
+    <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
   );
-};
-
-export const useAuth = () => {
-  const context = useContext(AuthContext);
-  if (!context) {
-    throw new Error("useAuth deve ser usado dentro de um AuthProvider");
-  }
-  return context;
 };

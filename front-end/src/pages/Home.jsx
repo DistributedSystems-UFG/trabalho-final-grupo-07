@@ -1,54 +1,134 @@
-import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import heroImage from '../assets/hero.png';
+import { useAuth } from '../contexts/useAuth';
+
+const normalizeRoomCode = (value) => value.trim().toUpperCase();
 
 const Home = () => {
   const [roomCode, setRoomCode] = useState('');
+  const [guestName, setGuestName] = useState('');
+  const [error, setError] = useState('');
   const navigate = useNavigate();
-  const { user, joinAsAnonymous } = useAuth();
+  const { user, joinAsAnonymous, logout } = useAuth();
 
-  const handleJoinRoom = (e) => {
-    e.preventDefault();
-    if (!roomCode.trim()) return;
+  const needsGuestName = !user || user.isAnonymous;
 
-    if (!user) {
-      joinAsAnonymous();
+  const ensurePlayer = () => {
+    if (needsGuestName) {
+      return joinAsAnonymous(guestName || user?.name);
+    }
+    return user;
+  };
+
+  const handleJoinRoom = (event) => {
+    event.preventDefault();
+    const code = normalizeRoomCode(roomCode);
+
+    if (!code) {
+      setError('Informe o código da sala.');
+      return;
     }
 
-    navigate(`/room/${roomCode}`);
+    ensurePlayer();
+    navigate(`/room/${code}`);
+  };
+
+  const handleCreateRoom = () => {
+    ensurePlayer();
+    navigate('/room/create');
   };
 
   return (
-    <div className="home-container">
-      <h1>Trivia Arena</h1>
+    <main className="app-shell home-shell">
+      <section className="home-panel">
+        <div className="brand-row">
+          <img src={heroImage} alt="" className="brand-mark" />
+          <div>
+            <p className="eyebrow">Trivia Arena</p>
+            <h1>Entre na disputa em tempo real.</h1>
+          </div>
+        </div>
 
-      <form onSubmit={handleJoinRoom}>
-        <input
-          type="text"
-          placeholder="Código da Sala"
-          value={roomCode}
-          onChange={(e) => setRoomCode(e.target.value)}
-        />
-        <button type="submit">Entrar na Sala</button>
-      </form>
+        <form className="join-panel" onSubmit={handleJoinRoom}>
+          <label className="field">
+            <span>Código da sala</span>
+            <input
+              type="text"
+              placeholder="ABC123"
+              value={roomCode}
+              onChange={(event) => {
+                setRoomCode(event.target.value.toUpperCase());
+                setError('');
+              }}
+              maxLength={12}
+            />
+          </label>
 
-      <div className="actions">
-        {!user || user.isAnonymous ? (
+          {needsGuestName && (
+            <label className="field">
+              <span>Seu nome na arena</span>
+              <input
+                type="text"
+                placeholder="Visitante"
+                value={guestName}
+                onChange={(event) => setGuestName(event.target.value)}
+                maxLength={28}
+              />
+            </label>
+          )}
+
+          {error && <p className="form-error">{error}</p>}
+
+          <div className="button-row">
+            <button className="button primary" type="submit">
+              Entrar na sala
+            </button>
+            <button className="button secondary" type="button" onClick={handleCreateRoom}>
+              Criar sala
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <aside className="session-panel">
+        {user ? (
           <>
-            <Link to="/login">Entrar</Link>
-            <br />
-            <Link to="/register">Registar</Link>
+            <p className="eyebrow">Sessão atual</p>
+            <h2>{user.name}</h2>
+            <p className="muted">
+              {user.isAnonymous ? 'Jogando como visitante' : 'Conta conectada'}
+            </p>
+            <div className="button-row compact">
+              {!user.isAnonymous && (
+                <Link className="button secondary" to="/profile">
+                  Perfil
+                </Link>
+              )}
+              <button className="button ghost" type="button" onClick={logout}>
+                Sair
+              </button>
+            </div>
           </>
         ) : (
           <>
-            <p>Bem-vindo, {user.name}!</p>
-            <Link to="/profile">O Meu Perfil</Link>
-            <br />
-            <Link to="/room/create">Criar Nova Sala</Link>
+            <p className="eyebrow">Conta</p>
+            <h2>Salve seu histórico</h2>
+            <p className="muted">
+              Cadastre-se para registrar vitórias, média de pontos e melhor pontuação.
+            </p>
+            <div className="button-row compact">
+              <Link className="button secondary" to="/login">
+                Entrar
+              </Link>
+              <Link className="button ghost" to="/register">
+                Cadastrar
+              </Link>
+            </div>
           </>
         )}
-      </div>
-    </div>
+      </aside>
+    </main>
   );
 };
 

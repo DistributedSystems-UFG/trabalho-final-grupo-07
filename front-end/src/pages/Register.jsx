@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { registerUser } from '../api/auth';
+import { useAuth } from '../contexts/useAuth';
+import { getApiErrorMessage } from '../utils/errors';
 
 const Register = () => {
   const [name, setName] = useState('');
@@ -12,54 +13,63 @@ const Register = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
     setError(null);
     setLoading(true);
 
     try {
-      const { data } = await registerUser(name, password);
-      login(data.jwt, data.user_id, name);
+      const normalizedName = name.trim();
+      const { data } = await registerUser(normalizedName, password);
+      login(data.jwt, data.user_id, normalizedName);
       navigate('/');
     } catch (err) {
-      const apiError = err.response?.data;
-      setError(apiError?.message || 'Não foi possível concluir o cadastro.');
+      setError(getApiErrorMessage(err, 'Não foi possível concluir o cadastro.'));
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="register-container">
-      <h1>Criar Conta</h1>
+    <main className="auth-shell">
+      <section className="auth-panel">
+        <p className="eyebrow">Nova conta</p>
+        <h1>Cadastrar</h1>
 
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Nome de usuário"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Senha"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
+        <form className="stack-form" onSubmit={handleSubmit}>
+          <label className="field">
+            <span>Nome de usuário</span>
+            <input
+              type="text"
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+              maxLength={28}
+              required
+            />
+          </label>
 
-        {error && <p className="form-error">{error}</p>}
+          <label className="field">
+            <span>Senha</span>
+            <input
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              required
+            />
+          </label>
 
-        <button type="submit" disabled={loading}>
-          {loading ? 'Cadastrando...' : 'Cadastrar'}
-        </button>
-      </form>
+          {error && <p className="form-error">{error}</p>}
 
-      <p>
-        Já tem uma conta? <Link to="/login">Entrar</Link>
-      </p>
-    </div>
+          <button className="button primary full" type="submit" disabled={loading}>
+            {loading ? 'Cadastrando...' : 'Cadastrar'}
+          </button>
+        </form>
+
+        <p className="auth-switch">
+          Já tem uma conta? <Link to="/login">Entrar</Link>
+        </p>
+      </section>
+    </main>
   );
 };
 
