@@ -30,7 +30,7 @@ public class StompSessionTracker {
             return message;
         }
         if (accessor.getCommand() != StompCommand.CONNECT) {
-            return message;
+            return restoreUser(message, accessor);
         }
         String playerId = accessor.getFirstNativeHeader("player-id");
         String roomCode = accessor.getFirstNativeHeader("room-code");
@@ -42,6 +42,18 @@ public class StompSessionTracker {
         }
         accessor.setUser((Principal) () -> playerId);
         sessions.put(accessor.getSessionId(), new PlayerSession(playerId, roomCode));
+        return MessageBuilder.createMessage(message.getPayload(), accessor.getMessageHeaders());
+    }
+
+    private Message<?> restoreUser(Message<?> message, StompHeaderAccessor accessor) {
+        if (accessor.getUser() != null) {
+            return message;
+        }
+        PlayerSession session = sessions.get(accessor.getSessionId());
+        if (session == null) {
+            return message;
+        }
+        accessor.setUser((Principal) session::playerId);
         return MessageBuilder.createMessage(message.getPayload(), accessor.getMessageHeaders());
     }
 

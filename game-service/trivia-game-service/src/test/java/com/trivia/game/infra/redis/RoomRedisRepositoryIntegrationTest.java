@@ -2,6 +2,9 @@ package com.trivia.game.infra.redis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trivia.game.domain.PlayerMeta;
+import com.trivia.game.domain.Question;
+import com.trivia.game.domain.RoomStatus;
+import com.trivia.game.domain.RoundCredit;
 import com.trivia.game.domain.Theme;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -15,6 +18,8 @@ import org.testcontainers.utility.DockerImageName;
 
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 import java.util.concurrent.Executors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -76,6 +81,29 @@ class RoomRedisRepositoryIntegrationTest {
         assertTrue(rooms.recordCorrectAnswer(room, 0, "creator", first, 60));
         assertFalse(rooms.recordCorrectAnswer(room, 0, "creator", second, 60));
         assertEquals(first, rooms.answers(room, 0).get("creator"));
+    }
+
+    @Test
+    void applyRoundAddsCreditsToPlayerScores() {
+        String room = "ROOM03";
+        var question = new Question(UUID.randomUUID(), "Question?", "A", "B", "C", "D", "a");
+
+        assertTrue(rooms.createRoom(room, new PlayerMeta("creator", "Ana", false), 2, 1, Theme.SCIENCE, 60));
+        assertEquals(RoomRedisRepository.JoinResult.JOINED,
+                rooms.joinRoom(room, new PlayerMeta("player-2", "Bia", true), 60));
+        assertEquals(RoomRedisRepository.PrepareResult.STARTED,
+                rooms.prepareGame(room, "creator", RoomStatus.WAITING, Theme.SCIENCE,
+                        List.of(question), UUID.randomUUID(), Instant.now().plusSeconds(30), false, 60));
+
+        var before = rooms.getRoom(room);
+        var after = rooms.applyRound(room, before, List.of(new RoundCredit("creator", 10, 1)), Instant.now().plusSeconds(30), 60);
+
+        assertEquals(10, after.players().stream()
+                .filter(player -> player.playerId().equals("creator"))
+                .findFirst()
+                .orElseThrow()
+                .score());
+        assertEquals(RoomStatus.FINISHED, after.status());
     }
 }
 
