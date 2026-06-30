@@ -18,7 +18,7 @@
 ```
 trivia-infra/
 ├── docker-compose.yml
-├── .env.example
+├── .env.dev.example
 └── init/
     ├── shard-a/
     │   ├── 01_schema.sql
@@ -33,7 +33,7 @@ trivia-infra/
 ## Como subir
 
 ```bash
-cp .env.example .env
+cp .env.dev.example .env
 docker-compose up -d
 ```
 
