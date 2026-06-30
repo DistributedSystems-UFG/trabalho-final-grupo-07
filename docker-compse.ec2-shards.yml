@@ -1,0 +1,51 @@
+services:
+
+  db-shard-a:
+    image: postgres:15-alpine
+    container_name: trivia-db-shard-a
+    environment:
+      POSTGRES_DB: ${DB_SHARD_A_NAME}
+      POSTGRES_USER: ${DB_SHARD_A_USER}
+      POSTGRES_PASSWORD: ${DB_SHARD_A_PASS}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./infra/init/shard-a:/docker-entrypoint-initdb.d
+      - db-shard-a-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_SHARD_A_USER} -d ${DB_SHARD_A_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+  db-shard-b:
+    image: postgres:15-alpine
+    container_name: trivia-db-shard-b
+    environment:
+      POSTGRES_DB: ${DB_SHARD_B_NAME}
+      POSTGRES_USER: ${DB_SHARD_B_USER}
+      POSTGRES_PASSWORD: ${DB_SHARD_B_PASS}
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./infra/init/shard-b:/docker-entrypoint-initdb.d
+      - db-shard-b-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_SHARD_B_USER} -d ${DB_SHARD_B_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+networks:
+  trivia-net:
+    driver: bridge
+
+volumes:
+  db-shard-a-data:
+  db-shard-b-data:

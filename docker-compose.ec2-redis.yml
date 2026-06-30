@@ -1,0 +1,37 @@
+services:
+
+  redis-master:
+    image: redis:7-alpine
+    container_name: trivia-redis-master
+    ports:
+      - "6379:6379"   # Exposto para os outros serviços via IP privado da EC2
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+  redis-replica:
+    image: redis:7-alpine
+    container_name: trivia-redis-replica
+    # Configura replicação apontando para o master pelo nome do serviço Docker
+    command: redis-server --replicaof redis-master 6379
+    # Sem ports: — réplica não é exposta externamente
+    depends_on:
+      redis-master:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+networks:
+  trivia-net:
+    driver: bridge

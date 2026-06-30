@@ -1,0 +1,29 @@
+services:
+
+  db-user-replica:
+    image: postgres:15-alpine
+    container_name: trivia-db-user-replica
+    environment:
+      POSTGRES_DB: ${DB_USERDB_NAME}
+      POSTGRES_USER: ${DB_USERDB_USER}
+      POSTGRES_PASSWORD: ${DB_USERDB_PASS}
+    ports:
+      - "5432:5432"
+    volumes:
+      # SEM mount de initdb — o volume deve já conter os dados do pg_basebackup
+      - db-user-replica-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERDB_USER} -d ${DB_USERDB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+networks:
+  trivia-net:
+    driver: bridge
+
+volumes:
+  db-user-replica-data:

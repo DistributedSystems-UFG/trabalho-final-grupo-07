@@ -1,0 +1,22 @@
+services:
+
+  game-service:
+    build:
+      context: ./game-service/trivia-game-service
+    container_name: trivia-game-service
+    ports:
+      - "8080:8080"   # WebSocket / STOMP — acessado pelo Nginx na EC2-Gateway
+      - "9090:9090"   # gRPC — acessado pelo Nginx na EC2-Gateway
+    env_file: .env
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 9090 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+networks:
+  trivia-net:
+    driver: bridge

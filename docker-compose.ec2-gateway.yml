@@ -1,0 +1,52 @@
+services:
+
+  # ── Nginx interno: load balancer para Game Service ────────────────────────
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: trivia-nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    # Sem ports: — apenas o gateway acessa internamente via rede Docker
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+  # ── API Gateway (FastAPI) ─────────────────────────────────────────────────
+  gateway:
+    build:
+      context: ./gateway
+    container_name: trivia-gateway
+    ports:
+      - "8000:8000"
+    env_file: .env
+    depends_on:
+      nginx:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - trivia-net
+
+  # ── Frontend (React/Vite → Nginx estático) ────────────────────────────────
+  frontend:
+    build:
+      context: ./front-end
+      args:
+        # VITE_API_GATEWAY_HOST é lida de .env.prod e repassada como build arg.
+        # Vite bake esse valor no bundle em tempo de compilação.
+        # Valor: IP público desta EC2 + porta do gateway (ex: 3.91.12.45:8000)
+        VITE_API_GATEWAY_HOST: ${VITE_API_GATEWAY_HOST}
+    container_name: trivia-frontend
+    ports:
+      - "80:80"
+    # Frontend serve arquivos estáticos — não precisa da rede trivia-net.
+    # Todas as chamadas para a API partem do browser do usuário, não deste container.
+    restart: unless-stopped
+
+networks:
+  trivia-net:
+    driver: bridge
