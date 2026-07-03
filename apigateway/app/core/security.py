@@ -1,13 +1,3 @@
-"""
-Emissão e validação de JWT do API Gateway.
-
-Contrato §2.1 — Claims:   sub (user_id), name, iat, exp
-Contrato §2.2 — Algoritmo: HS256, segredo JWT_SECRET, expiração JWT_EXPIRATION_SECONDS
-Contrato §2.3 — Validação: token ausente ou inválido → UnauthenticatedError
-
-Não há refresh token: ao expirar, o cliente deve autenticar-se novamente.
-"""
-
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
