@@ -1,0 +1,1065 @@
+[
+  {
+    "category": "sport_and_leisure",
+    "id": "645c9f8742ea81e2554c5f46",
+    "correctAnswer": "Japan",
+    "incorrectAnswers": [
+      "China",
+      "South Korea",
+      "Vietnam"
+    ],
+    "question": {
+      "text": "What country is Haru-Urara, a racehorse that has lost over 100 races, from?"
+    },
+    "tags": [
+      "horse_racing",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "6384b43f83dddfb71ee5e369",
+    "correctAnswer": "Ice Hockey",
+    "incorrectAnswers": [
+      "Cycling",
+      "Soccer",
+      "Athletics"
+    ],
+    "question": {
+      "text": "Which sport is played at The Stanley Cup?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417d730f96c4efe8d773c8",
+    "correctAnswer": "Oklahoma City Thunder",
+    "incorrectAnswers": [
+      "Oklahoma City Wizards",
+      "Oklahoma City Tigers",
+      "Oklahoma City FC"
+    ],
+    "question": {
+      "text": "Which of these is a basketball team based in Oklahoma City?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417dac0f96c4efe8d773de",
+    "correctAnswer": "St. Louis Cardinals",
+    "incorrectAnswers": [
+      "St. Louis Rockets",
+      "St. Louis Eathquakes",
+      "St. Louis Chiefs"
+    ],
+    "question": {
+      "text": "Which of these is a baseball team based in St. Louis?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f950052",
+    "correctAnswer": "George Foreman",
+    "incorrectAnswers": [
+      "Joe Frazier",
+      "Wilfredo Gomez",
+      "Roberto Duran"
+    ],
+    "question": {
+      "text": "Who Did Muhammed Ali Fight In 'The Rumble In The Jungle''?"
+    },
+    "tags": [
+      "boxing",
+      "events",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "64a094bccf8fd58080ceffda",
+    "correctAnswer": "A touchdown",
+    "incorrectAnswers": [
+      "A field goal",
+      "An interception",
+      "A sack"
+    ],
+    "question": {
+      "text": "In the sport of American football, what is the term for scoring 6 points by carrying the ball into the opponent's end zone?"
+    },
+    "tags": [
+      "football",
+      "american_football",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f950094",
+    "correctAnswer": "Let",
+    "incorrectAnswers": [
+      "Dus",
+      "Par",
+      "See"
+    ],
+    "question": {
+      "text": "What 3 Letter Word It The Name Given To A Replayed Point In Tennis?"
+    },
+    "tags": [
+      "tennis",
+      "sport",
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "63a03977c7d86251f9b65c62",
+    "correctAnswer": "Clue",
+    "incorrectAnswers": [
+      "Checkers",
+      "Backgammon",
+      "Scrabble"
+    ],
+    "question": {
+      "text": "What is the name of the classic board game where players must discover the circumstances of a murder?"
+    },
+    "tags": [
+      "board_games"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f950066",
+    "correctAnswer": "Long Jump",
+    "incorrectAnswers": [
+      "High Jump",
+      "Triple Jump",
+      "Pole Vault"
+    ],
+    "question": {
+      "text": "Which Jump Event Did Carl Lewis Specialize In As Well As The Sprint?"
+    },
+    "tags": [
+      "olympics",
+      "athletics",
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f9500a5",
+    "correctAnswer": "Spain",
+    "incorrectAnswers": [
+      "Italy",
+      "USA",
+      "Japan"
+    ],
+    "question": {
+      "text": "In Which Country Were The 1992 Olympics Held?"
+    },
+    "tags": [
+      "olympics",
+      "1990's",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f9500a2",
+    "correctAnswer": "Golf",
+    "incorrectAnswers": [
+      "Boxing",
+      "Tennis",
+      "Snooker"
+    ],
+    "question": {
+      "text": "In which sport does Lee Westwood play?"
+    },
+    "tags": [
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "649557392cb69a84d25273fe",
+    "correctAnswer": "Churchill Downs",
+    "incorrectAnswers": [
+      "Pimlico Race Course",
+      "Belmont Park",
+      "Saratoga Race Course"
+    ],
+    "question": {
+      "text": "Which site hosts the famous horse racing event known as the Kentucky Derby?"
+    },
+    "tags": [
+      "horse_racing",
+      "sport",
+      "horses"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f95002a",
+    "correctAnswer": "He bit off an opponent's ear",
+    "incorrectAnswers": [
+      "He was found to be doping",
+      "He had cocaine detected during a drugs test",
+      "Match fixing"
+    ],
+    "question": {
+      "text": "Why was Mike Tyson fined $3 million by the boxing association in 1997?"
+    },
+    "tags": [
+      "sport",
+      "boxing",
+      "events",
+      "1990's"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c347cc59eab6f94f878",
+    "correctAnswer": "Athletics",
+    "incorrectAnswers": [
+      "Boxing",
+      "Motor racing",
+      "Rowing"
+    ],
+    "question": {
+      "text": "With which sport is Kenenisa Bekele associated?"
+    },
+    "tags": [
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f95007a",
+    "correctAnswer": "Golden Bear",
+    "incorrectAnswers": [
+      "Black Tiger",
+      "Silver Swan",
+      "Red Eagle"
+    ],
+    "question": {
+      "text": "What was Jack Nicklaus' nickname?"
+    },
+    "tags": [
+      "golf",
+      "nicknames",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417cd30f96c4efe8d77389",
+    "correctAnswer": "Buffalo Bills",
+    "incorrectAnswers": [
+      "Buffalo Raiders",
+      "Buffalo Bears",
+      "Buffalo City"
+    ],
+    "question": {
+      "text": "Which of these is an American Football team based in Buffalo?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "6242e83fa22452794eaef20c",
+    "correctAnswer": "The Cherries",
+    "incorrectAnswers": [
+      "The Potters",
+      "The Hornets",
+      "The Sky Blues"
+    ],
+    "question": {
+      "text": "What is the nickname of the English football team AFC Bournemouth?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417d190f96c4efe8d773a4",
+    "correctAnswer": "Detroit Red Wings",
+    "incorrectAnswers": [
+      "Detroit Football",
+      "Detroit Bucks",
+      "Detroit Canucks"
+    ],
+    "question": {
+      "text": "Which of these is a hockey team based in Detroit?"
+    },
+    "tags": [
+      "nhl",
+      "hockey",
+      "nicknames",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "6498912f0752843c0d8aade5",
+    "correctAnswer": "Michael Jordan",
+    "incorrectAnswers": [
+      "Kobe Bryant",
+      "LeBron James",
+      "Shaquille O'Neal"
+    ],
+    "question": {
+      "text": "Which basketball superstar took a time-out in his professional career to play minor league baseball?"
+    },
+    "tags": [
+      "basketball",
+      "baseball",
+      "sport",
+      "athletes"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "645c9f8742ea81e2554c5f49",
+    "correctAnswer": "Chris Evert",
+    "incorrectAnswers": [
+      "Steffi Graf",
+      "Martina Navratilova",
+      "Monica Seles"
+    ],
+    "question": {
+      "text": "Who is the tennis player who married John Lloyd in 1979 and went by his name when she won Wimbledon in 1981?"
+    },
+    "tags": [
+      "tennis",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62399f22af96521963a0871d",
+    "correctAnswer": "Switzerland",
+    "incorrectAnswers": [
+      "Chile",
+      "Sweden",
+      "Uruguay"
+    ],
+    "question": {
+      "text": "Which country hosted the 1954 FIFA World Cup?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "64fb5b33717513cb79190400",
+    "correctAnswer": "Chum",
+    "incorrectAnswers": [
+      "Flotsam",
+      "Bloaters",
+      "Jetsam"
+    ],
+    "question": {
+      "text": "What is the term for fishing bait that is made from ground-up fish?"
+    },
+    "tags": [
+      "sport",
+      "fishing"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62399ec510536452e756f440",
+    "correctAnswer": "France",
+    "incorrectAnswers": [
+      "Germany",
+      "Argentina",
+      "England"
+    ],
+    "question": {
+      "text": "Which country won the 2018 FIFA World Cup, hosted in Russia?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c347cc59eab6f94f85e",
+    "correctAnswer": "Golf",
+    "incorrectAnswers": [
+      "Cycling",
+      "Surfing",
+      "Figure skating"
+    ],
+    "question": {
+      "text": "With which sport is Annika Sörenstam associated?"
+    },
+    "tags": [
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417d930f96c4efe8d773d5",
+    "correctAnswer": "Portland Trailblazers",
+    "incorrectAnswers": [
+      "Portland Wizards",
+      "Portland Hornets",
+      "Portland Orioles"
+    ],
+    "question": {
+      "text": "Which of these is a basketball team based in Portland?"
+    },
+    "tags": [
+      "basketball",
+      "nba",
+      "usa",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "6463395501d576cfac3aa34d",
+    "correctAnswer": "Luge",
+    "incorrectAnswers": [
+      "Bobs",
+      "Trok",
+      "Aski"
+    ],
+    "question": {
+      "text": "What is the word for a racing sled?"
+    },
+    "tags": [
+      "sport",
+      "winter_sports",
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c3c7cc59eab6f951ac5",
+    "correctAnswer": "Zaire",
+    "incorrectAnswers": [
+      "Algeria",
+      "Guatemala",
+      "Vietnam"
+    ],
+    "question": {
+      "text": "Muhammad Ali Took On George Foreman In The 'Rumble In The Jungle''. In what Country Did This Take Place?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417dcc0f96c4efe8d773eb",
+    "correctAnswer": "Vancouver Canucks",
+    "incorrectAnswers": [
+      "Vancouver Rockets",
+      "Vancouver Sounders",
+      "Vancouver Lightning"
+    ],
+    "question": {
+      "text": "Which of these is a hockey team based in Vancouver?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417dc30f96c4efe8d773e7",
+    "correctAnswer": "Toronto Blue Jays",
+    "incorrectAnswers": [
+      "Toronto Pelicans",
+      "Toronto Sporting",
+      "Toronto Blues"
+    ],
+    "question": {
+      "text": "Which of these is a baseball team based in Toronto?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c3c7cc59eab6f9518e9",
+    "correctAnswer": "Trivial Pursuit",
+    "incorrectAnswers": [
+      "Kerplunk",
+      "Settlers of Catan",
+      "Yahtzee!"
+    ],
+    "question": {
+      "text": "What board game, introduced in the eighties, features six categories of questions and little pie shaped pieces you have to collect?"
+    },
+    "tags": [
+      "games"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c347cc59eab6f94f884",
+    "correctAnswer": "Swimming",
+    "incorrectAnswers": [
+      "Cycling",
+      "Rowing",
+      "Track and field"
+    ],
+    "question": {
+      "text": "With which sport is Mark Spitz associated?"
+    },
+    "tags": [
+      "olympics",
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f9500ba",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "6",
+      "8",
+      "10"
+    ],
+    "question": {
+      "text": "How Many Tournaments make up a Grand Slam In Golf? "
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "63dd25cf742e43ed64f1f023",
+    "correctAnswer": "Real Madrid",
+    "incorrectAnswers": [
+      "Manchester United",
+      "AC Milan",
+      "Liverpool"
+    ],
+    "question": {
+      "text": "Which club was the first to win two consecutive Champions League titles?"
+    },
+    "tags": [
+      "sport",
+      "soccer",
+      "football"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "64746b395a4c31088dd9d02c",
+    "correctAnswer": "Skateboarding",
+    "incorrectAnswers": [
+      "Surfing",
+      "BMX",
+      "Skydiving"
+    ],
+    "question": {
+      "text": "What extreme sport is Tony Hawk known for?"
+    },
+    "tags": [
+      "sport",
+      "people"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f950082",
+    "correctAnswer": "Ipswich Town",
+    "incorrectAnswers": [
+      "Plymouth Argyle",
+      "Norwich City",
+      "Bristol Rovers"
+    ],
+    "question": {
+      "text": "Which English football team are nicknamed the Tractor Boys?"
+    },
+    "tags": [
+      "uk",
+      "football",
+      "soccer",
+      "nicknames",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "63b058684799123c67712f20",
+    "correctAnswer": "Charreada",
+    "incorrectAnswers": [
+      "Bandy",
+      "Korfball",
+      "Futsal"
+    ],
+    "question": {
+      "text": "Which of these is a traditional Mexican sport?"
+    },
+    "tags": [
+      "mexico",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62399f29af96521963a08720",
+    "correctAnswer": "Italy",
+    "incorrectAnswers": [
+      "Germany",
+      "Spain",
+      "Brazil"
+    ],
+    "question": {
+      "text": "Which country won the 1938 FIFA World Cup, hosted in France?"
+    },
+    "tags": [
+      "football",
+      "soccer",
+      "world_cup",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "6242e80f8c2538f9601d2f90",
+    "correctAnswer": "The Villans",
+    "incorrectAnswers": [
+      "The Seagulls",
+      "The Hornets",
+      "The Seasiders"
+    ],
+    "question": {
+      "text": "What is the nickname of the English football team Aston Villa?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f95007f",
+    "correctAnswer": "Baseball",
+    "incorrectAnswers": [
+      "Basketball",
+      "Football",
+      "Soccer"
+    ],
+    "question": {
+      "text": "What sport is played at Wrigley Field in Chicago?"
+    },
+    "tags": [
+      "sport",
+      "chicago",
+      "usa"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "65056f8f7a97013de78b5474",
+    "correctAnswer": "Tee",
+    "incorrectAnswers": [
+      "Anvil",
+      "Stall",
+      "Marquee"
+    ],
+    "question": {
+      "text": "Where is the golf ball rested at the start of the game?"
+    },
+    "tags": [
+      "sport_and_leisure"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f950036",
+    "correctAnswer": "Mark Spitz",
+    "incorrectAnswers": [
+      "Michael Phelps",
+      "Ian Thorpe",
+      "Matt Biondi"
+    ],
+    "question": {
+      "text": "Who Won 7 gold Medals In Swimming At The 1972 Olympics?"
+    },
+    "tags": [
+      "olympics",
+      "swimming",
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "646262c1ab138b829b81ea5a",
+    "correctAnswer": "Tee-ball",
+    "incorrectAnswers": [
+      "Korf-ball",
+      "Kinderball",
+      "Knuckleball"
+    ],
+    "question": {
+      "text": "What is a type of baseball designed for young players who are still developing their hitting skills?"
+    },
+    "tags": [
+      "baseball",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c3a7cc59eab6f950fe0",
+    "correctAnswer": "Pac-Man",
+    "incorrectAnswers": [
+      "Sonic The Hedgehog",
+      "Mario",
+      "Lara Croft"
+    ],
+    "question": {
+      "text": "Which Record Breaking Video Game Character Made It's Debut in May 1980?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f9500c6",
+    "correctAnswer": "5",
+    "incorrectAnswers": [
+      "1",
+      "0",
+      "3"
+    ],
+    "question": {
+      "text": "How Many Dice Do You Have In A Backgammon Set?"
+    },
+    "tags": [
+      "games"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c347cc59eab6f94f8a9",
+    "correctAnswer": "Football",
+    "incorrectAnswers": [
+      "Cycling",
+      "Hockey",
+      "Skiing"
+    ],
+    "question": {
+      "text": "With which sport is Diego Maradona associated?"
+    },
+    "tags": [
+      "people",
+      "general_knowledge",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c367cc59eab6f95033b",
+    "correctAnswer": "Althea Gibson",
+    "incorrectAnswers": [
+      "Venus Williams",
+      "Serena Williams",
+      "Maureen Dalyweather"
+    ],
+    "question": {
+      "text": "Who was the first African-American female to win a Wimbledon Tennis event?"
+    },
+    "tags": [
+      "firsts",
+      "tennis",
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "62417d700f96c4efe8d773c7",
+    "correctAnswer": "Oakland A's",
+    "incorrectAnswers": [
+      "Oakland Yankees",
+      "Oakland Tigers",
+      "Oakland Mavericks"
+    ],
+    "question": {
+      "text": "Which of these is a baseball team based in Oakland?"
+    },
+    "tags": [
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "63a03999c7d86251f9b65c8c",
+    "correctAnswer": "Settlers of Catan",
+    "incorrectAnswers": [
+      "Risk",
+      "Monopoly",
+      "Clue"
+    ],
+    "question": {
+      "text": "In which classic board game do players build roads, villages and cities to collect resources?"
+    },
+    "tags": [
+      "board_games"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "622a1c347cc59eab6f94f863",
+    "correctAnswer": "Athletics",
+    "incorrectAnswers": [
+      "Golf",
+      "Figure skating",
+      "Motor racing"
+    ],
+    "question": {
+      "text": "With which sport is Asbel Kiprop associated?"
+    },
+    "tags": [
+      "people",
+      "sport"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "sport_and_leisure",
+    "id": "63b0692f4799123c67712f5f",
+    "correctAnswer": "Karate",
+    "incorrectAnswers": [
+      "Hapkido",
+      "Taekwondo",
+      "Muay Thai"
+    ],
+    "question": {
+      "text": "Which of these is a Japanese martial art?"
+    },
+    "tags": [
+      "society_and_culture",
+      "sport",
+      "martial_arts",
+      "japan"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  }
+]

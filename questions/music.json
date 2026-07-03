@@ -1,0 +1,1066 @@
+[
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fe87",
+    "correctAnswer": "Eminem",
+    "incorrectAnswers": [
+      "Nicki Minaj",
+      "Drake",
+      "Ludacris"
+    ],
+    "question": {
+      "text": "Which American rapper, producer and actor released the studio album 'Encore'?"
+    },
+    "tags": [
+      "musicians",
+      "music_albums",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fd64",
+    "correctAnswer": "George Harrison",
+    "incorrectAnswers": [
+      "Oasis",
+      "Paul Simon",
+      "Robbie Williams"
+    ],
+    "question": {
+      "text": "Whose Debut Solo Album Was Titled \"Wonderwall Music\"?"
+    },
+    "tags": [
+      "music_albums",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950ced",
+    "correctAnswer": "Queen",
+    "incorrectAnswers": [
+      "Level 42",
+      "Deep Purple",
+      "Feeder"
+    ],
+    "question": {
+      "text": "Which British rock band released the song 'Somebody to Love'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950c9c",
+    "correctAnswer": "The Rolling Stones",
+    "incorrectAnswers": [
+      "McFly",
+      "Delirious?",
+      "Depeche Mode"
+    ],
+    "question": {
+      "text": "Which English rock band released the album 'A Bigger Bang'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "62506400e12f6dec240bdf92",
+    "correctAnswer": "Seasons in the Sun",
+    "incorrectAnswers": [
+      "Genius of Love",
+      "867-5309 - Jenny",
+      "Bust a Move"
+    ],
+    "question": {
+      "text": "Terry Jacks had a one hit wonder in 1974 with which song?"
+    },
+    "tags": [
+      "songs",
+      "one_hit_wonders",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "645cb19b7d263fd5097043ef",
+    "correctAnswer": "Primus",
+    "incorrectAnswers": [
+      "Metallica",
+      "Green Day",
+      "Nirvana"
+    ],
+    "question": {
+      "text": "Which band is responsible for performing the \"South Park\" theme song?"
+    },
+    "tags": [
+      "film_and_tv",
+      "tv",
+      "cartoons",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "636a5293990390307063f3a8",
+    "correctAnswer": "Prince",
+    "incorrectAnswers": [
+      "Jimi Hendrix",
+      "Led Zeppelin",
+      "Dee Dee Warwick"
+    ],
+    "question": {
+      "text": "The song 'Nothing Compares 2 U' had a well-known cover by Sinead O'Connor, but who recorded the original?"
+    },
+    "tags": [
+      "music",
+      "cover_song",
+      "songs",
+      "musicians"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "625064d3e12f6dec240bdfd0",
+    "correctAnswer": "Heart And Soul",
+    "incorrectAnswers": [
+      "Electric Avenue",
+      "Smokin' in the Boys Room",
+      "Seasons in the Sun"
+    ],
+    "question": {
+      "text": "T'Pau had a one hit wonder in 1987 with which song?"
+    },
+    "tags": [
+      "songs",
+      "one_hit_wonders",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fe8b",
+    "correctAnswer": "Rihanna",
+    "incorrectAnswers": [
+      "Drake",
+      "Nicki Minaj",
+      "Ricky Martin"
+    ],
+    "question": {
+      "text": "Which singer released the song 'Russian Roulette'?"
+    },
+    "tags": [
+      "songs",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94ff58",
+    "correctAnswer": "Bob Dylan",
+    "incorrectAnswers": [
+      "Neil Young",
+      "Eric Clapton",
+      "Alanis Morissette"
+    ],
+    "question": {
+      "text": "Which American musician wrote the song 'All Along the Watchtower'?"
+    },
+    "tags": [
+      "musicians",
+      "songs",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fde5",
+    "correctAnswer": "Britney Spears",
+    "incorrectAnswers": [
+      "Madonna",
+      "Nicki Minaj",
+      "Aretha Franklin"
+    ],
+    "question": {
+      "text": "Which American singer released the song 'I'm Not a Girl, Not Yet a Woman'?"
+    },
+    "tags": [
+      "songs",
+      "musicians",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c347cc59eab6f94fba0",
+    "correctAnswer": "\"Don't Stop Me Now\" by Queen",
+    "incorrectAnswers": [
+      "\"Gimme More\" by Britney Spears",
+      "\"Welcome to the Black Parade\" by My Chemical Romance",
+      "\"Crazy Train\" by Ozzy Osbourne"
+    ],
+    "question": {
+      "text": "Which song begins with the lyrics: \"Tonight, I’m gonna have myself a real good time / I feel alive / And the world, I'll turn it inside out, yeah / I'm floating around in ecstasy...\"?"
+    },
+    "tags": [
+      "songs",
+      "lyrics",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fd77",
+    "correctAnswer": "Igor Stravinsky",
+    "incorrectAnswers": [
+      "Gustav Holst",
+      "Franz Schubert",
+      "Joseph Haydn"
+    ],
+    "question": {
+      "text": "Who Wrote \"The Firebird Suite\" & \"The Ebony Concerto\"? "
+    },
+    "tags": [
+      "classical_music",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950c67",
+    "correctAnswer": "Linkin Park",
+    "incorrectAnswers": [
+      "Alice in Chains",
+      "Hollywood Undead",
+      "System of a Down"
+    ],
+    "question": {
+      "text": "Which American rock band released the studio album 'The Hunting Party'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "63f3950a989356ef48370bf3",
+    "correctAnswer": "Wind",
+    "incorrectAnswers": [
+      "Percussion",
+      "String",
+      "Keyboard"
+    ],
+    "question": {
+      "text": "What type of instrument is a harmonica?"
+    },
+    "tags": [
+      "music",
+      "musical_instruments"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "6250645ce12f6dec240bdfad",
+    "correctAnswer": "Smokin' in the Boys Room",
+    "incorrectAnswers": [
+      "Me And Mrs. Jones",
+      "Mickey",
+      "Don't Wanna Fall in Love"
+    ],
+    "question": {
+      "text": "Brownsville Station had a one hit wonder in 1973 with which song?"
+    },
+    "tags": [
+      "songs",
+      "one_hit_wonders",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94ff56",
+    "correctAnswer": "Bob Dylan",
+    "incorrectAnswers": [
+      "Neil Young",
+      "Eric Clapton",
+      "Elton John"
+    ],
+    "question": {
+      "text": "Which musician has famously performed over 3,000 shows in their 'Never Ending Tour'?"
+    },
+    "tags": [
+      "musicians",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94ffb8",
+    "correctAnswer": "Coldplay",
+    "incorrectAnswers": [
+      "Feeder",
+      "The Rolling Stones",
+      "U2"
+    ],
+    "question": {
+      "text": "In 1998 David Trimble & John Hume Joined Which Band On A Belfast Stage In Support Of The Good Friday Peace Agreement?"
+    },
+    "tags": [
+      "bands",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c347cc59eab6f94fbae",
+    "correctAnswer": "\"American Pie\" by Don McLean",
+    "incorrectAnswers": [
+      "\"All Star\" by Smash Mouth",
+      "\"I'll Make a Man Out of You\" by Donny Osmond",
+      "\"I Write Sins Not Tragedies\" by Panic! at the Disco"
+    ],
+    "question": {
+      "text": "Which song begins with the lyrics: \"A long, long time ago / I can still remember how / That music used to make me smile...\"?"
+    },
+    "tags": [
+      "songs",
+      "lyrics",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fdd9",
+    "correctAnswer": "Katy Perry",
+    "incorrectAnswers": [
+      "Madonna",
+      "Nicki Minaj",
+      "Lady Gaga"
+    ],
+    "question": {
+      "text": "Which American singer released the song 'Last Friday Night (T.G.I.F.)'?"
+    },
+    "tags": [
+      "songs",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c347cc59eab6f94fb99",
+    "correctAnswer": "\"Let it Be\" by the Beatles",
+    "incorrectAnswers": [
+      "\"Man! I Feel Like a Woman!\" by Shania Twain",
+      "\"In da Club\" by 50 Cent",
+      "\"Welcome to the Black Parade\" by My Chemical Romance"
+    ],
+    "question": {
+      "text": "Which song begins with the lyrics: \"When I find myself in times of trouble, Mother Mary comes to me / Speaking words of wisdom, let it be...\"?"
+    },
+    "tags": [
+      "lyrics",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950c0e",
+    "correctAnswer": "Dream Theater",
+    "incorrectAnswers": [
+      "Jars of Clay",
+      "Three 6 Mafia",
+      "The Velvet Underground"
+    ],
+    "question": {
+      "text": "Which American progressive metal band released the studio album 'Metropolis Pt. 2: Scenes from a Memory'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c387cc59eab6f950bb1",
+    "correctAnswer": "Simon & Garfunkel",
+    "incorrectAnswers": [
+      "MercyMe",
+      "Three 6 Mafia",
+      "The Velvet Underground"
+    ],
+    "question": {
+      "text": "Which American music duo released the song 'Mrs. Robinson'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fdd6",
+    "correctAnswer": "Drake",
+    "incorrectAnswers": [
+      "Neil Young",
+      "Alanis Morissette",
+      "Justin Bieber"
+    ],
+    "question": {
+      "text": "Which Canadian musician released the album 'Views'?"
+    },
+    "tags": [
+      "music_albums",
+      "musicians",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950c1c",
+    "correctAnswer": "Nirvana",
+    "incorrectAnswers": [
+      "Counting Crows",
+      "Three 6 Mafia",
+      "The Velvet Underground"
+    ],
+    "question": {
+      "text": "Which American rock band released the song 'Come as You Are'?"
+    },
+    "tags": [
+      "rock_music",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "62506496e12f6dec240bdfbe",
+    "correctAnswer": "Rebirth of Slick (Cool Like Dat)",
+    "incorrectAnswers": [
+      "Tainted Love",
+      "Don't Worry Be Happy",
+      "It Takes Two"
+    ],
+    "question": {
+      "text": "Digable Planets had a one hit wonder in 1993 with which song?"
+    },
+    "tags": [
+      "songs",
+      "one_hit_wonders",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94febc",
+    "correctAnswer": "Beyoncé",
+    "incorrectAnswers": [
+      "Madonna",
+      "Drake",
+      "Nicki Minaj"
+    ],
+    "question": {
+      "text": "Which American singer, actress and record producer released the song 'Déjà Vu'?"
+    },
+    "tags": [
+      "songs",
+      "musicians",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fd6f",
+    "correctAnswer": "Neil Diamond",
+    "incorrectAnswers": [
+      "Leonard Cohen",
+      "Paul McCartney",
+      "David Bowie"
+    ],
+    "question": {
+      "text": "Whose 1973 Album Was Titled \"Jonathan Livingston Seagull\"?"
+    },
+    "tags": [
+      "music_albums",
+      "1970's",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c367cc59eab6f950374",
+    "correctAnswer": "Cat Stevens",
+    "incorrectAnswers": [
+      "Joni Mitchell",
+      "Patti Smith",
+      "The Ramones"
+    ],
+    "question": {
+      "text": "Who Released The 70's Album Entitled 'Tea for the Tillerman'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c387cc59eab6f950b1f",
+    "correctAnswer": "Spice Girls",
+    "incorrectAnswers": [
+      "Girls Aloud",
+      "All Saints",
+      "B*Witched"
+    ],
+    "question": {
+      "text": "Which 90's girl group was Victoria Beckham a member of?"
+    },
+    "tags": [
+      "music",
+      "1990's",
+      "bands",
+      "people"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "63f39518989356ef48370c11",
+    "correctAnswer": "Bass",
+    "incorrectAnswers": [
+      "Baroque",
+      "Banjo",
+      "Mandolin"
+    ],
+    "question": {
+      "text": "What is the name of the lowest pitched member of the guitar family?"
+    },
+    "tags": [
+      "music",
+      "musical_instruments"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fdda",
+    "correctAnswer": "Tupac Shakur",
+    "incorrectAnswers": [
+      "Drake",
+      "Ludacris",
+      "Nas"
+    ],
+    "question": {
+      "text": "Which American rapper released the album 'All Eyez on Me'?"
+    },
+    "tags": [
+      "rap_music",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c347cc59eab6f94fb9e",
+    "correctAnswer": "\"Rapper's Delight\" by Sugarhill Gang",
+    "incorrectAnswers": [
+      "\"Man! I Feel Like a Woman!\" by Shania Twain",
+      "\"You're So Vain\" by Carly Simon",
+      "\"Gimme More\" by Britney Spears"
+    ],
+    "question": {
+      "text": "Which song begins with the lyrics: \"I said a hip-hop, the hippie the hippie / To the hip, hip hop you don't stop / Rock it to the bang bang boogie / Say up jump the boogie to the rhythm of the boogie, the beat...\"?"
+    },
+    "tags": [
+      "rap_music",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c347cc59eab6f94fb98",
+    "correctAnswer": "\"1,2 Step\" by Ciara and Missy Elliott",
+    "incorrectAnswers": [
+      "\"Hooked on a Feeling\" by B.J. Thomas",
+      "\"I'm Real (Murder Remix) by Jennifer Lopez and Ja Rule",
+      "\"Fergalicious\" by Fergie and will.i.am."
+    ],
+    "question": {
+      "text": "Which song begins with the lyrics: \"This beat is automatic, supersonic, hypnotic, funky fresh.\"?"
+    },
+    "tags": [
+      "lyrics",
+      "songs",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fd56",
+    "correctAnswer": "Billy Idol",
+    "incorrectAnswers": [
+      "Billy Eilish",
+      "Bill Withers",
+      "Bill Bailey"
+    ],
+    "question": {
+      "text": "William Michael Albert Broad Is The Real Name Of Which Singer?"
+    },
+    "tags": [
+      "pseudonyms",
+      "people",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950c13",
+    "correctAnswer": "Dream Theater",
+    "incorrectAnswers": [
+      "Jars of Clay",
+      "Three 6 Mafia",
+      "The Velvet Underground"
+    ],
+    "question": {
+      "text": "Which American progressive metal band released the album 'Black Clouds & Silver Linings'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950d09",
+    "correctAnswer": "The Beatles",
+    "incorrectAnswers": [
+      "Deep Purple",
+      "Feeder",
+      "Uriah Heep"
+    ],
+    "question": {
+      "text": "Which English rock band released the song 'Get Back'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950bf8",
+    "correctAnswer": "The Doors",
+    "incorrectAnswers": [
+      "Styx",
+      "The Pussycat Dolls",
+      "Three 6 Mafia"
+    ],
+    "question": {
+      "text": "Which American rock band released the studio album 'The Soft Parade'?"
+    },
+    "tags": [
+      "rock_music",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c367cc59eab6f95039a",
+    "correctAnswer": "Stevie Wonder",
+    "incorrectAnswers": [
+      "Stevie Nicks",
+      "Stevie Ray Vaughan",
+      "Stevie Winwood"
+    ],
+    "question": {
+      "text": "Who Released The 70's Album Entitled \"Innervisions\"?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c367cc59eab6f95021a",
+    "correctAnswer": "Shakira ",
+    "incorrectAnswers": [
+      "Enrique Iglesias",
+      "Pitbull",
+      "Jennifer Lopez"
+    ],
+    "question": {
+      "text": "Who released the album 'Pies Descalzos'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c387cc59eab6f950b25",
+    "correctAnswer": "Blondie",
+    "incorrectAnswers": [
+      "The Pussycat Dolls",
+      "Fleetwood Mac",
+      "The Velvet Underground"
+    ],
+    "question": {
+      "text": "Which band was fronted by Debbie Harry?"
+    },
+    "tags": [
+      "music",
+      "people",
+      "bands",
+      "women"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c387cc59eab6f950b51",
+    "correctAnswer": "The Prodigy",
+    "incorrectAnswers": [
+      "Squeeze",
+      "Gorillaz",
+      "Kaiser Chiefs"
+    ],
+    "question": {
+      "text": "Which English electronic dance music group released the song 'Firestarter'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950d2b",
+    "correctAnswer": "The Beatles",
+    "incorrectAnswers": [
+      "Deep Purple",
+      "Feeder",
+      "Uriah Heep"
+    ],
+    "question": {
+      "text": "Which English rock band released the song 'I Want to Hold Your Hand'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c347cc59eab6f94fb91",
+    "correctAnswer": "\"Bohemian Rhapsody\" by Queen",
+    "incorrectAnswers": [
+      "\"Let it Be\" by the Beatles",
+      "\"SpongeBob SquarePants Theme\" by Painty the Pirate",
+      "\"In da Club\" by 50 Cent"
+    ],
+    "question": {
+      "text": "Which song begins with the lyrics: \"Is this the real life? Is this just fantasy?\"?"
+    },
+    "tags": [
+      "lyrics",
+      "songs",
+      "general_knowledge",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c357cc59eab6f94fd97",
+    "correctAnswer": "Mariah Carey",
+    "incorrectAnswers": [
+      "Rihanna",
+      "Beyonce",
+      "Christina Aguilera"
+    ],
+    "question": {
+      "text": "Which Singing Diva Flopped At The Box Office With Her Debut Movie “Glitter”?"
+    },
+    "tags": [
+      "people",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c387cc59eab6f950bb9",
+    "correctAnswer": "The Kinks",
+    "incorrectAnswers": [
+      "Deep Purple",
+      "Snow Patrol",
+      "Lostprophets"
+    ],
+    "question": {
+      "text": "Which English rock band released the song 'You Really Got Me'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950c3b",
+    "correctAnswer": "Coldplay",
+    "incorrectAnswers": [
+      "Level 42",
+      "Deep Purple",
+      "Feeder"
+    ],
+    "question": {
+      "text": "Which British band released the studio album 'Ghost Stories'?"
+    },
+    "tags": [
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "62506482e12f6dec240bdfb8",
+    "correctAnswer": "Edwyn Collins",
+    "incorrectAnswers": [
+      "The Waitresses",
+      "Rockwell",
+      "The Heights"
+    ],
+    "question": {
+      "text": "'A Girl Like You' was a one hit wonder in 1994 by which artist?"
+    },
+    "tags": [
+      "songs",
+      "one_hit_wonders",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "636a5230990390307063f37d",
+    "correctAnswer": "Fleetwood Mac",
+    "incorrectAnswers": [
+      "The Highwomen",
+      "Joe Cocker",
+      "the Light by Manfred Mann's Earth Band"
+    ],
+    "question": {
+      "text": "The song 'Landslide' had a well-known cover by Miley Cyrus, but who recorded the original?"
+    },
+    "tags": [
+      "music",
+      "cover_song",
+      "songs",
+      "musicians"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "music",
+    "id": "622a1c397cc59eab6f950c2a",
+    "correctAnswer": "ABBA",
+    "incorrectAnswers": [
+      "In Flames",
+      "HammerFall",
+      "Katatonia"
+    ],
+    "question": {
+      "text": "Which Swedish pop group released the song 'Thank You for the Music'?"
+    },
+    "tags": [
+      "pop_music",
+      "general_knowledge",
+      "music"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  }
+]

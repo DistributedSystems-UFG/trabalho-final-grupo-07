@@ -1,0 +1,1113 @@
+[
+  {
+    "category": "history",
+    "id": "65056eab7a97013de78b5335",
+    "correctAnswer": "Buzz Aldrin",
+    "incorrectAnswers": [
+      "Yuri Gagarin",
+      "Alan Shepard",
+      "James Irwin"
+    ],
+    "question": {
+      "text": "Who was the second man to walk on the Moon, after Neil Armstrong?"
+    },
+    "tags": [
+      "history",
+      "space"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c377cc59eab6f950413",
+    "correctAnswer": "1431",
+    "incorrectAnswers": [
+      "1213",
+      "1390",
+      "1344"
+    ],
+    "question": {
+      "text": "In Which Year Was Joan Of Arc Burned At The Stake?"
+    },
+    "tags": [
+      "france",
+      "middle_ages",
+      "medieval",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f951b5b",
+    "correctAnswer": "Ethelred",
+    "incorrectAnswers": [
+      "Alfred",
+      "Ethelstan",
+      "Edward"
+    ],
+    "question": {
+      "text": "In the period 978-1016 England was ruled by which 'Unready' King?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "63989c195c9a75021f310480",
+    "correctAnswer": "Absolute Monarchy",
+    "incorrectAnswers": [
+      "Democracy",
+      "Constitutional Monarchy",
+      "Parliamentary Democracy"
+    ],
+    "question": {
+      "text": "What kind of government dominated most of Europe during the 17th century?"
+    },
+    "tags": [
+      "history",
+      "1600s",
+      "europe"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f9519d2",
+    "correctAnswer": "Hiroshima",
+    "incorrectAnswers": [
+      "Jericho",
+      "Babel",
+      "Dresden"
+    ],
+    "question": {
+      "text": "What city was destroyed by a 'little boy'?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f9519f0",
+    "correctAnswer": "The Bronze Age",
+    "incorrectAnswers": [
+      "The Stone Age",
+      "The Steel Age",
+      "The Wooden Age"
+    ],
+    "question": {
+      "text": "What age preceded the Iron Age?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "62611f3a4b176d54800e3d4a",
+    "correctAnswer": "1956",
+    "incorrectAnswers": [
+      "1940",
+      "1948",
+      "1964"
+    ],
+    "question": {
+      "text": "When did the Suez Crisis become a flashpoint in the Cold War?"
+    },
+    "tags": [
+      "events",
+      "cold_war",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "62611ff34b176d54800e3d7c",
+    "correctAnswer": "2005",
+    "incorrectAnswers": [
+      "2001",
+      "2009",
+      "2013"
+    ],
+    "question": {
+      "text": "In which year was the first video uploaded to YouTube?"
+    },
+    "tags": [
+      "events",
+      "firsts",
+      "the_internet",
+      "technology",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f951940",
+    "correctAnswer": "The Wall Street Crash",
+    "incorrectAnswers": [
+      "The Hindenberg Disaster",
+      "The Assassination of John F. Kennedy",
+      "The Nazi Invasion of Poland"
+    ],
+    "question": {
+      "text": "What notorious event occurred on the 24th October 1929?"
+    },
+    "tags": [
+      "1920's",
+      "events",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "62611fb24b176d54800e3d6a",
+    "correctAnswer": "1973",
+    "incorrectAnswers": [
+      "1963",
+      "1949",
+      "1984"
+    ],
+    "question": {
+      "text": "When was the first mobile phone conversation?"
+    },
+    "tags": [
+      "events",
+      "firsts",
+      "technology",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "647f9def3a4302a71927168c",
+    "correctAnswer": "Nuremberg",
+    "incorrectAnswers": [
+      "Berlin",
+      "Munich",
+      "Frankfurt"
+    ],
+    "question": {
+      "text": "In 1945, which German city hosted the trials where former Nazi leaders were prosecuted for war crimes?"
+    },
+    "tags": [
+      "world_war_2",
+      "1940's",
+      "history",
+      "crime",
+      "wars",
+      "germany"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "645aba12158db1bd1779f1c7",
+    "correctAnswer": "A privateer",
+    "incorrectAnswers": [
+      "A corsair",
+      "A buccaneer",
+      "A sea wolf"
+    ],
+    "question": {
+      "text": "What was the term used for a pirate who was licensed by the crown to capture enemy ships and cargo?"
+    },
+    "tags": [
+      "pirates",
+      "history",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f9517ce",
+    "correctAnswer": "Henry VIII",
+    "incorrectAnswers": [
+      "Richard I",
+      "William the Conqueror",
+      "Alfred the Great"
+    ],
+    "question": {
+      "text": "Which English king was given the title 'Defender Of The Faith' by Pope Leo X?"
+    },
+    "tags": [
+      "leaders",
+      "uk",
+      "christianity",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "64f3a941601ffca0b7615de1",
+    "correctAnswer": "The Trojan War",
+    "incorrectAnswers": [
+      "The Napoleonic Wars",
+      "The Crusades",
+      "The Punic Wars"
+    ],
+    "question": {
+      "text": "Which conflict of legend was ignited by Paris and Helen?"
+    },
+    "tags": [
+      "wars",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "64626286ab138b829b81ea04",
+    "correctAnswer": "Liberia",
+    "incorrectAnswers": [
+      "Egypt",
+      "South Africa",
+      "Morocco"
+    ],
+    "question": {
+      "text": "William Tolbert, who was killed in a 1980 coup, was the president of which African nation?"
+    },
+    "tags": [
+      "politics",
+      "government",
+      "assassinations",
+      "history",
+      "1980's"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "65056f817a97013de78b5461",
+    "correctAnswer": "Vladimir Putin",
+    "incorrectAnswers": [
+      "Boris Yeltsin",
+      "Dmitry Medvedev",
+      "Mikhail Gorbachev"
+    ],
+    "question": {
+      "text": "Who became president of Russia in 2012?"
+    },
+    "tags": [
+      "history",
+      "world_leaders",
+      "politics",
+      "russia",
+      "2010's"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f951825",
+    "correctAnswer": "John Dillenger",
+    "incorrectAnswers": [
+      "Al Capone",
+      "Vito Corleone",
+      "Ronald Kray"
+    ],
+    "question": {
+      "text": "Which American gangster was shot dead outside a Chicago cinema in July 1934?"
+    },
+    "tags": [
+      "crime",
+      "people",
+      "chicago",
+      "usa",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "639ae36d929b90846f2fc8d0",
+    "correctAnswer": "Maize",
+    "incorrectAnswers": [
+      "Rice",
+      "Wheat",
+      "Barley"
+    ],
+    "question": {
+      "text": "What type of food was the most important staple of the Aztec diet?"
+    },
+    "tags": [
+      "history",
+      "aztecs",
+      "food"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "639ae2bb929b90846f2fc8b1",
+    "correctAnswer": "Harald Hardrada",
+    "incorrectAnswers": [
+      "Ragnar Lothbrok",
+      "Ivar the Boneless",
+      "Sweyn Forkbeard"
+    ],
+    "question": {
+      "text": "What is the name of the legendary Viking warrior who fought in the Battle of Stamford Bridge?"
+    },
+    "tags": [
+      "history",
+      "vikings",
+      "uk"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3d7cc59eab6f951bf9",
+    "correctAnswer": "Lichtenstein",
+    "incorrectAnswers": [
+      "Monaco",
+      "San Marino",
+      "Luxembourg"
+    ],
+    "question": {
+      "text": "Holy Roman Emperor Charles VI created which principality in 1719?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "65056f007a97013de78b53ac",
+    "correctAnswer": "James Cook",
+    "incorrectAnswers": [
+      "Neil Armstrong",
+      "Francisco Pizarro",
+      "Vasco da Gama"
+    ],
+    "question": {
+      "text": "Which explorer was killed on the Hawaiian Islands?"
+    },
+    "tags": [
+      "history",
+      "exploration",
+      "people",
+      "hawaii"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "62611f854b176d54800e3d5f",
+    "correctAnswer": "2015",
+    "incorrectAnswers": [
+      "2000",
+      "1993",
+      "2004"
+    ],
+    "question": {
+      "text": "In which year was the creation of the first artificial heart?"
+    },
+    "tags": [
+      "events",
+      "inventions",
+      "medicine",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c367cc59eab6f95026a",
+    "correctAnswer": "Chicken Marengo ",
+    "incorrectAnswers": [
+      "Chicken Kiev",
+      "Hunter's Chicken",
+      "Chicken Supreme"
+    ],
+    "question": {
+      "text": "Which chicken dish is named after a battle in the Napoleonic wars?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "645c9ff442ea81e2554c5f99",
+    "correctAnswer": "Vikings",
+    "incorrectAnswers": [
+      "Celts",
+      "Mongols",
+      "Saxons"
+    ],
+    "question": {
+      "text": "Which of these groups were known as fierce, medieval Scandinavian explorers?"
+    },
+    "tags": [
+      "history",
+      "culture",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "63a039c3c7d86251f9b65caf",
+    "correctAnswer": "Charles I",
+    "incorrectAnswers": [
+      "Henry VIII",
+      "Edward VII",
+      "Charles II"
+    ],
+    "question": {
+      "text": "Which English king was executed in 1649?"
+    },
+    "tags": [
+      "history",
+      "britain",
+      "uk",
+      "monarchs",
+      "kings"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c377cc59eab6f95042f",
+    "correctAnswer": "Concorde",
+    "incorrectAnswers": [
+      "The Channel Tunnel",
+      "Eurostar",
+      "An animal cloning plant"
+    ],
+    "question": {
+      "text": "In 1962, for what did Britain and France sign an agreement to build together?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "64861cecf773f09dc0193b47",
+    "correctAnswer": "The Tower of London",
+    "incorrectAnswers": [
+      "Windsor Castle",
+      "Buckingham Palace",
+      "St. James's Palace"
+    ],
+    "question": {
+      "text": "What is the name of the royal fortress on the Thames River that includes Traitors' Gate?"
+    },
+    "tags": [
+      "tourist_attractions",
+      "castles",
+      "history",
+      "london"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "6488deed50a27f7378a91de8",
+    "correctAnswer": "A shield",
+    "incorrectAnswers": [
+      "A sword",
+      "A helmet",
+      "A spear"
+    ],
+    "question": {
+      "text": "Used by the Roman military, what was a Scutum?"
+    },
+    "tags": [
+      "military",
+      "arms",
+      "weapons",
+      "the_romans"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "62611fdb4b176d54800e3d75",
+    "correctAnswer": "1992",
+    "incorrectAnswers": [
+      "1987",
+      "1997",
+      "2002"
+    ],
+    "question": {
+      "text": "When was the first SMS message sent?"
+    },
+    "tags": [
+      "events",
+      "firsts",
+      "inventions",
+      "technology",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "62611f4e4b176d54800e3d50",
+    "correctAnswer": "1979",
+    "incorrectAnswers": [
+      "1967",
+      "1995",
+      "2002"
+    ],
+    "question": {
+      "text": "In which year was the Iranian Revolution?"
+    },
+    "tags": [
+      "events",
+      "the_middle_east",
+      "revolutions",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f9518c4",
+    "correctAnswer": "Enigma",
+    "incorrectAnswers": [
+      "Mystery",
+      "Paradox",
+      "Riddle"
+    ],
+    "question": {
+      "text": "What Was The Name Given To The Coding Machine Used By The Germans In World War II?"
+    },
+    "tags": [
+      "technology",
+      "world_war_2",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c367cc59eab6f9503c1",
+    "correctAnswer": "Sandwich Islands",
+    "incorrectAnswers": [
+      "James Islands",
+      "Victoria Islands",
+      "Brittania Islands"
+    ],
+    "question": {
+      "text": "When Cook Discovered The Hawaiian Islands What Did He Name Them?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3b7cc59eab6f95177b",
+    "correctAnswer": "Bangladesh",
+    "incorrectAnswers": [
+      "Sri Lanka",
+      "Bhutan",
+      "Pakistan"
+    ],
+    "question": {
+      "text": "Which new country was formed in 1971 at the end of a conflict between Pakistan and India?"
+    },
+    "tags": [
+      "history",
+      "1970's",
+      "wars"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f95191f",
+    "correctAnswer": "The Alps",
+    "incorrectAnswers": [
+      "The Pindus",
+      "The Atlas Mountains",
+      "The Urals"
+    ],
+    "question": {
+      "text": "What mountain range did Hannibal march through in 218 B.C.?"
+    },
+    "tags": [
+      "romans",
+      "the_ancient_world",
+      "wars",
+      "mountains",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c367cc59eab6f9503be",
+    "correctAnswer": "France",
+    "incorrectAnswers": [
+      "Italy",
+      "Russia",
+      "Spain"
+    ],
+    "question": {
+      "text": "Where did the bayonet originate?"
+    },
+    "tags": [
+      "inventions",
+      "wars",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "63bc3fb50e893d6e5a6a0fe4",
+    "correctAnswer": "The Divan",
+    "incorrectAnswers": [
+      "The Ottoman",
+      "The Futon",
+      "The Chaise Lounge"
+    ],
+    "question": {
+      "text": "What was the name of the Ottoman Empire's governing body?"
+    },
+    "tags": [
+      "history",
+      "ottoman_empire"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c367cc59eab6f950351",
+    "correctAnswer": "Thomas Edison",
+    "incorrectAnswers": [
+      "Merlin",
+      "Richard Feynman",
+      "Harry Houdini"
+    ],
+    "question": {
+      "text": "Who was known as \"The Wizard of Menlo Park\"?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f9518b9",
+    "correctAnswer": "Caesarion",
+    "incorrectAnswers": [
+      "Octavian",
+      "Augustus",
+      "Commodus"
+    ],
+    "question": {
+      "text": "What was the name of the son of Cleopatra & Julius Caesar?"
+    },
+    "tags": [
+      "romans",
+      "the_ancient_world",
+      "people",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3d7cc59eab6f951bb3",
+    "correctAnswer": "Mississippi",
+    "incorrectAnswers": [
+      "Arkansas",
+      "Colorado",
+      "Nebraska"
+    ],
+    "question": {
+      "text": "In 1817 which US state was admitted to the Union as the 20th state?"
+    },
+    "tags": [
+      "usa",
+      "us_states",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "646089e1de964ebc39016c92",
+    "correctAnswer": "Simon Bolivar",
+    "incorrectAnswers": [
+      "Hugo Chavez",
+      "Fidel Castro",
+      "Che Guevara"
+    ],
+    "question": {
+      "text": "Which Venezuelan wrote the \"Cartagena Manifesto\", a famous essay on independence, in December 1812?"
+    },
+    "tags": [
+      "people",
+      "politics",
+      "south_america",
+      "revolutions",
+      "literature",
+      "1800's"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c347cc59eab6f94f9eb",
+    "correctAnswer": "George Washington ",
+    "incorrectAnswers": [
+      "Chester Arthur",
+      "Ulysses S. Grant",
+      "Millard Fillmore"
+    ],
+    "question": {
+      "text": "Who was the 1st president of the USA, in term during the period 1789–1797?"
+    },
+    "tags": [
+      "presidents",
+      "usa",
+      "firsts",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f9517ac",
+    "correctAnswer": "Davy Crockett",
+    "incorrectAnswers": [
+      "Davy Jones",
+      "Davy Barrow",
+      "Davy Dylan"
+    ],
+    "question": {
+      "text": "Which frontiersman died at the Alamo?"
+    },
+    "tags": [
+      "usa",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "639895835c9a75021f31045d",
+    "correctAnswer": "The United Kingdom",
+    "incorrectAnswers": [
+      "France",
+      "The United States",
+      "Germany"
+    ],
+    "question": {
+      "text": "What was the first country to legalize trade unions, in the 19th century?"
+    },
+    "tags": [
+      "history",
+      "1800's",
+      "politics",
+      "law"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "65056eed7a97013de78b5391",
+    "correctAnswer": "Slavery",
+    "incorrectAnswers": [
+      "Alcohol",
+      "Death",
+      "Hunger"
+    ],
+    "question": {
+      "text": "What did the abolitionist movement of the 1800s seek to end?"
+    },
+    "tags": [
+      "history",
+      "1800's"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "6471bcf37206d7c314606f68",
+    "correctAnswer": "Nicholas II",
+    "incorrectAnswers": [
+      "Alexander III",
+      "Peter III",
+      "Ivan IV"
+    ],
+    "question": {
+      "text": "Who was crowned Tsar of Russia in 1896?"
+    },
+    "tags": [
+      "people",
+      "monarchs",
+      "russia",
+      "history",
+      "revolutions"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f951a03",
+    "correctAnswer": "St Helena",
+    "incorrectAnswers": [
+      "Corsica",
+      "Sicily",
+      "Malta"
+    ],
+    "question": {
+      "text": "To which island was Napoleon exiled, after his loss at Waterloo?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f951a70",
+    "correctAnswer": "Mother Teresa",
+    "incorrectAnswers": [
+      "Florence Nightingale",
+      "Marie Curie",
+      "Margaret Thatcher"
+    ],
+    "question": {
+      "text": "Who won the 1979 Nobel Peace Prize for her work among the poor?"
+    },
+    "tags": [
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "6460896ade964ebc39016c51",
+    "correctAnswer": "Austria",
+    "incorrectAnswers": [
+      "Argentina",
+      "Belgium",
+      "The United States"
+    ],
+    "question": {
+      "text": "Which country was Kurt Waldheim, the former Secretary-General of the United Nations, from?"
+    },
+    "tags": [
+      "politics",
+      "organizations",
+      "organisations",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "622a1c3c7cc59eab6f9517fa",
+    "correctAnswer": "Pompeii",
+    "incorrectAnswers": [
+      "Genoa",
+      "Capua",
+      "Ostia"
+    ],
+    "question": {
+      "text": "Which Roman city was buried under volcanic ash from Mount Vesuvius In 79A.D.?"
+    },
+    "tags": [
+      "romans",
+      "volcanoes",
+      "italy",
+      "classics",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "history",
+    "id": "6461407e4d46e537ca8cd9e9",
+    "correctAnswer": "Anthrax",
+    "incorrectAnswers": [
+      "Salmonella",
+      "Botulism",
+      "Staphylococcus"
+    ],
+    "question": {
+      "text": "What bacterial toxin was used in a number of attacks in late 2001?"
+    },
+    "tags": [
+      "2000's",
+      "events",
+      "history"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  }
+]

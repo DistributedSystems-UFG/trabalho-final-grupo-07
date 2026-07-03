@@ -1,0 +1,1123 @@
+[
+  {
+    "category": "film_and_tv",
+    "id": "622a1c3d7cc59eab6f951c57",
+    "correctAnswer": "Jingle All The Way",
+    "incorrectAnswers": [
+      "The Santa Claus",
+      "I'll Be Home For Christmas",
+      "Jack Frost"
+    ],
+    "question": {
+      "text": "In which 1996 Christmas film does Arnold Schwarzenegger play a father trying to get the must have toy for his son?"
+    },
+    "tags": [
+      "christmas",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625740579da29df7b05f73d6",
+    "correctAnswer": "The Elephant Man",
+    "incorrectAnswers": [
+      "Vertigo",
+      "Back to the Future",
+      "Mr. Smith Goes to Washington"
+    ],
+    "question": {
+      "text": "Name the movie that matches the following plot summary: 'A surgeon rescues a disfigured man who is mistreated while scraping a living as a side-show freak.'"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "62573fc99da29df7b05f73ac",
+    "correctAnswer": "An insane American general orders a bombing attack on the Soviet Union.",
+    "incorrectAnswers": [
+      "24 hours in the lives of three young men the day after a violent riot.",
+      "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset.",
+      "A naive youth leader is appointed to fill a vacancy in the U.S. Senate."
+    ],
+    "question": {
+      "text": "What is the plot of the movie Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c367cc59eab6f950401",
+    "correctAnswer": "Taxi Driver",
+    "incorrectAnswers": [
+      "The Graduate",
+      "Midnight Cowboy",
+      "Raging Bull"
+    ],
+    "question": {
+      "text": "'You talkin to me?' is a line from which 1970's film?"
+    },
+    "tags": [
+      "film",
+      "quotes",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94f949",
+    "correctAnswer": "Scarface",
+    "incorrectAnswers": [
+      "The Night of the Hunter",
+      "The Manchurian Candidate",
+      "Casablanca"
+    ],
+    "question": {
+      "text": "Which film contains the character 'Tony Montana'?"
+    },
+    "tags": [
+      "fictitious_characters",
+      "cult_films",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "6497d1100752843c0d8aadc7",
+    "correctAnswer": "Top Gun",
+    "incorrectAnswers": [
+      "Lost in Translation",
+      "Snakes on a Plane",
+      "Sully"
+    ],
+    "question": {
+      "text": "Which Hollywood film was retitled to \"Love in the Sky\" in Israel?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv",
+      "translations"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c377cc59eab6f95076d",
+    "correctAnswer": "Dan Aykroyd",
+    "incorrectAnswers": [
+      "Danny Glover",
+      "Danny Trejo",
+      "Dustin Hoffman"
+    ],
+    "question": {
+      "text": "Which actor has featured in films including The Nanny and Ghostbusters?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c357cc59eab6f94fdab",
+    "correctAnswer": "The T-Birds",
+    "incorrectAnswers": [
+      "The Wild Dogs",
+      "The Pink Ladies",
+      "The Heavy Quarters"
+    ],
+    "question": {
+      "text": "What Was The Gang Name Of John Travolta And His Cohorts In The Movie Grease?"
+    },
+    "tags": [
+      "nicknames",
+      "film",
+      "cult_films",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fa97",
+    "correctAnswer": "Tilda Swinton",
+    "incorrectAnswers": [
+      "Cate Blanchett",
+      "Ruby Dee",
+      "Saoirse Ronan"
+    ],
+    "question": {
+      "text": "Who won the 2007 Academy Award for Best Supporting Actress for playing the role of Karen Crowder in Michael Clayton?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "academy_awards",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c3c7cc59eab6f951965",
+    "correctAnswer": "KITT",
+    "incorrectAnswers": [
+      "HAL",
+      "MORN",
+      "JARVIS"
+    ],
+    "question": {
+      "text": "What was the name of David Hasslehoff's Talking car in the show 'Knight Rider'?"
+    },
+    "tags": [
+      "tv",
+      "1980's",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fc21",
+    "correctAnswer": "\"Oh, Jerry, don't let's ask for the moon. We have the stars.\"",
+    "incorrectAnswers": [
+      "\"Stella! Hey, Stella!\"",
+      "\"If you build it, he will come.\"",
+      "\"You motorboatin’ son of a b****!\""
+    ],
+    "question": {
+      "text": "Which of these quotes is from the film 'Now, Voyager'?"
+    },
+    "tags": [
+      "film",
+      "quotes",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fbe0",
+    "correctAnswer": "\"Nobody makes me bleed my own blood. Nobody!\"",
+    "incorrectAnswers": [
+      "\"Are you not entertained?\"",
+      "\"I have had it with these mother—— snakes on this mother—— plane!\"",
+      "\"What is this? A center for ants? How can we be expected to teach children to learn how to read…if they can’t even fit inside the building?\""
+    ],
+    "question": {
+      "text": "Which of these quotes is from the film 'Dodgeball: A True Underdog Story'?"
+    },
+    "tags": [
+      "quotes",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625698889da29df7b05f728d",
+    "correctAnswer": "Anthony Mackie",
+    "incorrectAnswers": [
+      "Mark Ruffalo",
+      "Benedict Cumberbatch",
+      "Michael Douglas"
+    ],
+    "question": {
+      "text": "The role of Falcon in the Marvel Cinematic Universe is played by which actor?"
+    },
+    "tags": [
+      "mcu",
+      "film",
+      "acting",
+      "marvel",
+      "comics",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c357cc59eab6f94feae",
+    "correctAnswer": "Beyoncé",
+    "incorrectAnswers": [
+      "Madonna",
+      "Drake",
+      "Nicki Minaj"
+    ],
+    "question": {
+      "text": "Who played the role of Nala in the 2019 remake of The Lion King?"
+    },
+    "tags": [
+      "disney",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "624db9e4de6018633d31f6a9",
+    "correctAnswer": "Sam Smith",
+    "incorrectAnswers": [
+      "Madonna",
+      "Sheena Easton",
+      "Duran Duran"
+    ],
+    "question": {
+      "text": "Who performed the theme song to the James Bond film Spectre?"
+    },
+    "tags": [
+      "james_bond",
+      "film",
+      "soundtracks",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c377cc59eab6f950797",
+    "correctAnswer": "Robert Downey Jr.",
+    "incorrectAnswers": [
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Tom Holland"
+    ],
+    "question": {
+      "text": "Which actor played the role of Iron Man in the Marvel Cinematic Universe?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "marvel",
+      "comics",
+      "mcu",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fb0b",
+    "correctAnswer": "Charlize Theron",
+    "incorrectAnswers": [
+      "Keisha Castle-Hughes",
+      "Diane Keaton",
+      "Samantha Morton"
+    ],
+    "question": {
+      "text": "Who won the 2003 Academy Award for Best Leading Actress for playing the role of Aileen Wuornos in Monster?"
+    },
+    "tags": [
+      "acting",
+      "academy_awards",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94faea",
+    "correctAnswer": "Jeremy Irons",
+    "incorrectAnswers": [
+      "Kevin Costner",
+      "Robert De Niro",
+      "Gerard Depardieu"
+    ],
+    "question": {
+      "text": "Who won the 1990 Academy Award for Best Leading Actor for playing the role of Claus Von Bulow in Reversal of Fortune?"
+    },
+    "tags": [
+      "academy_awards",
+      "acting",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fac5",
+    "correctAnswer": "Matthew McConaughey",
+    "incorrectAnswers": [
+      "Christian Bale",
+      "Bruce Dern",
+      "Leonardo DiCaprio"
+    ],
+    "question": {
+      "text": "Who won the 2013 Academy Award for Best Leading Actor for playing the role of Ron Woodroof in Dallas Buyers Club?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "academy_awards",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "649f220febb41911d4cbd6ba",
+    "correctAnswer": "Cannes",
+    "incorrectAnswers": [
+      "Venice",
+      "Nice",
+      "Geneva"
+    ],
+    "question": {
+      "text": "At which city's film festival is the Palme d'Or awarded?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv",
+      "awards",
+      "cities"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c367cc59eab6f9501f9",
+    "correctAnswer": "Peter Jackson",
+    "incorrectAnswers": [
+      "Steven Spielberg",
+      "Woody Allen",
+      "Martin Scorsese"
+    ],
+    "question": {
+      "text": "Which director directed The Lord of the Rings: The Fellowship of the Ring?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fa5a",
+    "correctAnswer": "Mahershala Ali",
+    "incorrectAnswers": [
+      "Adam Driver",
+      "Sam Elliott",
+      "Richard E. Grant"
+    ],
+    "question": {
+      "text": "Who won the 2018 Academy Award for Best Supporting Actor for playing the role of Dr. Donald Shirley in Green Book?"
+    },
+    "tags": [
+      "academy_awards",
+      "film",
+      "acting",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94f8b6",
+    "correctAnswer": "Marlon Brando",
+    "incorrectAnswers": [
+      "Robert Shaw",
+      "Glenn Close",
+      "Samuel L. Jackson"
+    ],
+    "question": {
+      "text": "Which actor played the role of Vito Corleone in The Godfather?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "general_knowledge",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94f8df",
+    "correctAnswer": "Dennis Hopper",
+    "incorrectAnswers": [
+      "Kevin Spacey",
+      "James Stewart",
+      "Robert Mitchum"
+    ],
+    "question": {
+      "text": "Which actor played the role of Frank Booth in Blue Velvet?"
+    },
+    "tags": [
+      "people",
+      "acting",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fbd4",
+    "correctAnswer": "\"What is this? A center for ants? How can we be expected to teach children to learn how to read…if they can’t even fit inside the building?\"",
+    "incorrectAnswers": [
+      "\"I’m the guy who does his job. You must be the other guy.\"",
+      "\"Of all the gin joints in all the towns in all the world, she walks into mine.\"",
+      "\"I drink your milkshake. I drink it up.\""
+    ],
+    "question": {
+      "text": "Which of these quotes is from the film 'Zoolander'?"
+    },
+    "tags": [
+      "quotes",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fc11",
+    "correctAnswer": "\"Mrs. Robinson, you're trying to seduce me. Aren't you?\"",
+    "incorrectAnswers": [
+      "\"Soylent Green is people!\"",
+      "\"Round up the usual suspects.\"",
+      "\"Just keep swimming.\""
+    ],
+    "question": {
+      "text": "Which of these quotes is from the film 'The Graduate'?"
+    },
+    "tags": [
+      "quotes",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94f920",
+    "correctAnswer": "Midnight Cowboy",
+    "incorrectAnswers": [
+      "Ghost",
+      "Taxi Driver",
+      "The Manchurian Candidate"
+    ],
+    "question": {
+      "text": "Which film contains the character 'Ratso Rizzo'?"
+    },
+    "tags": [
+      "film",
+      "fictitious_characters",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c377cc59eab6f9507cd",
+    "correctAnswer": "Meryl Streep",
+    "incorrectAnswers": [
+      "Cate Blanchett",
+      "Nicole Kidman",
+      "Natalie Portman"
+    ],
+    "question": {
+      "text": "Which actress has featured in films including The Deer Hunter and Out of Africa?"
+    },
+    "tags": [
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c377cc59eab6f9506b7",
+    "correctAnswer": "John Wayne",
+    "incorrectAnswers": [
+      "Jean-Claude Van Damme",
+      "Seth Rogen",
+      "John Turturro"
+    ],
+    "question": {
+      "text": "Which actor has starred in films including The Longest Day and Stagecoach?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625698cc9da29df7b05f729e",
+    "correctAnswer": "Ayo",
+    "incorrectAnswers": [
+      "Agent Peggy Carter",
+      "Agent Maria Hill",
+      "Jane Foster"
+    ],
+    "question": {
+      "text": "In the Marvel Cinematic Universe, which character is played by Florence Kasumba?"
+    },
+    "tags": [
+      "mcu",
+      "film",
+      "acting",
+      "marvel",
+      "comics",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "64860e82113d76c6b6317a00",
+    "correctAnswer": "Battlestar Galactica",
+    "incorrectAnswers": [
+      "Westworld",
+      "The Terminator",
+      "RoboCop"
+    ],
+    "question": {
+      "text": "What 2005-2009 TV show featured Cylons and cyborgs?"
+    },
+    "tags": [
+      "film_and_tv",
+      "tv",
+      "science_fiction"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c377cc59eab6f95060b",
+    "correctAnswer": "Audrey Hepburn",
+    "incorrectAnswers": [
+      "Bette Davis",
+      "Catherine Deneuve",
+      "Selena Gomez"
+    ],
+    "question": {
+      "text": "Which actress starred in films including My Fair Lady and Roman Holiday?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "cult_films",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94f929",
+    "correctAnswer": "Breakfast at Tiffany's",
+    "incorrectAnswers": [
+      "Citizen Kane",
+      "The Maltese Falcon",
+      "Say Anything..."
+    ],
+    "question": {
+      "text": "Which film contains the character 'Holly Golightly'?"
+    },
+    "tags": [
+      "acting",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "645ababf158db1bd1779f1d6",
+    "correctAnswer": "Buffy the Vampire Slayer",
+    "incorrectAnswers": [
+      "Sabrina, the Teenage Witch",
+      "Charmed",
+      "Supernatural"
+    ],
+    "question": {
+      "text": "On which TV series did Alyson Hannigan play a geek-turned-witch?"
+    },
+    "tags": [
+      "witches",
+      "film_and_tv",
+      "tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "62573f3a3d2f5c16bfb8832f",
+    "correctAnswer": "Historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+    "incorrectAnswers": [
+      "A thief who steals secrets through dreams must plant an idea into the mind of a C.E.O.",
+      "The son of a city's mastermind falls in love with a working-class prophet.",
+      "An insomniac and a soap maker form an underground organisation that evolves into much more."
+    ],
+    "question": {
+      "text": "What is the plot of the movie Forrest Gump?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "6257407f9da29df7b05f73e2",
+    "correctAnswer": "After a girl is uprooted from her life, her emotions conflict on how best to navigate a new life.",
+    "incorrectAnswers": [
+      "A slacker seeks restitution for a rug ruined by debt collectors.",
+      "POWs are forced to build a railway, not knowing that allies are planning to destroy it.",
+      "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler."
+    ],
+    "question": {
+      "text": "What is the plot of the movie Inside Out?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c377cc59eab6f9507c2",
+    "correctAnswer": "Christopher Lee",
+    "incorrectAnswers": [
+      "Patrick Stewart",
+      "Ian McKellen",
+      "Anthony Hopkins"
+    ],
+    "question": {
+      "text": "Which actor played the role of Saruman in The Lord of the Rings?"
+    },
+    "tags": [
+      "lord_of_the_rings",
+      "fantasy",
+      "film",
+      "acting",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c377cc59eab6f9507ba",
+    "correctAnswer": "Steve Buscemi",
+    "incorrectAnswers": [
+      "Christopher Lee",
+      "Arnold Schwarzenegger",
+      "Anthony Hopkins"
+    ],
+    "question": {
+      "text": "Which Hollywood actor has featured in TV shows including The Sopranos and Boardwalk Empire?"
+    },
+    "tags": [
+      "tv",
+      "acting",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "62573f823d2f5c16bfb88333",
+    "correctAnswer": "A man with short-term memory loss attempts to track down his wife's murderer.",
+    "incorrectAnswers": [
+      "A mother personally challenges the local authorities to solve her daughter's murder.",
+      "Two grifters team up to pull off the ultimate con.",
+      "The story an English officer who successfully united and led the Arab tribes during World War I."
+    ],
+    "question": {
+      "text": "What is the plot of the movie Memento?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625699009da29df7b05f72ab",
+    "correctAnswer": "The Collector",
+    "incorrectAnswers": [
+      "Alexander Pierce",
+      "Howard Stark",
+      "Groot"
+    ],
+    "question": {
+      "text": "In the Marvel Cinematic Universe, which character is played by Benicio Del Toro?"
+    },
+    "tags": [
+      "mcu",
+      "film",
+      "acting",
+      "marvel",
+      "comics",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625698c89da29df7b05f729d",
+    "correctAnswer": "Nebula",
+    "incorrectAnswers": [
+      "Eitri",
+      "Shuri",
+      "Pepper Potts"
+    ],
+    "question": {
+      "text": "In the Marvel Cinematic Universe, which character is played by Karen Gillan?"
+    },
+    "tags": [
+      "mcu",
+      "film",
+      "acting",
+      "marvel",
+      "comics",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625fd718dc0dd3b72da64d22",
+    "correctAnswer": "1980",
+    "incorrectAnswers": [
+      "1965",
+      "1970",
+      "1975"
+    ],
+    "question": {
+      "text": "Raging Bull was released in which year?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625741333d2f5c16bfb88345",
+    "correctAnswer": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine.",
+    "incorrectAnswers": [
+      "A Marine observes the effects of war on his fellow recruits from their boot camp training to fighting in a war.",
+      "The lives of mob hitmen, a boxer, a gangster and his wife, and a pair of bandits intertwine in four tales.",
+      "Historical events unfold from the perspective of an Alabama man with an IQ of 75."
+    ],
+    "question": {
+      "text": "What is the plot of the movie The Terminator?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "639ae873929b90846f2fc8df",
+    "correctAnswer": "Red",
+    "incorrectAnswers": [
+      "Blue",
+      "Green",
+      "Purple"
+    ],
+    "question": {
+      "text": "In Star Wars, what color is Darth Vader's lightsaber?"
+    },
+    "tags": [
+      "star_wars",
+      "film_and_tv",
+      "cult_films",
+      "film",
+      "science_fiction"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "624dba5ccd90beeca353156d",
+    "correctAnswer": "Sean Connery",
+    "incorrectAnswers": [
+      "George Lazenby",
+      "Roger Moore",
+      "Pierce Brosnan"
+    ],
+    "question": {
+      "text": "Who played the role of James Bond in Goldfinger?"
+    },
+    "tags": [
+      "james_bond",
+      "film",
+      "acting",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94f923",
+    "correctAnswer": "Chinatown",
+    "incorrectAnswers": [
+      "The Terminator",
+      "Ghost",
+      "Breakfast at Tiffany's"
+    ],
+    "question": {
+      "text": "Which film contains the character 'Jake Gittes'?"
+    },
+    "tags": [
+      "film",
+      "fictitious_characters",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c367cc59eab6f950205",
+    "correctAnswer": "Stanley Kubrick",
+    "incorrectAnswers": [
+      "Steven Spielberg",
+      "Woody Allen",
+      "Martin Scorsese"
+    ],
+    "question": {
+      "text": "Which director directed 2001: A Space Odyssey?"
+    },
+    "tags": [
+      "film",
+      "cult_films",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "622a1c347cc59eab6f94fb04",
+    "correctAnswer": "Gwyneth Paltrow",
+    "incorrectAnswers": [
+      "Cate Blanchett",
+      "Fernanda Montenegro",
+      "Meryl Streep"
+    ],
+    "question": {
+      "text": "Who won the 1998 Academy Award for Best Leading Actress for playing the role of Viola De Lesseps in Shakespeare in Love?"
+    },
+    "tags": [
+      "acting",
+      "academy_awards",
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "62573f609da29df7b05f7398",
+    "correctAnswer": "An agent of the secret police, spying on a writer and his lover, finds himself becoming absorbed by their lives.",
+    "incorrectAnswers": [
+      "A young F.B.I. cadet must receive the help of a cannibal to help catch another serial killer.",
+      "A screenwriter develops a relationship with a faded film star determined to make a return.",
+      "A mentally unstable veteran has urges for violence after witnessing decadence and sleaze."
+    ],
+    "question": {
+      "text": "What is the plot of the movie The Lives of Others?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "film_and_tv",
+    "id": "625fd6f9dc0dd3b72da64d19",
+    "correctAnswer": "2013",
+    "incorrectAnswers": [
+      "2011",
+      "2015",
+      "2017"
+    ],
+    "question": {
+      "text": "In which year was The Wolf of Wall Street first released in the cinema?"
+    },
+    "tags": [
+      "film",
+      "film_and_tv"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  }
+]

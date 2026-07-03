@@ -1,0 +1,1075 @@
+[
+  {
+    "category": "science",
+    "id": "63f39512989356ef48370c03",
+    "correctAnswer": "Venus",
+    "incorrectAnswers": [
+      "Neptune",
+      "Mars",
+      "Jupiter"
+    ],
+    "question": {
+      "text": "Which planet in the solar system comes the closest to Earth?"
+    },
+    "tags": [
+      "science",
+      "space",
+      "the_solar_system",
+      "astrophysics"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f951089",
+    "correctAnswer": "Pleiades",
+    "incorrectAnswers": [
+      "Perseids",
+      "Nymphoids",
+      "Sorestas"
+    ],
+    "question": {
+      "text": "Which cluster of stars is also known as the Seven Sisters?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "646140b74d46e537ca8cda0a",
+    "correctAnswer": "Saturn",
+    "incorrectAnswers": [
+      "Jupiter",
+      "Mars",
+      "Uranus"
+    ],
+    "question": {
+      "text": "What is the name of the second-largest planet in our solar system?"
+    },
+    "tags": [
+      "astronomy",
+      "space",
+      "planets",
+      "the_solar_system",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "647f9deb3a4302a719271659",
+    "correctAnswer": "Microgravity",
+    "incorrectAnswers": [
+      "Zero gravity",
+      "Minigravity",
+      "Hypergravity"
+    ],
+    "question": {
+      "text": "What term refers to a condition of very small gravitational forces?"
+    },
+    "tags": [
+      "space",
+      "physics",
+      "science",
+      "astrophysics"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c377cc59eab6f95056c",
+    "correctAnswer": "Dogs",
+    "incorrectAnswers": [
+      "Plants",
+      "Swans",
+      "Church architecture"
+    ],
+    "question": {
+      "text": "What is Cynology the study of?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "645fcc89541c4d4fc8cf308d",
+    "correctAnswer": "viruses",
+    "incorrectAnswers": [
+      "bacteria",
+      "fungi",
+      "parasites"
+    ],
+    "question": {
+      "text": "Interferons are proteins produced by the human body to interfere with the spread of what?"
+    },
+    "tags": [
+      "disease",
+      "medicine",
+      "anatomy",
+      "biology",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6505703b7a97013de78b5560",
+    "correctAnswer": "Eustachian tube",
+    "incorrectAnswers": [
+      "Philtrum",
+      "Maxillary bulb",
+      "Optic nerve"
+    ],
+    "question": {
+      "text": "What connects the nose to the ear?"
+    },
+    "tags": [
+      "science",
+      "biology",
+      "anatomy",
+      "medicine"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "65056fa67a97013de78b5492",
+    "correctAnswer": "Husky",
+    "incorrectAnswers": [
+      "Boxer",
+      "Dachshund",
+      "Dalmatian"
+    ],
+    "question": {
+      "text": "Which dog breed is commonly used as a sled dog in Arctic and subarctic regions?"
+    },
+    "tags": [
+      "animals",
+      "dogs",
+      "sled-dog",
+      "husky"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6505701f7a97013de78b5539",
+    "correctAnswer": "Huntington's disease",
+    "incorrectAnswers": [
+      "Pericarditis",
+      "Dyspepsia",
+      "Fatty liver"
+    ],
+    "question": {
+      "text": "Which is an example of a neurodegenerative disease?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c377cc59eab6f950515",
+    "correctAnswer": "making timepieces, measuring time and timekeeping",
+    "incorrectAnswers": [
+      "animals",
+      "venereal diseases",
+      "ends or final causes"
+    ],
+    "question": {
+      "text": "What is Horology the study of?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "647d5c21e9542d21c32c817a",
+    "correctAnswer": "Stapes",
+    "incorrectAnswers": [
+      "Femur",
+      "Humerus",
+      "Tibia"
+    ],
+    "question": {
+      "text": "What is the smallest bone in the human body?"
+    },
+    "tags": [
+      "science",
+      "anatomy",
+      "biology",
+      "bones",
+      "medicine"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f9510e1",
+    "correctAnswer": "Pelican",
+    "incorrectAnswers": [
+      "Turtle",
+      "Flamingo",
+      "Tiger"
+    ],
+    "question": {
+      "text": "Which bird has been known to consume a third of its body weight in a single meal?"
+    },
+    "tags": [
+      "animals",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6461407e4d46e537ca8cd9e5",
+    "correctAnswer": "Mach Number",
+    "incorrectAnswers": [
+      "Speed Ratio Number",
+      "Sound Multiple",
+      "Chain Number"
+    ],
+    "question": {
+      "text": "What is the name of the number that represents how fast something is travelling relative to the speed of sound?"
+    },
+    "tags": [
+      "physics",
+      "technology",
+      "aviation",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3f7cc59eab6f95238f",
+    "correctAnswer": "Vinegar",
+    "incorrectAnswers": [
+      "Aspirin",
+      "Lemon Juice",
+      "Soap"
+    ],
+    "question": {
+      "text": "Acetic Acid Is More Commonly Known As What?"
+    },
+    "tags": [
+      "chemistry",
+      "names",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "648889175dba6c873ef650e0",
+    "correctAnswer": "Sterilize them",
+    "incorrectAnswers": [
+      "Dispose of them",
+      "Repair them",
+      "Sharpen them"
+    ],
+    "question": {
+      "text": "What is an autoclave designed to do to surgical instruments in a medical lab?"
+    },
+    "tags": [
+      "medicine",
+      "technology",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "63a03956c7d86251f9b65c45",
+    "correctAnswer": "FTP",
+    "incorrectAnswers": [
+      "SSH",
+      "HTTP",
+      "SMTP"
+    ],
+    "question": {
+      "text": "Which networking protocol is used to transfer files between two computers?"
+    },
+    "tags": [
+      "the_internet",
+      "technology",
+      "science",
+      "computing"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3c7cc59eab6f951979",
+    "correctAnswer": "Mistletoe",
+    "incorrectAnswers": [
+      "Tomato",
+      "Sunflower",
+      "Marijuana"
+    ],
+    "question": {
+      "text": "What is the more common name for the plant Viscum Album?"
+    },
+    "tags": [
+      "plants",
+      "words",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f95104f",
+    "correctAnswer": "Distance",
+    "incorrectAnswers": [
+      "Time",
+      "Pressure",
+      "Magnetism"
+    ],
+    "question": {
+      "text": " What does a micron measure?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f950fd3",
+    "correctAnswer": "Sol",
+    "incorrectAnswers": [
+      "Ursa Minor",
+      "Proxima Centauri",
+      "Epsilon Eridani"
+    ],
+    "question": {
+      "text": "Which star is nearest the Earth?"
+    },
+    "tags": [
+      "astronomy",
+      "the_solar_system",
+      "general_knowledge",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f951021",
+    "correctAnswer": "Carnivorous",
+    "incorrectAnswers": [
+      "Trap",
+      "Pitcher",
+      "Belljar"
+    ],
+    "question": {
+      "text": "What is the term for the group of plants that catch and digest insects?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "624437b1746187c5e7be936c",
+    "correctAnswer": "It is used in disinfectants and antiseptics.",
+    "incorrectAnswers": [
+      "It is used in nuclear reactors, as a neutron moderator.",
+      "It is used as oscillators in radios, watches.",
+      "It is used for surface purification, bleaching, odour removal and water disinfection."
+    ],
+    "question": {
+      "text": "What is the chemical isopropyl alcohol often used for?"
+    },
+    "tags": [
+      "chemistry",
+      "general_knowledge",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c397cc59eab6f950fb8",
+    "correctAnswer": "Alexander Fleming",
+    "incorrectAnswers": [
+      "Louis Pasteur",
+      "Frederick Sanger",
+      "John Dalton"
+    ],
+    "question": {
+      "text": "Who Is Accepted As The Discoverer Of Penicillin?"
+    },
+    "tags": [
+      "inventions",
+      "chemistry",
+      "people",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f951071",
+    "correctAnswer": "Leeches",
+    "incorrectAnswers": [
+      "Vampire Bats",
+      "Cobras",
+      "Wasps"
+    ],
+    "question": {
+      "text": "What Creatures Were Frequently Used To Bleed Patients In The Nineteeth Century?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "623388230161109f922aac6a",
+    "correctAnswer": "A Barometer ",
+    "incorrectAnswers": [
+      "A Hydrometer",
+      "A Meterometer",
+      "An Atmoseter"
+    ],
+    "question": {
+      "text": "Which Instrument Measures Atmospheric Pressure?"
+    },
+    "tags": [
+      "general_knowledge",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3f7cc59eab6f952399",
+    "correctAnswer": "Petri dish",
+    "incorrectAnswers": [
+      "Bunson burner",
+      "Erlenmeyer flask",
+      "Graduated cylinder"
+    ],
+    "question": {
+      "text": "What is the name for a shallow dish with a cover, used for science specimens?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "624333cfcfaae40c12961406",
+    "correctAnswer": "A Cow",
+    "incorrectAnswers": [
+      "A Sow",
+      "A Doe",
+      "A Pen"
+    ],
+    "question": {
+      "text": "What would you call a female elephant?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f95100f",
+    "correctAnswer": "Bubonic",
+    "incorrectAnswers": [
+      "Septicemic",
+      "Pneumonic",
+      "Laryngeal"
+    ],
+    "question": {
+      "text": "What Type Of Plague Was The Black Death?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c377cc59eab6f950552",
+    "correctAnswer": "Word origins",
+    "incorrectAnswers": [
+      "The skull",
+      "The age of trees",
+      "Dust in the atmosphere and its effects"
+    ],
+    "question": {
+      "text": "What is Etymology the study of?"
+    },
+    "tags": [
+      "words",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f951076",
+    "correctAnswer": "Low Blood Sugar",
+    "incorrectAnswers": [
+      "High Cholesterol",
+      "High Blood Sugar",
+      "Low Cholesterol"
+    ],
+    "question": {
+      "text": "What Causes Hypoglycemia?"
+    },
+    "tags": [
+      "biology",
+      "medicine",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6476390bf05ea6d6f587a17a",
+    "correctAnswer": "Kilobyte",
+    "incorrectAnswers": [
+      "Gigabyte",
+      "Megabyte",
+      "Terabyte"
+    ],
+    "question": {
+      "text": "What is a unit of computer memory equal to 1024 bytes?"
+    },
+    "tags": [
+      "computing",
+      "science",
+      "technology",
+      "numbers"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3e7cc59eab6f9522eb",
+    "correctAnswer": "Butterflies & Moths",
+    "incorrectAnswers": [
+      "Leopards",
+      "Turtles & Tortoises",
+      "Sharks"
+    ],
+    "question": {
+      "text": "For What Is Lepidoptera The Scientific Name?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3f7cc59eab6f952389",
+    "correctAnswer": "A Turtle",
+    "incorrectAnswers": [
+      "A Volcanic Rock",
+      "A Vegetable",
+      "A Type of Cloud"
+    ],
+    "question": {
+      "text": "What is a terrapin?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "63adbd7504c68cc1e14b8e46",
+    "correctAnswer": "Ash Tree",
+    "incorrectAnswers": [
+      "Oak Tree",
+      "Fir Tree",
+      "Apple Tree"
+    ],
+    "question": {
+      "text": "Which of these trees has winged seeds?"
+    },
+    "tags": [
+      "science",
+      "trees",
+      "plants",
+      "nature"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "645cb17f7d263fd5097043d7",
+    "correctAnswer": "44",
+    "incorrectAnswers": [
+      "22",
+      "66",
+      "88"
+    ],
+    "question": {
+      "text": "What is the lowest common multiple of 22 and 44?"
+    },
+    "tags": [
+      "arithmetic",
+      "mathematics"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "645fcc90541c4d4fc8cf3095",
+    "correctAnswer": "Apparent Magnitude",
+    "incorrectAnswers": [
+      "Apparent Luminosity",
+      "Apparent Intensity",
+      "Apparent Radiance"
+    ],
+    "question": {
+      "text": "In astronomy, what is the term for the measurement of the brightness of stars?"
+    },
+    "tags": [
+      "astronomy",
+      "measurements",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f951070",
+    "correctAnswer": "Amphibian",
+    "incorrectAnswers": [
+      "Reptile",
+      "Fish",
+      "Mollusc"
+    ],
+    "question": {
+      "text": "What is a Salamander ?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "646089e4de964ebc39016ca0",
+    "correctAnswer": "Pressure",
+    "incorrectAnswers": [
+      "Volume",
+      "Luminescence",
+      "Temperature"
+    ],
+    "question": {
+      "text": "According to Boyle's Law, what increases when a gas is compressed to half its size?"
+    },
+    "tags": [
+      "chemistry",
+      "physics",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "63e13a10106de6ffa7d4a788",
+    "correctAnswer": "Clavicle",
+    "incorrectAnswers": [
+      "Femur",
+      "Ulna",
+      "Humerus"
+    ],
+    "question": {
+      "text": "What is the medical name for the collarbone?"
+    },
+    "tags": [
+      "science",
+      "biology",
+      "anatomy",
+      "medicine"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "62443772746187c5e7be9353",
+    "correctAnswer": "D2O",
+    "incorrectAnswers": [
+      "N2O",
+      "KNO3",
+      "Fe2O3"
+    ],
+    "question": {
+      "text": "What is the chemical formula for deuterium oxide?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3e7cc59eab6f9522d8",
+    "correctAnswer": "Foxglove",
+    "incorrectAnswers": [
+      "Nightshade",
+      "Bamboo",
+      "Coconut"
+    ],
+    "question": {
+      "text": "From what is the heart drug digitalis obtained?"
+    },
+    "tags": [
+      "science",
+      "biology",
+      "plants",
+      "medicine"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6242cb6ed543524f1b19c92d",
+    "correctAnswer": "A yoke",
+    "incorrectAnswers": [
+      "A drove",
+      "A troop",
+      "A run"
+    ],
+    "question": {
+      "text": "What is the word for a group of oxen?"
+    },
+    "tags": [
+      "animals",
+      "words",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f9510b5",
+    "correctAnswer": "Ostrich",
+    "incorrectAnswers": [
+      "Peacock",
+      "Emu",
+      "Emperor Penguin"
+    ],
+    "question": {
+      "text": "Name the largest living bird."
+    },
+    "tags": [
+      "animals",
+      "biology",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6242cb0cd543524f1b19c907",
+    "correctAnswer": "A rag",
+    "incorrectAnswers": [
+      "A nest",
+      "A watch",
+      "A stud"
+    ],
+    "question": {
+      "text": "What is the word for a group of colts?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c377cc59eab6f95055a",
+    "correctAnswer": "Interactions between organisms and geomorphological processes",
+    "incorrectAnswers": [
+      "Volcanoes",
+      "The Sun",
+      "Music in society"
+    ],
+    "question": {
+      "text": "What is Ecogeomorphology the study of?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6242cb2dd543524f1b19c914",
+    "correctAnswer": "A herd",
+    "incorrectAnswers": [
+      "A sloth",
+      "A skulk",
+      "A cete"
+    ],
+    "question": {
+      "text": "What is the word for a group of giraffes?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6243336acfaae40c129613de",
+    "correctAnswer": "A Queen",
+    "incorrectAnswers": [
+      "A Worker",
+      "A Soar",
+      "A Pen"
+    ],
+    "question": {
+      "text": "A female cat is known as what?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "63e13a2d106de6ffa7d4a7ac",
+    "correctAnswer": "Endocrine glands",
+    "incorrectAnswers": [
+      "Eccrine glands",
+      "Salivary glands",
+      "Mammary glands"
+    ],
+    "question": {
+      "text": "In the human body, what is the name given to glands responsible for producing hormones?"
+    },
+    "tags": [
+      "science",
+      "biology",
+      "anatomy",
+      "medicine"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6242caedd543524f1b19c8fb",
+    "correctAnswer": "A herd",
+    "incorrectAnswers": [
+      "A pace",
+      "A barren",
+      "A gaggle"
+    ],
+    "question": {
+      "text": "What is the word for a group of antelopes?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "622a1c3a7cc59eab6f951075",
+    "correctAnswer": "Lactic acid",
+    "incorrectAnswers": [
+      "Amenic Acid",
+      "Stomach Acid",
+      "Pectic Acid"
+    ],
+    "question": {
+      "text": "What chemical compound causes pain in muscles after exercise?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "science",
+    "id": "6242cb07d543524f1b19c905",
+    "correctAnswer": "A clowder",
+    "incorrectAnswers": [
+      "A pack",
+      "A herd",
+      "A troop"
+    ],
+    "question": {
+      "text": "What is the word for a group of cats?"
+    },
+    "tags": [
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  }
+]

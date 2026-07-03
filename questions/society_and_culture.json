@@ -1,0 +1,1106 @@
+[
+  {
+    "category": "society_and_culture",
+    "id": "622a1c377cc59eab6f950452",
+    "correctAnswer": "Mexico",
+    "incorrectAnswers": [
+      "Ecuador",
+      "Guatemala",
+      "Bolivia"
+    ],
+    "question": {
+      "text": "Dia de los Muertos (The Day of the Dead) is celebrated in which Latin American country?"
+    },
+    "tags": [
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c367cc59eab6f95012f",
+    "correctAnswer": "Bull",
+    "incorrectAnswers": [
+      "Horse",
+      "Dolphin",
+      "Eagle"
+    ],
+    "question": {
+      "text": "In what animal form did Zeus seduce Europa?"
+    },
+    "tags": [
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c357cc59eab6f94fcec",
+    "correctAnswer": "Japonic",
+    "incorrectAnswers": [
+      "Sino-Tibetan",
+      "Austroasiatic",
+      "Austronesian"
+    ],
+    "question": {
+      "text": "The language 'Japanese' belongs to which language family?"
+    },
+    "tags": [
+      "language",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c357cc59eab6f94fcab",
+    "correctAnswer": "Niger–Congo",
+    "incorrectAnswers": [
+      "Uralic",
+      "Austronesian",
+      "Dravidian"
+    ],
+    "question": {
+      "text": "The language 'Kinyarwanda' belongs to which language family?"
+    },
+    "tags": [
+      "language",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6266e632ff2394bd44dee038",
+    "correctAnswer": "Trois",
+    "incorrectAnswers": [
+      "Tre",
+      "Drie",
+      "Noir"
+    ],
+    "question": {
+      "text": "In French, what is the word for for 'three'?"
+    },
+    "tags": [
+      "language",
+      "translations",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6477bad7550bc819ad646b45",
+    "correctAnswer": "Semaphore",
+    "incorrectAnswers": [
+      "Telegraph",
+      "Morse Code",
+      "Esperanto"
+    ],
+    "question": {
+      "text": "What is the name of a system of communication using flags, in which arm position is crucial in conveying meaning?"
+    },
+    "tags": [
+      "language",
+      "society_and_culture",
+      "communication",
+      "seafaring"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c357cc59eab6f94fcc7",
+    "correctAnswer": "Afroasiatic",
+    "incorrectAnswers": [
+      "Kra–Dai",
+      "Niger–Congo",
+      "Austronesian"
+    ],
+    "question": {
+      "text": "The language 'Sudanese Arabic' belongs to which language family?"
+    },
+    "tags": [
+      "language",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6266e596ff2394bd44dee00a",
+    "correctAnswer": "Rojo",
+    "incorrectAnswers": [
+      "Rouge",
+      "Vermelho",
+      "Seis"
+    ],
+    "question": {
+      "text": "In Spanish, what is the word for for 'red'?"
+    },
+    "tags": [
+      "language",
+      "translations",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "639c9dbf929b90846f2fc9b0",
+    "correctAnswer": "The Bhagavad Gita",
+    "incorrectAnswers": [
+      "The Upanishads",
+      "The Ramayana",
+      "The Puranas"
+    ],
+    "question": {
+      "text": "What is the name of the Hindu scripture that contains the dialogue between Krishna and Arjuna?"
+    },
+    "tags": [
+      "hinduism",
+      "religion",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6293eccb7f41d6338b96ef0b",
+    "correctAnswer": "Peter the Great",
+    "incorrectAnswers": [
+      "Jean-Jacques Rousseau",
+      "Napoleon",
+      "Rasputin"
+    ],
+    "question": {
+      "text": "Which influential historical person was a Russian Emperor?"
+    },
+    "tags": [
+      "people",
+      "history",
+      "society_and_culture",
+      "russia",
+      "leaders"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c367cc59eab6f950124",
+    "correctAnswer": "In the beginning",
+    "incorrectAnswers": [
+      "Praise the lord",
+      "Let there be",
+      "Hallelujah! Hallelujah! Hallelujah!"
+    ],
+    "question": {
+      "text": "What are the first three words of The Bible?"
+    },
+    "tags": [
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6262af7f4b176d54800e3dcb",
+    "correctAnswer": "Too Long Didn't Read",
+    "incorrectAnswers": [
+      "Top Level Domain Redirect",
+      "Tomorrow Let's Damn Remember",
+      "Trying Little Does Revolutions"
+    ],
+    "question": {
+      "text": "What do the letters 'TLDR' mean on internet chats?"
+    },
+    "tags": [
+      "the_internet",
+      "initials",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "646089a9de964ebc39016c63",
+    "correctAnswer": "Stork",
+    "incorrectAnswers": [
+      "Pelican",
+      "Crane",
+      "Swallow"
+    ],
+    "question": {
+      "text": "Which bird is associated with delivering babies?"
+    },
+    "tags": [
+      "animals",
+      "birds",
+      "symbols",
+      "childbirth"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "639c9dc1929b90846f2fc9b4",
+    "correctAnswer": "Azan",
+    "incorrectAnswers": [
+      "Adhan",
+      "Niqāb",
+      "Iqama"
+    ],
+    "question": {
+      "text": "What is the name of the Islamic call to prayer?"
+    },
+    "tags": [
+      "islam",
+      "religion",
+      "society_and_culture",
+      "traditions"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "648ee4224fe93387161138a9",
+    "correctAnswer": "Martial Law",
+    "incorrectAnswers": [
+      "Banana Republic",
+      "Puppet State",
+      "Vigilante Government"
+    ],
+    "question": {
+      "text": "What is the term for when a civilian government is replaced by military rule?"
+    },
+    "tags": [
+      "words",
+      "government",
+      "society_and_culture",
+      "military"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6463394601d576cfac3aa336",
+    "correctAnswer": "guru",
+    "incorrectAnswers": [
+      "swami",
+      "pope",
+      "rabbi"
+    ],
+    "question": {
+      "text": "Which term was first applied to Nanak, the founder of the Sikh faith?"
+    },
+    "tags": [
+      "sikhism",
+      "religion",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "639c9da4929b90846f2fc97b",
+    "correctAnswer": "Holi",
+    "incorrectAnswers": [
+      "Diwali",
+      "Dusshera",
+      "Navaratri"
+    ],
+    "question": {
+      "text": "What is the name of the Hindu festival of colors?"
+    },
+    "tags": [
+      "hinduism",
+      "religion",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6496a83ce831b1ab5aa1113a",
+    "correctAnswer": "Carmen Miranda",
+    "incorrectAnswers": [
+      "Gloria Estefan",
+      "Celia Cruz",
+      "Jennifer Lopez"
+    ],
+    "question": {
+      "text": "Which Latin music legend is known for her signature fruity hat?"
+    },
+    "tags": [
+      "people",
+      "hats",
+      "fashion",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "62ab33135202de619af2813c",
+    "correctAnswer": "Camry",
+    "incorrectAnswers": [
+      "Giulietta",
+      "Escalade",
+      "Veyron"
+    ],
+    "question": {
+      "text": "Which of these is a model of car made by Toyota?"
+    },
+    "tags": [
+      "motoring",
+      "business",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c357cc59eab6f94fd06",
+    "correctAnswer": "Jean-Jacques Rousseau",
+    "incorrectAnswers": [
+      "Jean-Paul Sartre",
+      "Spinoza",
+      "Ludwig Wittgenstein"
+    ],
+    "question": {
+      "text": "Which philosopher famously said 'Man is born free, but is everywhere in chains'?"
+    },
+    "tags": [
+      "people",
+      "quotes",
+      "philosophy",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "64824f247778562fd76a96cc",
+    "correctAnswer": "Class action",
+    "incorrectAnswers": [
+      "Criminal suit",
+      "Civil litigation",
+      "Small claims"
+    ],
+    "question": {
+      "text": "What is the name of the type of lawsuit that represents the common interests of a large group?"
+    },
+    "tags": [
+      "law",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "647f9dec3a4302a719271667",
+    "correctAnswer": "A novice",
+    "incorrectAnswers": [
+      "A friar",
+      "A cleric",
+      "A nun"
+    ],
+    "question": {
+      "text": "What is the term for a person who has joined a Catholic religious order, but has not yet taken vows, originating from the Latin for 'new'?"
+    },
+    "tags": [
+      "christianity",
+      "religion",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "64dd35bb9cef2bd3a34a8d53",
+    "correctAnswer": "Mark Zuckerberg",
+    "incorrectAnswers": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Jeff Bezos"
+    ],
+    "question": {
+      "text": "Who co-founded Facebook?"
+    },
+    "tags": [
+      "technology",
+      "business",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "64720cd93bbb58c31f411ccc",
+    "correctAnswer": "Reincarnation",
+    "incorrectAnswers": [
+      "Immortality",
+      "Purgatory",
+      "Afterlife"
+    ],
+    "question": {
+      "text": "What is the term used for the belief that the soul is reborn in a new form after death?"
+    },
+    "tags": [
+      "philosophy",
+      "religion",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "62ab32ff5202de619af28136",
+    "correctAnswer": "BMW",
+    "incorrectAnswers": [
+      "Citroën",
+      "Mercedes-Benz",
+      "Honda"
+    ],
+    "question": {
+      "text": "Which car manufacturer makes the 3-Series?"
+    },
+    "tags": [
+      "motoring",
+      "business",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6371629a1bf863c45ca6c38b",
+    "correctAnswer": "Praesis ut prosis ne ut imperes",
+    "incorrectAnswers": [
+      "Libertas perfundet omnia luce",
+      "Non loqui sed facere",
+      "Carpe diem"
+    ],
+    "question": {
+      "text": "Which of these Latin phrases means 'Lead in order to serve, not in order to rule'?"
+    },
+    "tags": [
+      "society_and_culture",
+      "language",
+      "the_romans",
+      "classics"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6357fd1f68bd5000211e717f",
+    "correctAnswer": "China",
+    "incorrectAnswers": [
+      "Mozambique",
+      "Brazil",
+      "Rwanda"
+    ],
+    "question": {
+      "text": "Cantonese is a language spoken in which of these countries?"
+    },
+    "tags": [
+      "language",
+      "linguistics",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c3c7cc59eab6f951860",
+    "correctAnswer": "The FSB",
+    "incorrectAnswers": [
+      "The EU",
+      "The WHO",
+      "Interpol"
+    ],
+    "question": {
+      "text": "What organisation is based in the  Lubjlyanka building?"
+    },
+    "tags": [
+      "buildings",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "64824e287778562fd76a960a",
+    "correctAnswer": "The Speaker of the House",
+    "incorrectAnswers": [
+      "The Secretary of State",
+      "The Secretary of Defense",
+      "The Attorney General"
+    ],
+    "question": {
+      "text": "Which person becomes President of the USA if both the President and Vice President can no longer serve?"
+    },
+    "tags": [
+      "government",
+      "usa",
+      "society_and_culture",
+      "politics"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6266e6b0ff2394bd44dee05d",
+    "correctAnswer": "Nine",
+    "incorrectAnswers": [
+      "One",
+      "Red",
+      "Blue"
+    ],
+    "question": {
+      "text": "What does the word 'neun' mean in German?"
+    },
+    "tags": [
+      "language",
+      "translations",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6293ecc17f41d6338b96ef08",
+    "correctAnswer": "Lenin",
+    "incorrectAnswers": [
+      "St. Paul",
+      "Stalin",
+      "Gorbachev"
+    ],
+    "question": {
+      "text": "Which influential historical person was leader of the Russian Revolution and new Communist regime from 1917 to 1924?"
+    },
+    "tags": [
+      "people",
+      "history",
+      "society_and_culture",
+      "russia",
+      "revolutions"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6357fd5468bd5000211e7194",
+    "correctAnswer": "Punjabi",
+    "incorrectAnswers": [
+      "Telugu",
+      "Bengali",
+      "Hausa"
+    ],
+    "question": {
+      "text": "Which of these languages would you find spoken in Pakistan?"
+    },
+    "tags": [
+      "language",
+      "linguistics",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "62c2f9f0b3eadb0437fda6b2",
+    "correctAnswer": "Horse",
+    "incorrectAnswers": [
+      "Bull",
+      "Elephant",
+      "Penguin"
+    ],
+    "question": {
+      "text": "Which animal would you associate with the Porsche logo?"
+    },
+    "tags": [
+      "society_and_culture",
+      "business",
+      "marketing",
+      "animals",
+      "logos",
+      "symbols",
+      "motoring"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "64626214ab138b829b81e9c0",
+    "correctAnswer": "Divining Rods",
+    "incorrectAnswers": [
+      "Feng Shui Rods",
+      "Geomancy Sticks",
+      "Magnetic Field Sensors"
+    ],
+    "question": {
+      "text": "What are the forked sticks sometimes used to locate water, dismissed by scientists as superstition?"
+    },
+    "tags": [
+      "superstitions",
+      "myths",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "63d95305168979b94b2e4f7c",
+    "correctAnswer": "PETA",
+    "incorrectAnswers": [
+      "WWF",
+      "Greenpeace",
+      "The Humane Society"
+    ],
+    "question": {
+      "text": "What animal rights organization is known for its campaigns against animal testing and meat eating?"
+    },
+    "tags": [
+      "society_and_culture",
+      "charities",
+      "organisations"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "645fcc91541c4d4fc8cf30ac",
+    "correctAnswer": "Beefeaters",
+    "incorrectAnswers": [
+      "The SAS",
+      "The Swiss Guard",
+      "The Green Berets"
+    ],
+    "question": {
+      "text": "What nickname is given to England's Yeoman Warders of the Tower of London?"
+    },
+    "tags": [
+      "history",
+      "culture",
+      "london",
+      "uk",
+      "society_and_culture",
+      "military"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "646339ce01d576cfac3aa3ba",
+    "correctAnswer": "Carol",
+    "incorrectAnswers": [
+      "Blessing",
+      "Chant",
+      "Anthem"
+    ],
+    "question": {
+      "text": "What is the general term for a Christmas song or hymn?"
+    },
+    "tags": [
+      "music",
+      "traditions",
+      "christmas",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "637162981bf863c45ca6c38a",
+    "correctAnswer": "For the good",
+    "incorrectAnswers": [
+      "Professional soldier",
+      "I am not led, I lead",
+      "Great is the power of habit"
+    ],
+    "question": {
+      "text": "What is the meaning of the Latin phrase 'Pro bono'?"
+    },
+    "tags": [
+      "society_and_culture",
+      "language",
+      "the_romans",
+      "classics"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "63f39507989356ef48370bec",
+    "correctAnswer": "Shintoism",
+    "incorrectAnswers": [
+      "Confucianism",
+      "Taoism",
+      "Buddhism"
+    ],
+    "question": {
+      "text": "Which of these religions originated in Japan?"
+    },
+    "tags": [
+      "japan",
+      "religion",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c367cc59eab6f9500f1",
+    "correctAnswer": "Thor",
+    "incorrectAnswers": [
+      "Odin",
+      "Baldur",
+      "Heimdall"
+    ],
+    "question": {
+      "text": "Who is the Norse god of thunder and war?"
+    },
+    "tags": [
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c367cc59eab6f95013d",
+    "correctAnswer": "Isis",
+    "incorrectAnswers": [
+      "Set",
+      "Ammit",
+      "Horus"
+    ],
+    "question": {
+      "text": "In Egyptian mythology, who was Horus' mother?"
+    },
+    "tags": [
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "63b058884799123c67712f54",
+    "correctAnswer": "Montezuma Cypress",
+    "incorrectAnswers": [
+      "Cortes Elm",
+      "Santana Cedar",
+      "Kahlo Pine"
+    ],
+    "question": {
+      "text": "What is the name of the Mexican national tree?"
+    },
+    "tags": [
+      "mexico",
+      "plants",
+      "trees",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c367cc59eab6f950104",
+    "correctAnswer": "Eros",
+    "incorrectAnswers": [
+      "Hermes",
+      "Dionysus",
+      "Themis"
+    ],
+    "question": {
+      "text": "Who is the Greek equivalent of the Roman god Cupid?"
+    },
+    "tags": [
+      "ancient_greece",
+      "classics",
+      "mythology",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c367cc59eab6f950125",
+    "correctAnswer": "Pig",
+    "incorrectAnswers": [
+      "Rabbit",
+      "Cow",
+      "Horse"
+    ],
+    "question": {
+      "text": "What animal's meat can a Muslim not eat?"
+    },
+    "tags": [
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c357cc59eab6f94fd40",
+    "correctAnswer": "Spanish",
+    "incorrectAnswers": [
+      "French",
+      "German",
+      "Norweigan"
+    ],
+    "question": {
+      "text": "In which language does \"Cerveza\" mean beer?"
+    },
+    "tags": [
+      "language",
+      "general_knowledge",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6266e606ff2394bd44dee02b",
+    "correctAnswer": "One",
+    "incorrectAnswers": [
+      "White",
+      "Two",
+      "Three"
+    ],
+    "question": {
+      "text": "In French, what is the meaning of the word 'un'?"
+    },
+    "tags": [
+      "language",
+      "translations",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "65056f9b7a97013de78b5484",
+    "correctAnswer": "Ramadan",
+    "incorrectAnswers": [
+      "Eid al-Adha",
+      "Yom Kippur",
+      "Uposatha"
+    ],
+    "question": {
+      "text": "During which religious festival are Muslims forbidden to eat, drink or have sex between sunrise and sunset?"
+    },
+    "tags": [
+      "society_and_culture",
+      "islam",
+      "religion"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "622a1c367cc59eab6f95014d",
+    "correctAnswer": "Three",
+    "incorrectAnswers": [
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "question": {
+      "text": "How many children did Noah have?"
+    },
+    "tags": [
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "6262881d4b176d54800e3d89",
+    "correctAnswer": "Energizer",
+    "incorrectAnswers": [
+      "Red Cross",
+      "IBM",
+      "FedEx"
+    ],
+    "question": {
+      "text": "'Keeps going and going and going' is a slogan associated with which brand?"
+    },
+    "tags": [
+      "business",
+      "marketing",
+      "technology",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "society_and_culture",
+    "id": "63bc3f900e893d6e5a6a0fb6",
+    "correctAnswer": "Moschino",
+    "incorrectAnswers": [
+      "Valentino",
+      "Givenchy",
+      "Prada"
+    ],
+    "question": {
+      "text": "Which of the following fashion houses is famous for its colorful, eccentric designs, often made with unusual materials?"
+    },
+    "tags": [
+      "society_and_culture",
+      "fashion"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  }
+]

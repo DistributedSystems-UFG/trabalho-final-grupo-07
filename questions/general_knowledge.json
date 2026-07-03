@@ -1,0 +1,1058 @@
+[
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc61",
+    "correctAnswer": "Ratoon",
+    "incorrectAnswers": [
+      "Curmudgeon",
+      "Tittynope",
+      "Fudgel"
+    ],
+    "question": {
+      "text": "Which word is defined as 'a small shoot growing from the root of a plant'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc59",
+    "correctAnswer": "Whiffler",
+    "incorrectAnswers": [
+      "Firman",
+      "Salopettes",
+      "Donkey Engine"
+    ],
+    "question": {
+      "text": "Which word is defined as 'somebody who walks in front of you through a crowd'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "64a0966bcf8fd58080ceffef",
+    "correctAnswer": "Overexposed",
+    "incorrectAnswers": [
+      "Oversaturated",
+      "Underexposed",
+      "Undersaturated"
+    ],
+    "question": {
+      "text": "What is it called when a photograph is excessively bright due to too much light?"
+    },
+    "tags": [
+      "photography",
+      "technology"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "64b6436f7282fc9eadbafdab",
+    "correctAnswer": "The tongue",
+    "incorrectAnswers": [
+      "The skin",
+      "The brain",
+      "The heart"
+    ],
+    "question": {
+      "text": "In French anatomy, what does 'La langue' refer to?"
+    },
+    "tags": [
+      "french",
+      "words",
+      "language"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "646089ddde964ebc39016c83",
+    "correctAnswer": "Mole",
+    "incorrectAnswers": [
+      "Ferret",
+      "Rat",
+      "Squirrel"
+    ],
+    "question": {
+      "text": "Which term describes a spy who operates within the intelligence service of another country?"
+    },
+    "tags": [
+      "espionage",
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "64746317bda4b199c327d0ca",
+    "correctAnswer": "Parcel",
+    "incorrectAnswers": [
+      "Postal",
+      "Pound",
+      "Pouch"
+    ],
+    "question": {
+      "text": "What is the \"P\" in UPS, the world's largest package delivery company?"
+    },
+    "tags": [
+      "companies",
+      "initials",
+      "business",
+      "society_and_culture"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "647638d1f05ea6d6f587a150",
+    "correctAnswer": "Pigeonhole",
+    "incorrectAnswers": [
+      "Dovetail",
+      "Crowstuff",
+      "Owlnook"
+    ],
+    "question": {
+      "text": "Which term meaning \"to rigidly categorize\" comes from small desk compartments?"
+    },
+    "tags": [
+      "phrases",
+      "sayings"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc6c",
+    "correctAnswer": "Macrosmatic",
+    "incorrectAnswers": [
+      "Nudiustertian",
+      "Conjubilant",
+      "Gubbins"
+    ],
+    "question": {
+      "text": "Which word is defined as 'having a good sense of smell'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "646262c1ab138b829b81ea5e",
+    "correctAnswer": "Annex",
+    "incorrectAnswers": [
+      "Appendix",
+      "Addendum",
+      "Supplement"
+    ],
+    "question": {
+      "text": "What is the word for an auxiliary building near the main one?"
+    },
+    "tags": [
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc8b",
+    "correctAnswer": "Doodle Sack",
+    "incorrectAnswers": [
+      "Fipple",
+      "Tittynope",
+      "Quire"
+    ],
+    "question": {
+      "text": "Which word is defined as 'Old English word for bagpipe'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6239f80e9129041bf3925cc2",
+    "correctAnswer": "Foxtrot",
+    "incorrectAnswers": [
+      "Forget",
+      "Fail",
+      "Felicity"
+    ],
+    "question": {
+      "text": "What word is used in the NATO Phonetic Alphabet for the letter F?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge",
+      "language"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c367cc59eab6f95038e",
+    "correctAnswer": "Maurice Gibb",
+    "incorrectAnswers": [
+      "Tom Jones",
+      "Paul McCartney",
+      "Brian Wilson"
+    ],
+    "question": {
+      "text": "Who did the singer Lulu marry in 1969?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6239f845a72e7a347ac879db",
+    "correctAnswer": "Zulu",
+    "incorrectAnswers": [
+      "Zebra",
+      "Zoological",
+      "Zipper"
+    ],
+    "question": {
+      "text": "What word is used in the NATO Phonetic Alphabet for the letter Z?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc92",
+    "correctAnswer": "Borborygmus",
+    "incorrectAnswers": [
+      "Taradiddle",
+      "Ill-willie",
+      "Quomodocunquizing"
+    ],
+    "question": {
+      "text": "Which word is defined as 'a rumbling or gurgling noise in the intestines'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc8c",
+    "correctAnswer": "Conjubilant",
+    "incorrectAnswers": [
+      "Jentacular",
+      "Discombobulate",
+      "Whippersnapper"
+    ],
+    "question": {
+      "text": "Which word is defined as 'shouting together with joy'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c3a7cc59eab6f951097",
+    "correctAnswer": "Stealth",
+    "incorrectAnswers": [
+      "Supersonic",
+      "Automated",
+      "Nuclear"
+    ],
+    "question": {
+      "text": "The Lockheed F-117 Nighthawk Was The First Of Which Type Of Aircraft?"
+    },
+    "tags": [
+      "technology",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "64b6436f7282fc9eadbafdad",
+    "correctAnswer": "Non-player character",
+    "incorrectAnswers": [
+      "New player character",
+      "Non-playable challenge",
+      "Never play cautiously"
+    ],
+    "question": {
+      "text": "In video game slang, what does the acronym 'NPC' stand for?"
+    },
+    "tags": [
+      "technology",
+      "games",
+      "video_games",
+      "abbreviations"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "645c9f5342ea81e2554c5f0a",
+    "correctAnswer": "Monopoly",
+    "incorrectAnswers": [
+      "Scrabble",
+      "Chess",
+      "Risk"
+    ],
+    "question": {
+      "text": "Which board game can you get in a French language edition, with properties like Place du Parc and Promenade?"
+    },
+    "tags": [
+      "board_games"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "647f9db33a4302a719271628",
+    "correctAnswer": "Erode",
+    "incorrectAnswers": [
+      "Erupt",
+      "Elevate",
+      "Emanate"
+    ],
+    "question": {
+      "text": "What is the geological term meaning 'to wear away'?"
+    },
+    "tags": [
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c377cc59eab6f95045a",
+    "correctAnswer": "A goat",
+    "incorrectAnswers": [
+      "A goose",
+      "A broomstick",
+      "Rudolph"
+    ],
+    "question": {
+      "text": "When visiting Finland, Santa leaves his sleigh behind and rides on what?"
+    },
+    "tags": [
+      "christmas",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "646262c1ab138b829b81ea64",
+    "correctAnswer": "Sentence",
+    "incorrectAnswers": [
+      "Word",
+      "Conjunction",
+      "Clause"
+    ],
+    "question": {
+      "text": "What grammatical unit can be simple, compound or complex?"
+    },
+    "tags": [
+      "grammar",
+      "language",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c367cc59eab6f9500cc",
+    "correctAnswer": "Surfing",
+    "incorrectAnswers": [
+      "Yoga",
+      "Piano Playing",
+      "Ballroom Dancing"
+    ],
+    "question": {
+      "text": "Green Room, Crystal Cathedral & Walking The Dog are all terms from what?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c3e7cc59eab6f9522a2",
+    "correctAnswer": "24",
+    "incorrectAnswers": [
+      "12",
+      "30",
+      "365"
+    ],
+    "question": {
+      "text": "How many days will it be before an analogue clock losing 30 minutes a day shows the right time again?"
+    },
+    "tags": [
+      "mathematics",
+      "numbers",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6355b7fce8b368eed3a6823e",
+    "correctAnswer": "The y in 'yellow'",
+    "incorrectAnswers": [
+      "The p in 'pin'",
+      "The t in 'train'",
+      "The sh in 'shop'"
+    ],
+    "question": {
+      "text": "In phonetics, which of these is an example of an approximant sound?"
+    },
+    "tags": [
+      "language",
+      "linguistics",
+      "general_knowledge",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "64824e697778562fd76a962d",
+    "correctAnswer": "Opaque",
+    "incorrectAnswers": [
+      "Transparent",
+      "Translucent",
+      "Obtuse"
+    ],
+    "question": {
+      "text": "What word means that an object is impossible to see through?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c397cc59eab6f950fb2",
+    "correctAnswer": "The Lumiere Brothers",
+    "incorrectAnswers": [
+      "The Warner Brothers",
+      "The Cannes Brothers",
+      "The Canal Brothers"
+    ],
+    "question": {
+      "text": "Who Opened The First Cinema In Paris In 1895?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "65056f7f7a97013de78b545d",
+    "correctAnswer": "Suffix",
+    "incorrectAnswers": [
+      "Prefix",
+      "Infix",
+      "Interfix"
+    ],
+    "question": {
+      "text": "What word refers to a set of letters placed after the stem of a word?"
+    },
+    "tags": [
+      "language",
+      "general_knowledge",
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "645c9fc842ea81e2554c5f87",
+    "correctAnswer": "Doing Business As",
+    "incorrectAnswers": [
+      "Demanding Better Accountability",
+      "Direct Business Action",
+      "Digital Business Analytics"
+    ],
+    "question": {
+      "text": "What does the term 'D.B.A.' stand for in the legal industry?"
+    },
+    "tags": [
+      "business",
+      "abbreviations",
+      "initials",
+      "law"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "645f9565541c4d4fc8cf2ee3",
+    "correctAnswer": "Precocious",
+    "incorrectAnswers": [
+      "Prodigious",
+      "Intelligent",
+      "Miraculous"
+    ],
+    "question": {
+      "text": "Which word is used to describe early achievement in children?"
+    },
+    "tags": [
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c377cc59eab6f950457",
+    "correctAnswer": "Amerigo Vespucci",
+    "incorrectAnswers": [
+      "Aymeric Santiago",
+      "Merica Bonnuci",
+      "Amir Icarlo"
+    ],
+    "question": {
+      "text": "After whom was America named?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc95",
+    "correctAnswer": "Billingsgate",
+    "incorrectAnswers": [
+      "Ragamuffin",
+      "Pauciloquent",
+      "Collywobbles"
+    ],
+    "question": {
+      "text": "Which word is defined as 'coarsely abusive language'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6355b7f7e8b368eed3a6823c",
+    "correctAnswer": "The n in 'no'",
+    "incorrectAnswers": [
+      "The d in 'door'",
+      "The v in 'village'",
+      "The g in 'green'"
+    ],
+    "question": {
+      "text": "In phonetics, which of these is an example of a nasal sound?"
+    },
+    "tags": [
+      "language",
+      "linguistics",
+      "general_knowledge",
+      "science"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "645c9f5442ea81e2554c5f22",
+    "correctAnswer": "Tinker",
+    "incorrectAnswers": [
+      "Tailor",
+      "Soldier",
+      "Spy"
+    ],
+    "question": {
+      "text": "What do you call a person who mends pots, kettles, and pans?"
+    },
+    "tags": [
+      "occupations",
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c367cc59eab6f950400",
+    "correctAnswer": "Bethlehem",
+    "incorrectAnswers": [
+      "Jerusalem",
+      "Jericho",
+      "Babylon"
+    ],
+    "question": {
+      "text": "The name of which place of biblical significance actually means 'House of Bread''"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "646262b5ab138b829b81ea4a",
+    "correctAnswer": "Operation",
+    "incorrectAnswers": [
+      "Surgery",
+      "Trauma Center",
+      "ER"
+    ],
+    "question": {
+      "text": "Which game  involves a patient called Cavity Sam, from whom players must remove objects using a pair of tweezers?"
+    },
+    "tags": [
+      "games",
+      "board_games"
+    ],
+    "type": "text_choice",
+    "difficulty": "easy",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6470d59c32850588056636f2",
+    "correctAnswer": "Thank you",
+    "incorrectAnswers": [
+      "Hello",
+      "Yes",
+      "Goodbye"
+    ],
+    "question": {
+      "text": "What does the French word 'merci' mean?"
+    },
+    "tags": [
+      "words",
+      "languages",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6239f8289129041bf3925ccc",
+    "correctAnswer": "Papa",
+    "incorrectAnswers": [
+      "Pear",
+      "Peer",
+      "Peeler"
+    ],
+    "question": {
+      "text": "What word is used in the NATO Phonetic Alphabet for the letter P?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c367cc59eab6f9503c0",
+    "correctAnswer": "December 6th",
+    "incorrectAnswers": [
+      "December 18th",
+      "December 25th",
+      "December 26th"
+    ],
+    "question": {
+      "text": "When is the Feast of St. Nicholas?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c367cc59eab6f950323",
+    "correctAnswer": "Charles Manson",
+    "incorrectAnswers": [
+      "Ed Gein",
+      "Ted Bundy",
+      "Jim Jones"
+    ],
+    "question": {
+      "text": "Who was the man convicted of masterminding the 1969 LaBianca-Tate murders?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc85",
+    "correctAnswer": "Firman",
+    "incorrectAnswers": [
+      "Yarborough",
+      "Tittynope",
+      "Funambulist"
+    ],
+    "question": {
+      "text": "Which word is defined as 'in Turkey and some other Oriental countries, a decree or mandate issued by the sovereign'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c377cc59eab6f950446",
+    "correctAnswer": "Scorpio",
+    "incorrectAnswers": [
+      "Aries",
+      "Gemini",
+      "Cancer"
+    ],
+    "question": {
+      "text": "If you were born on Halloween, what star sign would you be"
+    },
+    "tags": [
+      "halloween",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c3a7cc59eab6f95104a",
+    "correctAnswer": "Precious Metals",
+    "incorrectAnswers": [
+      "Radiation",
+      "Wind Strength",
+      "Acidity"
+    ],
+    "question": {
+      "text": "What Is Measured Using The Troy System?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "647638d1f05ea6d6f587a156",
+    "correctAnswer": "Répondez S'il Vous Plaît",
+    "incorrectAnswers": [
+      "Rester Sans Vôtre Poisson",
+      "Respond Soon Via Phone",
+      "Request Some Vacation Plans"
+    ],
+    "question": {
+      "text": "What does the 4-letter abbreviation RSVP stand for?"
+    },
+    "tags": [
+      "abbreviations",
+      "initials",
+      "society_and_culture",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "647f9db33a4302a719271615",
+    "correctAnswer": "Bracchium",
+    "incorrectAnswers": [
+      "Caput",
+      "Pedis",
+      "Oculus"
+    ],
+    "question": {
+      "text": "What is the Latin term for \"the arm\"?"
+    },
+    "tags": [
+      "anatomy",
+      "latin",
+      "language",
+      "words"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6488def050a27f7378a91df9",
+    "correctAnswer": "Loco",
+    "incorrectAnswers": [
+      "Fiesta",
+      "Amigo",
+      "Churro"
+    ],
+    "question": {
+      "text": "Which word, borrowed from Spanish, means \"insane\"?"
+    },
+    "tags": [
+      "words",
+      "spanish"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6473075ccf09068746f63770",
+    "correctAnswer": "Aqueducts",
+    "incorrectAnswers": [
+      "Canals",
+      "Pipelines",
+      "Trenches"
+    ],
+    "question": {
+      "text": "What type of structures are used to conduct a water stream across a valley?"
+    },
+    "tags": [
+      "architecture",
+      "civil_engineering",
+      "engineering"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "645f952f541c4d4fc8cf2ed1",
+    "correctAnswer": "94",
+    "incorrectAnswers": [
+      "97",
+      "89",
+      "91"
+    ],
+    "question": {
+      "text": "What is the result of the mathematical operation obtained by subtracting the number of Snow White's dwarfs from the original title number of 'Disney Dalmatians'?"
+    },
+    "tags": [
+      "numbers",
+      "mathematics",
+      "disney"
+    ],
+    "type": "text_choice",
+    "difficulty": "hard",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "6239f8351bb3145a698af015",
+    "correctAnswer": "Tango",
+    "incorrectAnswers": [
+      "Treat",
+      "Turn",
+      "Tumble"
+    ],
+    "question": {
+      "text": "What word is used in the NATO Phonetic Alphabet for the letter T?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c367cc59eab6f950189",
+    "correctAnswer": "Saga",
+    "incorrectAnswers": [
+      "Chronicle",
+      "Yerlig",
+      "Jordun"
+    ],
+    "question": {
+      "text": "What is an Icelandic epic called?"
+    },
+    "tags": [
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  },
+  {
+    "category": "general_knowledge",
+    "id": "622a1c357cc59eab6f94fc6e",
+    "correctAnswer": "Kerfuffle",
+    "incorrectAnswers": [
+      "Donkey Engine",
+      "Taradiddle",
+      "Bibble"
+    ],
+    "question": {
+      "text": "Which word is defined as 'a commotion or fuss'?"
+    },
+    "tags": [
+      "words",
+      "general_knowledge"
+    ],
+    "type": "text_choice",
+    "difficulty": "medium",
+    "regions": [],
+    "isNiche": false
+  }
+]
