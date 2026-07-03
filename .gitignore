@@ -1,11 +1,8 @@
 # ─── arquivos de dev (não commitar) ────────────────────────────────────────
-fetch_questions.py
 test_infra.py
-deploy/
-apigateway/plano_dev.md
 trivia-arena.pem
 test_services.py
-entrega.md
+
 
 # ─── Variáveis de ambiente ────────────────────────────────────────────────────
 .env
