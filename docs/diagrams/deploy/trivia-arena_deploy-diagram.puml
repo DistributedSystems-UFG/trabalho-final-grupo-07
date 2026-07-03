@@ -1,0 +1,86 @@
+@startuml TriviaArena - Diagrama de Implantacao
+
+skinparam nodeBackgroundColor #FFF9C4
+skinparam artifactBackgroundColor #E3F2FD
+skinparam linetype ortho
+
+actor "Usuário\n(Browser)" as browser
+
+cloud "AWS us-east-1  |  VPC 172.31.0.0/16  |  Security Group: trivia-sg" {
+
+  node "EC2-Gateway\nt3.small | IP Elástico: 100.30.102.58" as ec2_gw {
+    artifact "Frontend\nReact/Vite\n[Nginx :80]" as frontend
+    artifact "API Gateway\nFastAPI\n[:8000]" as gateway
+    artifact "Nginx\nLoad Balancer\n[:8080 / :9090]" as nginx_lb
+  }
+
+  node "EC2-GameService-1\nt3.small | 172.31.81.204" as ec2_gs1 {
+    artifact "Game Service\nSpring Boot\n[:8080 WebSocket]\n[:9090 gRPC]" as gs1
+  }
+
+  node "EC2-GameService-2\nt3.small | 172.31.80.56" as ec2_gs2 {
+    artifact "Game Service\nSpring Boot\n[:8080 WebSocket]\n[:9090 gRPC]" as gs2
+  }
+
+  node "EC2-UserService\nt3.small | 172.31.89.9" as ec2_us {
+    artifact "User Service\nSpring Boot\n[:9091 gRPC]" as userservice
+  }
+
+  node "EC2-Redis\nt3.micro | 172.31.88.46" as ec2_redis {
+    artifact "Redis Master\n[:6379]" as redis_master
+    artifact "Redis Replica\n[interna]" as redis_replica
+  }
+
+  node "EC2-Kafka\nt3.medium | 172.31.85.180" as ec2_kafka {
+    artifact "Zookeeper\n[:2181]" as zookeeper
+    artifact "Kafka Broker\n[:9092 EXTERNAL]\n[:29092 INTERNAL]" as kafka
+  }
+
+  node "EC2-UserDB-Primary\nt3.micro | 172.31.95.143" as ec2_udbp {
+    artifact "PostgreSQL 15\ntrivia_users\n[:5432]" as userdb_primary
+  }
+
+  node "EC2-UserDB-Replica\nt3.micro | 172.31.80.173" as ec2_udbr {
+    artifact "PostgreSQL 15\ntrivia_users\n[:5432]" as userdb_replica
+  }
+
+  node "EC2-Shards\nt3.small | 172.31.80.99" as ec2_shards {
+    artifact "PostgreSQL 15\nShard A\nquestions_shard_a\n[:5432]" as shard_a
+    artifact "PostgreSQL 15\nShard B\nquestions_shard_b\n[:5433]" as shard_b
+  }
+
+}
+
+' Usuário → Gateway
+browser --> frontend       : "HTTP :80"
+browser --> gateway        : "HTTP REST / WebSocket :8000"
+
+' Gateway → serviços internos
+gateway --> nginx_lb       : "gRPC :9090\nWebSocket :8080\n(interno Docker)"
+gateway --> userservice    : "gRPC :9091"
+
+' Nginx → Game Services (ip_hash)
+nginx_lb --> gs1           : "gRPC :9090\nWebSocket :8080\n(ip_hash)"
+nginx_lb --> gs2           : "gRPC :9090\nWebSocket :8080\n(ip_hash)"
+
+' Game Service → dependências
+gs1 --> redis_master       : "TCP :6379"
+gs2 --> redis_master       : "TCP :6379"
+gs1 --> kafka              : "produce\ngame-finished :9092"
+gs2 --> kafka              : "produce\ngame-finished :9092"
+gs1 --> shard_a            : "JDBC :5432"
+gs1 --> shard_b            : "JDBC :5433"
+gs2 --> shard_a            : "JDBC :5432"
+gs2 --> shard_b            : "JDBC :5433"
+
+' User Service → dependências
+userservice --> kafka          : "consume\ngame-finished :9092"
+userservice --> userdb_primary : "JDBC escrita :5432"
+userservice --> userdb_replica : "JDBC leitura :5432"
+
+' Replicações
+userdb_primary --> userdb_replica : "Streaming\nReplication\n(pg_basebackup)"
+redis_master   --> redis_replica  : "Replication\n(REPLICAOF)"
+kafka          --> zookeeper      : "coordenação\n:2181"
+
+@enduml
